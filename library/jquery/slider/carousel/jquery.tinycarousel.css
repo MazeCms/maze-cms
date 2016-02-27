@@ -1,0 +1,51 @@
+
+#page-nav-bar { 
+	overflow:hidden;
+	/*padding: 0 0 10px;*/
+}
+#page-nav-bar .viewport {
+	 float: left; 
+	 width: 328px;
+	 height:30px;
+	 overflow: hidden; 
+	 position: relative; 
+}
+#page-nav-bar .buttons { 
+	background:url("./images/icon-chevron-left.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	margin: 0 6px 0 0;
+	background-position: center;
+	text-indent: -999em; 
+	float: left; 
+	width: 16px; 
+	height: 30px; 
+	overflow: hidden; 
+	position: relative; 
+}
+#page-nav-bar .next {
+	background:url("./images/icon-chevron-right.png") no-repeat scroll 0 0 transparent; 
+	background-position: center;
+	margin: 0 0 0 6px;  
+}
+#page-nav-bar .disable { 
+	visibility: hidden; 
+}
+#page-nav-bar .overview { 
+	list-style: none; 
+	position: absolute; 
+	padding: 0; 
+	margin: 0; 
+	/*width: 240px; */
+	left: 0; 
+	top: 0; 
+	}
+#page-nav-bar .overview li{ 
+	float: left;
+	display:block !important;
+	text-align:center;
+	/*margin: 0 20px 0 0; 
+	padding: 1px; 
+	height: 121px; 
+	border: 1px solid #dcdcdc; */
+	width: 15px;
+}

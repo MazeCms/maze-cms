@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <title>EXP_USER_VIEW_USER_TITLE</title>
+    <description></description>
+		
+    <layoutset>
+        <layout>
+            <title>EXP_USER_VIEW_USER_LOG</title>
+            <description>EXP_USER_VIEW_USER_LOG_DES</description>
+            <layout>default</layout>
+            <controller>controller</controller>
+        </layout>
+        
+    </layoutset>
+	
+	
+</metaOptions>

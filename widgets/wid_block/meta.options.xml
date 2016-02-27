@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>WID_BLOCK_NAME</name>
+    <description>WID_BLOCK_DES</description>
+    <copyright>WID_BLOCK_COPYRIGHT</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>WID_BLOCK_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>01.08.2015</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+    <params>
+		
+        <accordion title="WID_BLOCK_PARAMS_TABS" id="other">
+            
+	    <element type="ui\tmp\WidgetTmp" title="WID_BLOCK_PARAMS_TEMPLATE_NAME" name="layout">
+                <front>1</front>
+                <widgetName>block</widgetName>
+                <options>
+                    <prompt>....</prompt>
+                </options>
+            </element>
+                   
+            <element type="admin\expansion\exp_constructorblock\ui\ListBlock" title="WID_BLOCK_PARAMS_SELECT_BLOCK" name="block_id">
+                <options>
+                    <prompt>....</prompt>
+                </options>
+            </element>
+            <element type="ui\editor\Code" title="WID_BLOCK_PARAMS_PARAMS_PHPCODEFILTER" name="phpcode"></element>
+            <element type="ui\text\TextInput" title="WID_BLOCK_PARAMS_PARAMS_CSSCLASS" name="css_class">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_BLOCK_PARAMS_PARAMS_CSSID" name="css_id">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+        </accordion>
+			
+    </params>
+	
+</metaOptions>

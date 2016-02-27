@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /application/
+Disallow: /expansion/
+Disallow: /language/
+Disallow: /install/
+Disallow: /library/
+Disallow: /plugins/
+Disallow: /libraries/
+Disallow: /temp/
+Disallow: /templates/
+Disallow: /widgets/
+
+

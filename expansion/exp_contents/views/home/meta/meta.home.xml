@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <title>EXP_CONTENTS_MEATVIEW_HOME_TITLE</title>
+    <description></description>
+		
+    <layoutset>
+        <layout>
+            <title>EXP_CONTENTS_MEATVIEW_HOME_LAYOUT</title>
+            <description>EXP_CONTENTS_MEATVIEW_HOME_LAYOUT</description>
+            <layout>default</layout>
+            <controller>home</controller>
+        </layout>
+        
+    </layoutset>
+	
+	
+</metaOptions>

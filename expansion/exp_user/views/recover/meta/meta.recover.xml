@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <title>EXP_USER_VIEW_USER_LOG_RECOVERY</title>
+    <description></description>
+	     
+    <layoutset>        
+        <layout>
+            <title>EXP_USER_VIEW_USER_LOG_RECOVERY</title>
+            <description>EXP_USER_VIEW_USER_LOG_RECOVERY_EDIT</description>
+            <layout>default</layout>
+            <controller>recover</controller>
+        </layout>
+    </layoutset>
+   
+	
+</metaOptions>

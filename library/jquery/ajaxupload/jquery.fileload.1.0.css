@@ -1,0 +1,393 @@
+.file-load-row{
+	clear:both;
+	width:500px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.file-load-footer{
+	clear:both;
+	width:500px;
+	padding-bottom:8px;
+	overflow:hidden;
+	border:3px dashed #EAE5E5;
+	background-color:#F4F4F4;
+	text-align:center;
+}
+.file-load-footer > span{
+	display:block;
+	text-align:center;
+	padding:10px 0;
+	color:#999;
+}
+.file-load-icon,
+.file-load-process,
+.file-load-message,
+.file-load-button{
+	float:left;
+	padding-left:4px;
+}
+.file-load-icon{
+	width:48px;
+	height:48px;
+	background-image:url('icons-big.png');
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+.file-load-process{
+	width:200px;
+	height:48px;
+}
+.file-load-message{
+	width:188px;
+	min-height:48px;
+}
+.file-load-button{
+	width:48px;
+	height:48px;
+	background-position:center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	-webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+}
+.file-load-button:hover{
+	moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2); 
+	transform: scale(1.2);
+}
+.delete-file{
+	background-image:url('cross.png');
+}
+.fl-name{
+	margin-top:16px;
+	vertical-align:middle;
+}
+/*
+	Полоса загрузки
+*/
+.fl-progress {
+	margin-top:16px;
+	vertical-align:middle;
+	height: 16px;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+			box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.fl-progress-bar {
+	float: left;
+	width: 0;
+	height: 100%;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff;
+	text-align: center;
+	background-color: #428bca;
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+			box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+	-webkit-transition: width 0.6s ease;
+			transition: width 0.6s ease;
+}
+
+.fl-progress-striped .fl-progress-bar {
+	background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-size: 40px 40px;
+}
+
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+@-moz-keyframes fl-progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+@-o-keyframes fl-progress-bar-stripes {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 40px 0;
+  }
+}
+
+@keyframes fl-progress-bar-stripes{
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+.fl-progress.active .fl-progress-bar {
+  -webkit-animation:  fl-progress-bar-stripes 2s linear infinite;
+          animation:  fl-progress-bar-stripes 2s linear infinite;
+}
+
+
+/*
+	Сообщения
+*/
+.mess-alert {
+  padding: 8px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  overflow: hidden;
+  min-height:26px;
+}
+.mess-alert-success {
+  color: #468847;
+  background-color: #dff0d8;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#dff0d8), to(#c8e5bc));
+  background-image: -webkit-linear-gradient(top, #dff0d8 0%, #c8e5bc 100%);
+  background-image: -moz-linear-gradient(top, #dff0d8 0%, #c8e5bc 100%);
+  background-image: linear-gradient(to bottom, #dff0d8 0%, #c8e5bc 100%);
+  background-repeat: repeat-x;
+  border-color: #b2dba1;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8', endColorstr='#ffc8e5bc', GradientType=0);
+}
+.mess-alert-danger {
+  color: #b94a48;
+  background-color: #f2dede;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f2dede), to(#e7c3c3));
+  background-image: -webkit-linear-gradient(top, #f2dede 0%, #e7c3c3 100%);
+  background-image: -moz-linear-gradient(top, #f2dede 0%, #e7c3c3 100%);
+  background-image: linear-gradient(to bottom, #f2dede 0%, #e7c3c3 100%);
+  background-repeat: repeat-x;
+  border-color: #dca7a7;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffe7c3c3', GradientType=0);
+}
+.mess-alert-info {
+  color: #3a87ad;
+  background-color: #d9edf7;
+   background-image: -webkit-gradient(linear, left 0%, left 100%, from(#d9edf7), to(#b9def0));
+  background-image: -webkit-linear-gradient(top, #d9edf7 0%, #b9def0 100%);
+  background-image: -moz-linear-gradient(top, #d9edf7 0%, #b9def0 100%);
+  background-image: linear-gradient(to bottom, #d9edf7 0%, #b9def0 100%);
+  background-repeat: repeat-x;
+  border-color: #9acfea;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9edf7', endColorstr='#ffb9def0', GradientType=0);
+}
+/*
+	Кнопка добавить
+*/
+.file-load-input{
+	position:absolute;
+	margin-left:-20px;
+	margin-top:-20px;
+	width:200px;
+	height:100px;
+	opacity:0;
+	cursor:pointer;
+}
+.file-load-add{
+	overflow:hidden;
+	position:relative;
+}
+.file-load-add{
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+
+.file-load-add:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.file-load-add:hover,
+.file-load-add:focus {
+  color: #333333;
+  text-decoration: none;
+}
+
+.file-load-add:active,
+.file-load-add.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.file-load-add.disabled,
+.file-load-add[disabled]{
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.file-load-add {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.file-load-add:hover,
+.file-load-add:focus,
+.file-load-add:active,
+.file-load-add.active{
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+.file-load-add:active,
+.file-load-add.active {
+  background-image: none;
+}
+
+
+
+.file-load-add {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#2d6ca2));
+  background-image: -webkit-linear-gradient(top, #428bca 0%, #2d6ca2 100%);
+  background-image: -moz-linear-gradient(top, #428bca 0%, #2d6ca2 100%);
+  background-image: linear-gradient(to bottom, #428bca 0%, #2d6ca2 100%);
+  background-repeat: repeat-x;
+  border-color: #2b669a;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff2d6ca2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.file-load-add:hover,
+.file-load-add:focus {
+  background-color: #2d6ca2;
+  background-position: 0 -15px;
+}
+
+.file-load-add:active,
+.file-load-add.active {
+  background-color: #2d6ca2;
+  border-color: #2b669a;
+}
+.file-load-add{
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.btn-default:active,
+.file-load-add:active{
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+/*
+* Типы файлов
+*/
+.fli-type-zip{
+	background-position: center -1050px;
+}
+.fli-type-rar{
+	background-position: center -1200px;
+}
+.fli-type-tar_gz{
+	background-position: center -1100px;
+}
+.fli-type-tar_bz{
+	background-position: center -1150px;
+}
+.fli-type-png,
+.fli-type-jpeg,
+.fli-type-gif,
+.fli-type-jpg,
+.fli-type-tif,
+.fli-type-svg,
+.fli-type-psd{
+	background-position: center -250px;
+}
+.fli-type-swf{
+	background-position: center -1250px;
+}
+.fli-type-html{
+	background-position: center -550px;
+}
+.fli-type-css{
+	background-position: center -600px;
+}
+.fli-type-js{
+	background-position: center -650px;
+}
+.fli-type-xml{
+	background-position: center -1000px;
+}
+.fli-type-pdf{
+	background-position: center -450px;
+}
+.fli-type-txt{
+	background-position: center -200px;
+}
+.fli-type-doc,
+.fli-type-docx,
+.fli-type-xlsx,
+.fli-type-lsx,
+.fli-type-ppt,
+.fli-type-pps{
+	background-position: center -500px;
+}
+.fli-type-mp3,
+.fli-type-wav,
+.fli-type-wma{
+	background-position: center -300px;
+}
+.fli-type-flv,
+.fli-type-mpg,
+.fli-type-avi,
+.fli-type-mpeg{
+	background-position: center -350px;
+}
+.fli-type-pl{
+	background-position: center -700px;
+}
+.fli-type-py{
+	background-position: center -750px;
+}
+.fli-type-rb{
+	background-position: center -800px;
+}
+.fli-type-sh{
+	background-position: center -850px;
+}
+.fli-type-php{
+	background-position: center -950px;
+}
+.fli-type-exe{
+	background-position: center -150px;
+}

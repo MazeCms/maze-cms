@@ -1,0 +1,30 @@
+<?php 
+namespace plg\system\sitemapbtn;
+
+class Install extends \maze\install\PlgInstall
+{
+    public $name = 'sitemapbtn';
+
+    public $group = 'system';
+
+    public $enabled = 1;
+    
+    public $front = 0;
+
+    public $lang = ["ru-RU"];                  
+    
+    public $defaultLang = "ru-RU";
+    
+
+    public function getCommands() {
+        return [
+            'init' => $this->text("PLG_SYSTEM_SITEMAPBTN_INSTALL_INIT"),
+            'copy' => $this->text("PLG_SYSTEM_SITEMAPBTN_INSTALL_COPY"),
+            'add' => $this->text("PLG_SYSTEM_SITEMAPBTN_INSTALL_ADD"),
+            'remove' => $this->text("PLG_SYSTEM_SITEMAPBTN_INSTALL_REMOVE")
+        ];
+    }
+    
+}
+
+?>

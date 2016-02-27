@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <urlparams>
+        <element type="exp\exp_contents\ui\InputContent" title="Выберете материал" name="contents_id">
+        </element>
+    </urlparams>
+</metaOptions>

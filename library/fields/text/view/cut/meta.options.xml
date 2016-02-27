@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>Выводит усеченный текст</name>
+    <description></description>	
+    <view>cut</view>
+    <params>
+        <element type="ui\text\TextInput" title="Длина текста" name="cut">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+    </params>
+</metaOptions>

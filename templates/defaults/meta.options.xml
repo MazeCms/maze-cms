@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>TMP_DEFAULTS_NAME</name>
+    <description>TMP_DEFAULTS_DESCRIPTION</description>
+    <copyright>TMP_DEFAULTS_COPYRIGHT</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>TMP_DEFAULTS_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>21.07.2015</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+    <params>
+        <accordion title="Настройка темы" id="others">
+            <element type="ui\checkbox\Toggle" title="Стиль подвала" name="footer" default="light">
+                <settings>
+                    <option value="light">Светлый</option>
+                    <option value="dark">Темный</option>
+                </settings>
+            </element>
+            <element type="ui\checkbox\Toggle" title="Стиль центральной колонки" name="layoutstyle" default="wide">
+                <settings>
+                    <option value="wide">Широкий</option>
+                    <option value="boxed">Сжатый</option>
+                </settings>
+            </element>
+            <element type="ui\checkbox\TrumbRadio" title="Цветовая схема" name="stylecolor" default="green">
+                <option img="@root/templates/defaults/assets/images/layout/beige.jpg" value="beige">бежевый</option>
+                <option img="@root/templates/defaults/assets/images/layout/blue.jpg" value="blue">синий</option>
+                <option img="@root/templates/defaults/assets/images/layout/brown.jpg" value="brown">коричневый</option>
+                <option img="@root/templates/defaults/assets/images/layout/celadon.jpg" value="celadon">цвет морской волны</option>
+                <option img="@root/templates/defaults/assets/images/layout/cherry.jpg" value="cherry">вишня</option>
+                <option img="@root/templates/defaults/assets/images/layout/cyan.jpg" value="cyan">голубой</option>
+                <option img="@root/templates/defaults/assets/images/layout/gray.jpg" value="gray">серый</option>
+                <option img="@root/templates/defaults/assets/images/layout/green.jpg" value="green">зеленый</option>
+                <option img="@root/templates/defaults/assets/images/layout/navy.jpg" value="navy">военно-морской флот</option>
+                <option img="@root/templates/defaults/assets/images/layout/orange.jpg" value="olive">оливковый</option>
+                <option img="@root/templates/defaults/assets/images/layout/beige.jpg" value="orange">оранжевый</option>
+                <option img="@root/templates/defaults/assets/images/layout/peach.jpg" value="peach">персик</option>
+                <option img="@root/templates/defaults/assets/images/layout/pink.jpg" value="pink">розовый</option>
+                <option img="@root/templates/defaults/assets/images/layout/purple.jpg" value="purple">пурпурный</option>
+                <option img="@root/templates/defaults/assets/images/layout/beige.jpg" value="red">красный</option>
+                <option img="@root/templates/defaults/assets/images/layout/yellow.jpg" value="yellow">желтый</option>
+                <settings>
+                    <width>80</width>
+                    <height>80</height>
+                    <gridClass>col-sm-3 col-md-3</gridClass>
+                </settings>
+            </element>
+            <element type="ui\images\InputImages" title="Фоновое изображение" name="bg"></element>
+            <element type="ui\images\InputImages" title="Логотип" name="logo"></element>
+            <element type="ui\images\InputImages" title="Фавикон" name="favicon"></element>
+            <element type="ui\text\TextInput" title="Копирайт" name="copyright" default="© Copyright 2013 все права защищены.">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>         
+        </accordion>
+        <accordion title="Настройки портфолио" id="others">
+            <element type="ui\checkbox\TrumbRadio" title="Колонок в категории порфолио" name="portfoliocol" default="four columns">
+                <option img="@root/templates/defaults/assets/images/layout/col-3.png" value="one-third column">3 колонки</option>
+                <option img="@root/templates/defaults/assets/images/layout/col-4.png" value="four columns">4 колонки</option>
+                <settings>
+                    <width>80</width>
+                    <height>80</height>
+                    <gridClass>col-sm-3 col-md-3</gridClass>
+                </settings>
+            </element>
+            <element type="ui\checkbox\TrumbRadio" title="Макет страницы работы" name="portfoliopage" default="half">
+                <option img="@root/templates/defaults/assets/images/layout/layout-two.png" value="half">В столбик</option>
+                <option img="@root/templates/defaults/assets/images/layout/layout-one.png" value="wide">Тандем</option>
+                <settings>
+                    <width>80</width>
+                    <height>80</height>
+                    <gridClass>col-sm-3 col-md-3</gridClass>
+                </settings>
+            </element>
+        </accordion>
+        <accordion title="Настройки блога" id="blog">
+            <element type="ui\checkbox\TrumbRadio" title="Макет категории блога" name="bloglayout" default="two">
+                <option img="@root/templates/defaults/assets/images/layout/blog-one.png" value="one">Картинка анонс</option>
+                <option img="@root/templates/defaults/assets/images/layout/blog-two.png" value="two">Картинка слева анонс</option>
+                <settings>
+                    <width>80</width>
+                    <height>80</height>
+                    <gridClass>col-sm-3 col-md-3</gridClass>
+                </settings>
+            </element>
+            <element type="ui\checkbox\Toggle" title="Показывать дату создания" name="showdate" default="1">
+                <settings>
+                    <option value="0">НЕТ</option>
+                    <option value="1">ДА</option>
+                </settings>
+            </element>
+            <element type="ui\checkbox\Toggle" title="Показывать ссылку (читать подроднее)" name="showreadmore" default="1">
+                <settings>
+                    <option value="0">НЕТ</option>
+                    <option value="1">ДА</option>
+                </settings>
+            </element>            
+            <element type="ui\text\TextInput" title="Текст ссылки (читать подроднее)" name="textreadmore" default="Подробнее...">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+        </accordion>
+       
+    </params>	
+</metaOptions>

@@ -1,0 +1,15 @@
+.widget-elements-sort .glyphicon-move{
+    cursor: move;
+}
+.widget-elements-sort .ui-sortable-placeholder{
+    background-color: #fcf8e3;
+}
+.widget-list{
+    margin-left: -14px;
+    margin-right: -14px;
+    margin-top: -8px;
+    margin-bottom: -7px;
+}
+.widget-list .list-group{
+    margin-bottom: 0;
+}

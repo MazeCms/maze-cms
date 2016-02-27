@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expansion>
+  <table>{{%dictionary_term}}</table>
+  <fields>
+      <field name="term_id" filter="defaults">ID термина</field>
+      <field name="enabled" filter="defaults">Активность</field>
+      <field name="id_lang" filter="defaults">Язык</field>
+      <field name="time_active" filter="defaults">Дата начала публикации</field>
+      <field name="time_inactive" filter="defaults">Дата окончания публикации</field>
+      <field name="date_create" filter="defaults">Дата создания</field>
+      <field name="parent" filter="defaults">Родитеский термин</field>
+      <field name="sort" filter="defaults">Порядок сортировки материала</field>
+      <field name="rand" filter="random">Сортировка в случайном порядке</field>
+  </fields>
+</expansion>

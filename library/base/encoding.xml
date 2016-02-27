@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<encoding>
+    <charset>
+        <value>IBM037</value>
+        <name>IBM EBCDIC US-Canada</name>
+    </charset>
+
+    <charset>
+        <value>IBM437</value>
+        <name>OEM United States</name>
+    </charset>
+
+    <charset>
+        <value>IBM500</value>
+        <name>IBM EBCDIC International</name>
+    </charset>
+
+    <charset>
+        <value>ASMO-708</value>
+        <name>Arabic (ASMO 708)</name>
+    </charset>
+
+    <charset>
+        <value>DOS-720</value>
+        <name>Arabic (Transparent ASMO); Arabic (DOS)</name>
+    </charset>
+
+    <charset>
+        <value>ibm737</value>
+        <name>OEM Greek (formerly 437G); Greek (DOS)</name>
+    </charset>
+
+    <charset>
+        <value>ibm775</value>
+        <name>OEM Baltic; Baltic (DOS)</name>
+    </charset>
+
+    <charset>
+        <value>ibm850</value>
+        <name>OEM Multilingual Latin 1; Western European (DOS)</name>
+    </charset>
+
+    <charset>
+        <value>ibm852</value>
+        <name>OEM Latin 2; Central European (DOS)</name>
+    </charset>
+
+    <charset>
+        <value>IBM855</value>
+        <name>OEM Cyrillic (primarily Russian)</name>
+    </charset>
+
+    <charset>
+        <value>ibm857</value>
+        <name>OEM Turkish; Turkish (DOS)</name>
+    </charset>
+
+
+    <charset>
+        <value>IBM00858</value>
+        <name>OEM Multilingual Latin 1 + Euro symbol</name>
+    </charset>
+
+
+    <charset>
+        <value>IBM860</value>
+        <name>OEM Portuguese; Portuguese (DOS)</name>
+    </charset>
+
+
+    <charset>
+        <value>ibm861</value>
+        <name>OEM Icelandic; Icelandic (DOS)</name>
+    </charset>
+
+
+    <charset>
+        <value>DOS-862</value>
+        <name>OEM Hebrew; Hebrew (DOS)</name>
+    </charset>
+
+
+    <charset>
+        <value>IBM863</value>
+        <name>OEM French Canadian; French Canadian (DOS)</name>
+    </charset>
+
+    <charset>
+        <value>IBM864</value>
+        <name>OEM Arabic; Arabic (864)</name>
+    </charset>
+
+    <charset>
+        <value>IBM865</value>
+        <name>OEM Nordic; Nordic (DOS)</name>
+    </charset>
+
+    <charset>
+        <value>cp866</value>
+        <name>OEM Russian; Cyrillic (DOS)</name>
+    </charset>
+
+    <charset>
+        <value>ibm869</value>
+        <name>OEM Modern Greek; Greek, Modern (DOS)</name>
+    </charset>
+
+    <charset>
+        <value>IBM870</value>
+        <name>IBM EBCDIC Multilingual/ROECE (Latin 2); IBM EBCDIC Multilingual Latin 2</name>
+    </charset>
+
+    <charset>
+        <value>windows-874</value>
+        <name>ANSI/OEM Thai (ISO 8859-11); Thai (Windows)</name>
+    </charset>
+
+    <charset>
+        <value>cp875</value>
+        <name>IBM EBCDIC Greek Modern</name>
+    </charset>
+
+    <charset>
+        <value>shift_jis</value>
+        <name>ANSI/OEM Japanese; Japanese (Shift-JIS)</name>
+    </charset>
+
+    <charset>
+        <value>gb2312</value>
+        <name>ANSI/OEM Simplified Chinese (PRC, Singapore); Chinese Simplified (GB2312)</name>
+    </charset>
+
+    <charset>
+        <value>ks_c_5601-1987</value>
+        <name>ANSI/OEM Korean (Unified Hangul Code)</name>
+    </charset>
+
+    <charset>
+        <value>big5</value>
+        <name>ANSI/OEM Traditional Chinese (Taiwan; Hong Kong SAR, PRC); Chinese Traditional (Big5)</name>
+    </charset>
+
+    <charset>
+        <value>IBM1026</value>
+        <name>IBM EBCDIC Turkish (Latin 5)</name>
+    </charset>
+
+    <charset>
+        <value>IBM01047</value>
+        <name>IBM EBCDIC Latin 1/Open System</name>
+    </charset>
+
+    <charset>
+        <value>IBM01140</value>
+        <name>IBM EBCDIC US-Canada (037 + Euro symbol); IBM EBCDIC (US-Canada-Euro)</name>
+    </charset>
+
+    <charset>
+        <value>IBM01141</value>
+        <name>IBM EBCDIC Germany (20273 + Euro symbol); IBM EBCDIC (Germany-Euro)</name>
+    </charset>
+
+    <charset>
+        <value>IBM01142</value>
+        <name>IBM EBCDIC Denmark-Norway (20277 + Euro symbol); IBM EBCDIC (Denmark-Norway-Euro)</name>
+    </charset>
+
+    <charset>
+        <value>IBM01143</value>
+        <name>IBM EBCDIC Finland-Sweden (20278 + Euro symbol); IBM EBCDIC (Finland-Sweden-Euro)</name>
+    </charset>
+
+    <charset>
+        <value>IBM01144</value>
+        <name>IBM EBCDIC Italy (20280 + Euro symbol); IBM EBCDIC (Italy-Euro)</name>
+    </charset>
+
+    <charset>
+        <value>IBM01145</value>
+        <name>IBM EBCDIC Latin America-Spain (20284 + Euro symbol); IBM EBCDIC (Spain-Euro)</name>
+    </charset>
+
+    <charset>
+        <value>IBM01146</value>
+        <name>IBM EBCDIC United Kingdom (20285 + Euro symbol); IBM EBCDIC (UK-Euro)</name>
+    </charset>
+
+    <charset>
+        <value>IBM01147</value>
+        <name>IBM EBCDIC France (20297 + Euro symbol); IBM EBCDIC (France-Euro)</name>
+    </charset>
+
+    <charset>
+        <value>IBM01148</value>
+        <name>IBM EBCDIC International (500 + Euro symbol); IBM EBCDIC (International-Euro)</name>
+    </charset>
+
+    <charset>
+        <value>IBM01149</value>
+        <name>IBM EBCDIC Icelandic (20871 + Euro symbol); IBM EBCDIC (Icelandic-Euro)</name>
+    </charset>
+
+    <charset>
+        <value>utf-16</value>
+        <name>Unicode UTF-16, little endian byte order (BMP of ISO 10646); available only to managed applications</name>
+    </charset>
+
+    <charset>
+        <value>unicodeFFFE</value>
+        <name>Unicode UTF-16, big endian byte order; available only to managed applications</name>
+    </charset>
+
+    <charset>
+        <value>windows-1250</value>
+        <name>ANSI Central European; Central European (Windows)</name>
+    </charset>
+
+    <charset>
+        <value>windows-1251</value>
+        <name>ANSI Cyrillic; Cyrillic (Windows)</name>
+    </charset>
+
+    <charset>
+        <value>windows-1252</value>
+        <name>ANSI Latin 1; Western European (Windows)</name>
+    </charset>
+
+    <charset>
+        <value>windows-1253</value>
+        <name>ANSI Greek; Greek (Windows)</name>
+    </charset>
+
+    <charset>
+        <value>windows-1254</value>
+        <name>ANSI Turkish; Turkish (Windows)</name>
+    </charset>
+
+    <charset>
+        <value>windows-1255</value>
+        <name>ANSI Hebrew; Hebrew (Windows)</name>
+    </charset>
+
+    <charset>
+        <value>windows-1256</value>
+        <name>ANSI Arabic; Arabic (Windows)</name>
+    </charset>
+
+    <charset>
+        <value>windows-1257</value>
+        <name>ANSI Baltic; Baltic (Windows)</name>
+    </charset>
+
+    <charset>
+        <value>windows-1258</value>
+        <name>ANSI/OEM Vietnamese; Vietnamese (Windows)</name>
+    </charset>
+
+    <charset>
+        <value>Johab</value>
+        <name>Korean (Johab)</name>
+    </charset>
+
+    <charset>
+        <value>macintosh</value>
+        <name>MAC Roman; Western European (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-japanese</value>
+        <name>Japanese (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-chinesetrad</value>
+        <name>MAC Traditional Chinese (Big5); Chinese Traditional (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-korean</value>
+        <name>Korean (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-arabic</value>
+        <name>Arabic (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-hebrew</value>
+        <name>Hebrew (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-greek</value>
+        <name>Greek (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-cyrillic</value>
+        <name>Cyrillic (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-chinesesimp</value>
+        <name>MAC Simplified Chinese (GB 2312); Chinese Simplified (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-romanian</value>
+        <name>Romanian (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-ukrainian</value>
+        <name>Ukrainian (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-thai</value>
+        <name>Thai (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-ce</value>
+        <name>MAC Latin 2; Central European (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-icelandic</value>
+        <name>Icelandic (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-turkish</value>
+        <name>Turkish (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>x-mac-croatian</value>
+        <name>Croatian (Mac)</name>
+    </charset>
+
+    <charset>
+        <value>utf-32</value>
+        <name>Unicode UTF-32, little endian byte order; available only to managed applications</name>
+    </charset>
+
+    <charset>
+        <value>utf-32BE</value>
+        <name>Unicode UTF-32, big endian byte order; available only to managed applications</name>
+    </charset>
+
+    <charset>
+        <value>x-Chinese_CNS</value>
+        <name>CNS Taiwan; Chinese Traditional (CNS)</name>
+    </charset>
+
+    <charset>
+        <value>x-cp20001</value>
+        <name>TCA Taiwan</name>
+    </charset>
+
+    <charset>
+        <value>x_Chinese-Eten</value>
+        <name>Eten Taiwan; Chinese Traditional (Eten)</name>
+    </charset>
+
+    <charset>
+        <value>x-cp20003</value>
+        <name>IBM5550 Taiwan</name>
+    </charset>
+
+    <charset>
+        <value>x-cp20004</value>
+        <name>TeleText Taiwan</name>
+    </charset>
+
+    <charset>
+        <value>x-cp20005</value>
+        <name>Wang Taiwan</name>
+    </charset>
+
+    <charset>
+        <value>x-IA5</value>
+        <name>IA5 (IRV International Alphabet No. 5, 7-bit); Western European (IA5)</name>
+    </charset>
+
+    <charset>
+        <value>x-IA5-German</value>
+        <name>IA5 German (7-bit)</name>
+    </charset>
+
+    <charset>
+        <value>x-IA5-Swedish</value>
+        <name>IA5 Swedish (7-bit)</name>
+    </charset>
+
+    <charset>
+        <value>x-IA5-Norwegian</value>
+        <name>IA5 Norwegian (7-bit)</name>
+    </charset>
+
+    <charset>
+        <value>us-ascii</value>
+        <name>US-ASCII (7-bit)</name>
+    </charset>
+
+    <charset>
+        <value>x-cp20261</value>
+        <name>T.61</name>
+    </charset>
+
+    <charset>
+        <value>x-cp20269</value>
+        <name>ISO 6937 Non-Spacing Accent</name>
+    </charset>
+
+    <charset>
+        <value>IBM273</value>
+        <name>IBM EBCDIC Germany</name>
+    </charset>
+
+    <charset>
+        <value>IBM277</value>
+        <name>IBM EBCDIC Denmark-Norway</name>
+    </charset>
+
+    <charset>
+        <value>IBM278</value>
+        <name>IBM EBCDIC Finland-Sweden</name>
+    </charset>
+
+    <charset>
+        <value>IBM280</value>
+        <name>IBM EBCDIC Italy</name>
+    </charset>
+
+    <charset>
+        <value>IBM284</value>
+        <name>IBM EBCDIC Latin America-Spain</name>
+    </charset>
+
+    <charset>
+        <value>IBM285</value>
+        <name>IBM EBCDIC United Kingdom</name>
+    </charset>
+
+    <charset>
+        <value>IBM290</value>
+        <name>IBM EBCDIC Japanese Katakana Extended</name>
+    </charset>
+
+    <charset>
+        <value>IBM297</value>
+        <name>IBM EBCDIC France</name>
+    </charset>
+
+    <charset>
+        <value>IBM420</value>
+        <name>IBM EBCDIC Arabic</name>
+    </charset>
+
+    <charset>
+        <value>IBM423</value>
+        <name>IBM EBCDIC Greek</name>
+    </charset>
+
+    <charset>
+        <value>IBM424</value>
+        <name>IBM EBCDIC Hebrew</name>
+    </charset>
+
+    <charset>
+        <value>x-EBCDIC-KoreanExtended</value>
+        <name>IBM EBCDIC Korean Extended</name>
+    </charset>
+
+    <charset>
+        <value>IBM-Thai</value>
+        <name>IBM EBCDIC Thai</name>
+    </charset>
+
+    <charset>
+        <value>koi8-r</value>
+        <name>Russian (KOI8-R); Cyrillic (KOI8-R)</name>
+    </charset>
+
+    <charset>
+        <value>IBM871</value>
+        <name>IBM EBCDIC Icelandic</name>
+    </charset>
+
+    <charset>
+        <value>IBM880</value>
+        <name>IBM EBCDIC Cyrillic Russian</name>
+    </charset>
+
+    <charset>
+        <value>IBM905</value>
+        <name>IBM EBCDIC Turkish</name>
+    </charset>
+
+    <charset>
+        <value>IBM00924</value>
+        <name>IBM EBCDIC Latin 1/Open System (1047 + Euro symbol)</name>
+    </charset>
+
+    <charset>
+        <value>EUC-JP</value>
+        <name>Japanese (JIS 0208-1990 and 0212-1990)</name>
+    </charset>
+
+    <charset>
+        <value>x-cp20936</value>
+        <name>Simplified Chinese (GB2312); Chinese Simplified (GB2312-80)</name>
+    </charset>
+
+    <charset>
+        <value>x-cp20949</value>
+        <name>Korean Wansung</name>
+    </charset>
+
+    <charset>
+        <value>cp1025</value>
+        <name>IBM EBCDIC Cyrillic Serbian-Bulgarian</name>
+    </charset>
+
+    <charset>
+        <value>koi8-u</value>
+        <name>Ukrainian (KOI8-U); Cyrillic (KOI8-U)</name>
+    </charset>
+
+    <charset>
+        <value>iso-8859-1</value>
+        <name>ISO 8859-1 Latin 1; Western European (ISO)</name>
+    </charset>
+
+    <charset>
+        <value>iso-8859-2</value>
+        <name>ISO 8859-2 Central European; Central European (ISO)</name>
+    </charset>
+
+    <charset>
+        <value>iso-8859-3</value>
+        <name>ISO 8859-3 Latin 3</name>
+    </charset>
+
+    <charset>
+        <value>iso-8859-4</value>
+        <name>ISO 8859-4 Baltic</name>
+    </charset>
+
+    <charset>
+        <value>iso-8859-5</value>
+        <name>ISO 8859-5 Cyrillic</name>
+    </charset>
+
+    <charset>
+        <value>iso-8859-6</value>
+        <name>ISO 8859-6 Arabic</name>
+    </charset>
+
+    <charset>
+        <value>iso-8859-7</value>
+        <name>ISO 8859-7 Greek</name>
+    </charset>
+
+    <charset>
+        <value>iso-8859-8</value>
+        <name>ISO 8859-8 Hebrew; Hebrew (ISO-Visual)</name>
+    </charset>
+
+    <charset>
+        <value>iso-8859-9</value>
+        <name>ISO 8859-9 Turkish</name>
+    </charset>
+
+    <charset>
+        <value>iso-8859-13</value>
+        <name>ISO 8859-13 Estonian</name>
+    </charset>
+
+    <charset>
+        <value>iso-8859-15</value>
+        <name>ISO 8859-15 Latin 9</name>
+    </charset>
+
+    <charset>
+        <value>x-Europa</value>
+        <name>Europa 3</name>
+    </charset>
+
+    <charset>
+        <value>iso-8859-8-i</value>
+        <name>ISO 8859-8 Hebrew; Hebrew (ISO-Logical)</name>
+    </charset>
+
+    <charset>
+        <value>iso-2022-jp</value>
+        <name>ISO 2022 Japanese with no halfwidth Katakana; Japanese (JIS)</name>
+    </charset>
+
+    <charset>
+        <value>csISO2022JP</value>
+        <name>ISO 2022 Japanese with halfwidth Katakana; Japanese (JIS-Allow 1 byte Kana)</name>
+    </charset>
+
+    <charset>
+        <value>iso-2022-jp</value>
+        <name>ISO 2022 Japanese JIS X 0201-1989; Japanese (JIS-Allow 1 byte Kana - SO/SI)</name>
+    </charset>
+
+    <charset>
+        <value>iso-2022-kr</value>
+        <name>ISO 2022 Korean</name>
+    </charset>
+
+    <charset>
+        <value>x-cp50227</value>
+        <name>ISO 2022 Simplified Chinese; Chinese Simplified (ISO 2022)</name>
+    </charset>
+
+    <charset>
+        <value>euc-jp</value>
+        <name>EUC Japanese</name>
+    </charset>
+
+    <charset>
+        <value>EUC-CN</value>
+        <name>EUC Simplified Chinese; Chinese Simplified (EUC)</name>
+    </charset>
+
+    <charset>
+        <value>euc-kr</value>
+        <name>EUC Korean</name>
+    </charset>
+
+    <charset>
+        <value>hz-gb-2312</value>
+        <name>HZ-GB2312 Simplified Chinese; Chinese Simplified (HZ)</name>
+    </charset>
+
+    <charset>
+        <value>GB18030</value>
+        <name>Windows XP and later: GB18030 Simplified Chinese (4 byte); Chinese Simplified (GB18030)</name>
+    </charset>
+
+    <charset>
+        <value>x-iscii-de</value>
+        <name>ISCII Devanagari</name>
+    </charset>
+
+    <charset>
+        <value>x-iscii-be</value>
+        <name>ISCII Bengali</name>
+    </charset>
+
+    <charset>
+        <value>x-iscii-ta</value>
+        <name>ISCII Tamil</name>
+    </charset>
+
+    <charset>
+        <value>x-iscii-te</value>
+        <name>ISCII Telugu</name>
+    </charset>
+
+    <charset>
+        <value>x-iscii-as</value>
+        <name>ISCII Assamese</name>
+    </charset>
+
+    <charset>
+        <value>x-iscii-or</value>
+        <name>ISCII Oriya</name>
+    </charset>
+
+    <charset>
+        <value>x-iscii-ka</value>
+        <name>ISCII Kannada</name>
+    </charset>
+
+    <charset>
+        <value>x-iscii-ma</value>
+        <name>ISCII Malayalam</name>
+    </charset>
+
+    <charset>
+        <value>x-iscii-gu</value>
+        <name>ISCII Gujarati</name>
+    </charset>
+
+    <charset>
+        <value>x-iscii-pa</value>
+        <name>ISCII Punjabi</name>
+    </charset>
+
+    <charset>
+        <value>utf-7</value>
+        <name>Unicode (UTF-7)</name>
+    </charset>
+
+    <charset>
+        <value>utf-8</value>
+        <name>Unicode (UTF-8)</name>
+    </charset>
+</encoding>

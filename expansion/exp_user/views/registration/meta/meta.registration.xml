@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <title>EXP_USER_VIEW_REGISTRATION_TITLE</title>
+    <description></description>
+		
+    <layoutset>
+        <layout>
+            <title>EXP_USER_VIEW_REGISTRATION_LAY</title>
+            <description>EXP_USER_VIEW_REGISTRATION_LAY_DES</description>
+            <layout>default</layout>
+            <controller>registration</controller>
+        </layout>        
+    </layoutset>
+		
+</metaOptions>

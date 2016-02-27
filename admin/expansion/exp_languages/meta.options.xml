@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>EXP_LANGUAGES_NAME</name>
+    <description>EXP_LANGUAGES_DES</description>
+    <copyright>EXP_LANGUAGES_COPYRIGHT</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>EXP_LANGUAGES_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>18.04.2013</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+    <menu img="/library/image/icon/16/location/white/icon-globe.png" path="/admin/languages" title="EXP_LANGUAGES_TITLE">
+        <item img="/library/image/icon/16/location/white/icon-globe.png" path="/admin/languages" title="EXP_LANGUAGES_TITLE"></item>
+        <item access="languages:VIEW_LANG_APP" img="/library/image/icon/16/location/white/icon-travel.png" path="/admin/languages/applications" title="EXP_LANGUAGES_APP"></item>
+        <item access="languages:VIEW_LANG_PACKS" img="/library/image/icon/16/computer/white/icon-folder-open.png" path="/admin/languages/packs" title="EXP_LANGUAGES_PACKS_NAME"></item>
+        <item access="languages:VIEW_LANG_OVERLOAD" img="/library/image/icon/16/development/white/icon-language.png" path="/admin/languages/overload" title="EXP_LANGUAGES_OVERLOAD_NAME"></item>
+    </menu>
+	
+    <params>
+        <tabs title="EXP_LANGUAGES_SETTINGS_TABS" id="params">
+            <element type="InputText" title="EXP_LANGUAGES_SETTINGS_LABEL_PATHICON" name="img_path" default="/library/image/flags/16/">
+                <settings>
+                    <style>width: 310px;</style>
+                </settings>
+            </element>		
+        </tabs>
+    </params>
+	
+</metaOptions>

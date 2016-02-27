@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    
+    <params>
+        
+        <element type="ui\editor\Code" title="PHP код для фильтрации ($query - объект запроса)" name="phpcode"> </element>
+        
+    </params>
+   
+</metaOptions>

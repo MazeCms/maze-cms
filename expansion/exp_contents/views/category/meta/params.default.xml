@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+  <urlparams>
+        <element type="ui\term\AllTermTree" title="Выберете категорию" name="term_id"></element>
+    </urlparams>
+</metaOptions>

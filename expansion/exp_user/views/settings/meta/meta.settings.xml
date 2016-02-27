@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <title>EXP_USER_VIEW_SETTINGS_TITLE</title>
+    <description></description>
+		
+    <layoutset>
+        <layout>
+            <title>EXP_USER_VIEW_SETTINGS_TITLE</title>
+            <description>EXP_USER_VIEW_SETTINGS_DES</description>
+            <layout>default</layout>
+            <controller>settings</controller>
+        </layout>
+        
+    </layoutset>
+		
+</metaOptions>

@@ -1,0 +1,119 @@
+ul.add-images-ui_skin{
+    margin: 0;
+    padding: 0;
+	color:#FFF;
+	font-size:14px;
+	display:block;
+	width:100%;
+	min-height:100px;
+	overflow:hidden;
+}
+.i-dotted_skin{
+    border-bottom: 1px dotted;
+    text-decoration: none;
+}
+.add-images-ui_skin img {
+    border: 0 none;
+    vertical-align: top;
+}
+.b-photo-galery_item_skin {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+		display: block;
+		float:left;
+    box-shadow: 0 0 3px #CCCCCC;
+    height: 140px;
+    margin: 25px 25px 0 0;
+    overflow: hidden;
+		position:relative;
+    padding: 6px;
+    width: 190px;
+		text-align:center;
+}
+.b-photo-galery_item_skin a {
+    color: #2F2F2F;
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 50px;
+    left: 0;
+    padding-top: 102px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+    width: 202px;
+    z-index: 2;
+}
+.b-photo-galery_item_skin .i-ico-set_skin{
+	background-repeat:no-repeat;
+    cursor: pointer;
+	opacity:0.4;
+	float:right;
+    height: 16px;
+	width: 16px;
+	display:block;    
+    z-index: 10;	
+	margin-top:5px;
+	margin-right:5px;
+}
+.b-photo-galery_item_skin .ico-close_skin {
+	background-image:url("icon-remove.png");
+	
+}
+.b-photo-galery_item_skin  .get-edit-title_skin{
+	background-image:url("icon-pen.png");
+}
+.b-photo-galery_item_skin  .save-edit-title_skin{
+	background-image:url("icon-save-floppy.png");
+}
+
+.b-photo-galery_item_skin .i-ico-set_skin:hover{
+	opacity:1;
+}
+.b-photo-galery_item_skin img {
+  background: none repeat scroll 0 0 #F7F7F7;
+	height: 140px;
+}
+.tool-bar_skin{
+	height:30px;
+	width: 100%;
+	position:absolute;
+	line-height:2em;
+	white-space: nowrap;
+	vertical-align:middle;
+	left:0;
+}
+.tool-bar-bottom_skin{
+	background-image:url("overlay.png");
+	margin-top:-24px;		
+}
+.tool-bar-top_skin{
+	top:0;
+	height:30px;
+	background-image:url("overlay.png");
+}
+.title-image_skin{	
+	margin-left:5px;	
+	overflow:hidden;
+}
+.tool-bar-top_skin .original-title-images_skin{
+	width:154px;
+	float:left;
+}
+.bg-add-btn-images_skin{
+	background-image:url("photo_190x140.gif");
+	background-repeat:no-repeat;
+	background-position:center;
+	width: 190px;
+	height: 140px;
+}
+.add-images-btn_skin{
+	cursor:pointer;
+}
+.add-image-edit-title{
+	width:188px;
+	height:20px;	
+	margin:0 0 0 5px !important;
+	padding:0 !important;	
+}

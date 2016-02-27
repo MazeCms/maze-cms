@@ -1,0 +1,77 @@
+.hide-type{
+    display: none;
+}
+.load-bloc-drop{
+	border:3px dashed  #aaaaaa;
+	height:200px;
+	text-align:center;	
+}
+.load-bloc-drop-active{
+	background-color:#EDE928 !important;
+	border:3px dashed  #FF0400 !important;
+}
+.load-bloc-drop h3{
+	font-size:24px;
+	font-weight:normal;
+	text-align:center;
+	margin-top:60px;	
+}
+.path-file{
+	padding:10px;
+	font-size: 24px;
+	text-align:center;
+}
+#hide-upload{
+	position:absolute;
+	height:30px;
+	margin-left: -10px;
+    margin-top: -5px;
+	width: 130px;
+	opacity: 0;
+}
+#btn-add-file{
+	margin-top:10px;
+}
+.preload-install{
+	background-image:url("/library/jquery/overlay/preloader/4.gif");
+	background-repeat:no-repeat;
+	background-position:center;
+	display:inline-block;
+	height:24px;
+	width:24px;
+}
+.load-step{
+	background-image:url("/library/image/icons-24/tick.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	display:inline-block;
+	height:24px;
+	width:24px;
+	margin-left:5px;
+}
+.error-step{
+	background-image:url("/library/image/icons-24/cross.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	display:inline-block;
+	height:24px;
+	width:24px;
+	margin-left:5px;
+}
+.number-step{
+	height:24px;
+	width:24px;
+	vertical-align:middle;
+	line-height:1.2em;
+	display:inline-block;
+	border-radius:24px;
+	color:#FFF;
+	margin-right:5px;
+	margin-top: -5px;
+	background-color:#AAAAAA;
+	text-align:center;
+}
+.step-install{
+	font-size:18px;
+	vertical-align:middle;
+}

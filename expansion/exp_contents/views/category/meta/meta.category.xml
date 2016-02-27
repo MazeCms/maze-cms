@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <title>EXP_CONTENTS_MEATVIEW_CATALOG_TITLE</title>
+    <description></description>
+    <layoutset>
+        <layout>
+            <title>EXP_CONTENTS_MEATVIEW_CATALOG_LAYOUT_CAT</title>
+            <description>EXP_CONTENTS_MEATVIEW_CATALOG_LAYOUT_CAT</description>
+            <layout>default</layout>
+            <controller>category</controller>
+        </layout>
+        <layout>
+            <title>EXP_CONTENTS_MEATVIEW_CATALOG_LAYOUT_CATLIST</title>
+            <description>EXP_CONTENTS_MEATVIEW_CATALOG_LAYOUT_CATLIST</description>
+            <layout>catalog</layout>
+            <controller>catalog</controller>
+        </layout>        
+    </layoutset>
+</metaOptions>

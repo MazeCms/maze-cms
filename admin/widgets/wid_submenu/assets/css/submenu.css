@@ -1,0 +1,16 @@
+#admin-app-menu a{
+    color: #fff;
+}
+#admin-app-menu.jstree-default-dark{
+    background: transparent;
+}
+#admin-app-menu.jstree-default-dark .jstree-node{
+    padding: 4px 0;
+}
+#admin-app-menu.jstree-default-dark .jstree-wholerow{
+    height: 30px;
+    margin-top: -3px;
+}
+#admin-app-menu.jstree-default-dark .jstree-wholerow-clicked{
+
+}

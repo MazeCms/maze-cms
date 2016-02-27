@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>EXP_TEMPLATING_TITLE_TMP</name>
+    <description>EXP_TEMPLATING_DES_APP</description>
+    <copyright>copyright</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>EXP_TEMPLATING_AUTHOR_APP</author>
+    <email>info@maze-studio.ru</email>
+    <created>08.07.2013</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+    <menu img="/library/image/icon/16/design/white/icon-design.png" path="/admin/templating" title="EXP_TEMPLATING_TITLE_TMP">
+        <item img="/library/image/icon/16/development/white/icon-theme-style.png" path="/admin/templating" title="EXP_TEMPLATING_SUB_STYLE"></item>
+        <item img="/library/image/icon/16/development/white/icon-puzzle-plugin.png" path="/admin/templating/template" title="EXP_TEMPLATING_SUB_TMP"></item>
+    </menu>
+	
+</metaOptions>

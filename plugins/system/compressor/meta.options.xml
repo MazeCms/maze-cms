@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>PLG_SYSTEM_COMPRESSOR_NAME</name>
+    <description>PLG_SYSTEM_COMPRESSOR_DESCRIPTION</description>
+    <copyright>PLG_SYSTEM_COMPRESSOR_COPY</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <group>system</group>
+    <author>PLG_SYSTEM_COMPRESSOR_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>26.03.2015</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+    <params>		
+        <tabs title="PLG_SYSTEM_COMPRESSOR_LABEL_TABSONE" id="other">
+            <element type="ui\text\TextInput" title="PLG_SYSTEM_COMPRESSOR_LABEL_PATHCACHE" name="pathcache" default="@root/assets">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            <element type="ui\checkbox\Toggle" title="PLG_SYSTEM_COMPRESSOR_LABEL_ENABLESCRIPT" name="enablescript" default="1">
+                <settings>
+                    <option value="0">PLG_SYSTEM_COMPRESSOR_NO</option>
+                    <option value="1">PLG_SYSTEM_COMPRESSOR_YES</option>
+                </settings>
+            </element>
+            <element type="ui\checkbox\Toggle" title="PLG_SYSTEM_COMPRESSOR_LABEL_ENABLECSS" name="enablecss" default="1">
+                <settings>
+                    <option value="0">PLG_SYSTEM_COMPRESSOR_NO</option>
+                    <option value="1">PLG_SYSTEM_COMPRESSOR_YES</option>
+                </settings>
+            </element>
+            <element type="ui\checkbox\Toggle" title="PLG_SYSTEM_COMPRESSOR_LABEL_ENABLEPATH" name="enablepath" default="1">
+                <settings>
+                    <option value="0">PLG_SYSTEM_COMPRESSOR_NO</option>
+                    <option value="1">PLG_SYSTEM_COMPRESSOR_YES</option>
+                </settings>
+            </element>
+            <element type="ui\checkbox\Toggle" title="PLG_SYSTEM_COMPRESSOR_LABEL_ENABLEHTML" name="enablehtml" default="1">
+                <settings>
+                    <option value="0">PLG_SYSTEM_COMPRESSOR_NO</option>
+                    <option value="1">PLG_SYSTEM_COMPRESSOR_YES</option>
+                </settings>
+            </element>
+        </tabs>
+    </params>
+</metaOptions>

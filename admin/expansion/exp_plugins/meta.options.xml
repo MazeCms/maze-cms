@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+  <name>EXP_PLUGINS_TITLE</name>
+  <description>EXP_PLUGINS_DES</description>
+  <copyright>EXP_PLUGINS_COPY</copyright>
+  <license>General Public License</license>
+  <version>1.0</version>
+  <author>EXP_PLUGINS_AUTHOR</author>
+  <email>info@maze-studio.ru</email>
+  <created>21.07.2013</created>
+  <siteauthor>maze-studio.ru</siteauthor>
+	
+  <menu img="/library/image/icon/16/computer/white/icon-plug.png" path="/admin/plugins" title="EXP_PLUGINS_TITLE"></menu>
+	
+</metaOptions>

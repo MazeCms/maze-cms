@@ -1,0 +1,130 @@
+.context-menu-maze *,
+.context-menu-maze *:before, 
+.context-menu-maze *:after{
+   box-sizing:content-box;
+} 
+.context-menu-maze li,
+.context-menu-maze ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+.context-menu-maze{
+    display: none;
+    z-index:10000;
+}
+.context-menu-maze li{
+    display:block;
+}
+.context-icon-item{
+    display: inline-block;
+    height: 100%;
+    width: 18px;
+    padding: 0 4px;
+    top:0;
+    left:0;
+    background-repeat:no-repeat;
+    background-position:center;
+    position: absolute;
+}
+.context-center-item{
+    display: block;
+    text-decoration: none;
+    padding: 6px 20px 6px 35px;
+    position:relative;
+}
+.context-siporator-item{
+    display: block;
+    text-decoration: none;
+    padding: 1px 20px 1px 35px;
+    position:relative;
+    cursor:default;
+}
+.context-arrow-item{
+    display: inline-block;
+    height: 100%;
+    width: 18px;
+    top:0;
+    right:0;
+    position: absolute;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.context-menu-maze{
+    left: 0;
+    top:0;
+    margin: 0;
+    min-width: 160px;
+    position: absolute;
+    z-index: 10000;
+}
+.siporator-menu{
+    display:inline-block;
+    height:1px;
+    width:100%;
+    vertical-align: middle;
+}
+.checked-menu{
+    background-image:url('./images/checkbox-active.png');
+    background-repeat:no-repeat;
+    background-position:center;
+}
+/*
+* Стили темы
+*/
+.context-menu-maze.default{
+    border: 1px solid rgba(100, 103, 106, 0.176);
+    border-radius: 2px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    background-color:#f5f5f6;
+}
+.context-menu-maze.default a{
+    color:#000000;
+}
+.context-menu-maze.default .context-icon-item{	
+    background-color:#e6eaed;
+}
+.context-menu-maze.default .siporator-menu{	
+    border-top:1px solid #e6eaed;
+}
+.context-menu-maze.default .context-center-item:hover,
+.context-menu-maze.default .context-center-item.active{
+    background-color:#e6eaed;
+}
+.context-menu-maze.default .context-arrow-item.arrow{
+    background-image:url('./images/arrow_collapse.gif')
+}
+/*
+* Стили темы - темный
+*/
+.context-menu-maze.dark-maze-context{
+    border: 1px solid rgba(68, 76, 83, 0.176);
+    border-radius: 2px;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.5);
+    background-image:url('./images/bg-dark.png');
+    background-position: center;
+    background-repeat:repeat;
+}
+.context-menu-maze.dark-maze-context a{
+    color:#DDE7E9;
+    font-size:12px;
+    font-family:Tahoma, Geneva, sans-serif;
+    text-decoration:none;
+    line-height:1em;
+}
+.context-menu-maze.dark-maze-context .context-icon-item{
+    background-color:transparent;
+}
+.context-menu-maze.dark-maze-context .siporator-menu{	
+    border-top:1px solid #282C30;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.3);
+}
+.context-menu-maze.dark-maze-context .context-center-item:hover,
+.context-menu-maze.dark-maze-context .context-center-item.active{
+    background-color:#0092F4;
+    color:#FFF;
+}
+.context-menu-maze.dark-maze-context .context-arrow-item.arrow{
+    background-image:url('./images/arrow_collapse.gif')
+}

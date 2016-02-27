@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>PLG_CONTENTS_SITEMAPUPDATE_NAME</name>
+    <description>PLG_CONTENTS_SITEMAPUPDATE_DESCRIPTION</description>
+    <copyright>PLG_CONTENTS_SITEMAPUPDATE_COPY</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <group>system</group>
+    <author>PLG_CONTENTS_SITEMAPUPDATE_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>26.10.2015</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+    
+</metaOptions>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>EXP_DICTIONARY_NAME</name>
+    <description>EXP_DICTIONARY_DESCPRIPTION</description>
+    <copyright>Copyright</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>EXP_DICTIONARY_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>28.04.2015</created>
+    <siteauthor>maze-studio.ru</siteauthor>	
+    <menu img="/library/image/icon/16/hosting/white/icon-database.png" path="/admin/dictionary" title="EXP_DICTIONARY_NAME">
+        <item id="menu-dictionary-term" img="/library/image/icon/16/computer/white/icon-foldertree.png" path="/admin/dictionary/term" title="EXP_DICTIONARY_TERM"></item>
+        <item id="menu-dictionary-field" access="dictionary:EDIT_FIELD" img="/library/image/icon/16/computer/white/icon-th-list.png" path="/admin/dictionary/field" title="EXP_DICTIONARY_FIELD"></item>
+    </menu>	
+</metaOptions>

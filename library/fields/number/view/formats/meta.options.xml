@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>LIB_FIELDS_NUMBER_VIEW_DEFAULT_NAME</name>
+    <view>formats</view>
+    <description></description>	
+    <params>
+         <element type="ui\text\InputSpinner" title="LIB_FIELDS_NUMBER_VIEW_DEFAULT_ROUND" name="decimals">
+            <settings>
+                <min>0</min>
+                <max>5</max>
+            </settings>
+        </element>
+        <element type="ui\text\TextInput" title="LIB_FIELDS_NUMBER_VIEW_DEFAULT_DECPOINT" name="dec_point">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        <element type="ui\text\TextInput" title="LIB_FIELDS_NUMBER_VIEW_DEFAULT_THOUSPOINT" name="thousands_sep">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        <element type="ui\text\TextInput" title="LIB_FIELDS_NUMBER_VIEW_DEFAULT_PREFIX" name="prefix">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+    </params>
+</metaOptions>

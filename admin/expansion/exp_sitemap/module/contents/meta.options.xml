@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    
+    <params>
+        
+        <element type="exp\exp_contents\ui\ContentTypeList" title="Тип материалов" name="type">
+            <options>
+                <multiple>multiple</multiple>
+            </options>
+        </element>
+        
+        <element type="exp\exp_contents\ui\Dictionary" title="Категории материалов" name="category">
+            <options>
+                <multiple>multiple</multiple>
+            </options>
+        </element>
+        
+        <element type="ui\checkbox\Toggle" title="Влючить главную страницу" name="home">
+            <settings>
+                <option value="1">ДА</option>
+                <option value="0">НЕТ</option>
+            </settings>
+        </element>
+
+    </params>
+  
+    	
+</metaOptions>

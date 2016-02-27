@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>LIB_FIELDS_FILE_VIEW_LINK_NAME</name>
+    <view>link</view>
+    <description></description>
+     <params>
+        <element type="ui\text\TextInput" title="LIB_FIELDS_FILE_VIEW_CSSCLASS_LABEL" name="cssClass">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        <element type="ui\checkbox\Toggle" title="LIB_FIELDS_FILE_VIEW_SHOWSIZE_LABEL" name="showSize">
+            <settings>
+                <option value="0">LIB_USERINTERFACE_FIELD_NO</option>
+                <option value="1">LIB_USERINTERFACE_FIELD_YES</option>
+            </settings>
+        </element>
+        <element type="ui\checkbox\Toggle" title="LIB_FIELDS_FILE_VIEW_FORMATSIZE_LABEL" name="formatSize">
+            <settings>
+                <option value="K">LIB_FIELDS_FILE_VIEW_FORMAT_OPTION_K</option>
+                <option value="M">LIB_FIELDS_FILE_VIEW_FORMAT_OPTION_M</option>
+                <option value="G">LIB_FIELDS_FILE_VIEW_FORMAT_OPTION_G</option>  
+            </settings>
+        </element>
+       
+    </params>	
+</metaOptions>

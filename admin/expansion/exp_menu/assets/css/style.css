@@ -1,0 +1,67 @@
+.menu-type-expansion{
+    overflow: hidden;
+}
+.menu-type-expansion ul{
+    list-style-type: none; 
+}
+.menu-type-expansion ul li{
+    position: relative;
+}
+.menu-type-expansion ul a{
+    display: block;
+    padding: 8px 10px;
+}
+.menu-type-expansion ul li:hover{
+    background-color: #EFEFEF;   
+}
+
+.menu-type-expansion ul li.active{
+    background-color: #5fa2db;   
+}
+.menu-type-expansion ul .active a:after{
+    content: ''; 
+    position: absolute; 
+    left: 100%;
+    top:0;
+    border: 18px solid transparent;
+    border-left: 10px solid #5fa2db;
+}
+.menu-type-expansion  .groupmenu-layout ul .active a:after{
+    content: ''; 
+    position: absolute; 
+    left: 0;
+    top:0;
+    border: none;
+    border-left: none;
+}
+.menu-type-expansion ul .active a{   
+    color: #fff; 
+}
+.menu-type-expansion > div{
+    border-right: 1px solid #E3E3E3; 
+}
+.menu-type-expansion > div:last-child{
+    border-right: none;
+}
+
+.items-menu-path{
+    font-size:11px;
+    font-style:italic;
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.menu-open{
+    display:inline-block;
+    background-image:url("/library/image/icons-24/sitemap.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    height:24px;
+    width:24px;
+    cursor:pointer;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+

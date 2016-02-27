@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>Ссылка на термин словаря</name>
+    <description></description>
+    <locked>0</locked>
+    <group>all</group>
+    <params>
+        <element type="ui\checkbox\Toggle" title="Поле является обязательным" name="required">
+            <settings>
+                <option value="0">НЕТ</option>
+                <option value="1">ДА</option>
+            </settings>
+        </element>
+        <element type="ui\term\Dictionary" title="Словарь" name="dictionary">
+            <options>
+                <prompt>-- Словарь --</prompt>
+            </options>
+        </element>
+    </params>
+	
+</metaOptions>

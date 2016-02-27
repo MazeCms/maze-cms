@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>EXP_SITEMAP_NAME</name>
+    <description>EXP_SITEMAP_DESCRIPTION</description>
+    <copyright>copyright</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>EXP_SITEMAP_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>11.10.2015</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+    <menu img="/library/image/icon/16/location/white/icon-map.png" path="/admin/sitemap" title="EXP_SITEMAP_NAME">
+        <item id="menu-sitemap-visits"  img="/library/image/icon/16/hosting/white/icon-barchart.png" path="/admin/sitemap/visits" title="EXP_SITEMAP_VISITS"></item>
+        <item id="menu-sitemap-robots"  img="/library/image/icon/16/hosting/white/icon-servers.png" path="/admin/sitemap/robots" title="EXP_SITEMAP_ROBOTS"></item>
+    </menu>
+
+    <params>
+        <tabs title="EXP_SITEMAP_SETTINGS_TABS" id="params">
+            <element type="ui\checkbox\Toggle" title="EXP_SITEMAP_LABEL_CHANGEFREQ" name="changefreq" default="daily">
+                <settings>
+                    <option value="always">always</option>
+                    <option value="hourly">hourly</option>
+                    <option value="daily">daily</option>
+                    <option value="weekly">weekly</option>
+                    <option value="monthly">monthly</option>
+                    <option value="yearly">yearly</option>
+                    <option value="never">never</option>
+                </settings>
+            </element>
+            <element type="ui\checkbox\Toggle" title="EXP_SITEMAP_LABEL_PRIORITY" name="priority" default="0.5">
+                <settings>
+                    <option value="0.0">0.0</option>
+                    <option value="0.1">0.1</option>
+                    <option value="0.2">0.2</option>
+                    <option value="0.3">0.3</option>
+                    <option value="0.4">0.4</option>
+                    <option value="0.5">0.5</option>
+                    <option value="0.6">0.6</option>
+                    <option value="0.7">0.7</option>
+                    <option value="0.8">0.8</option>
+                    <option value="0.9">0.9</option>
+                    <option value="0.9">1.0</option>
+                </settings>
+            </element>
+            <element type="ui\checkbox\Toggle" title="EXP_SITEMAP_LABEL_DOWNLOAD" name="download" default="0">
+                <settings>
+                    <option value="1">EXP_SITEMAP_YES</option>
+                    <option value="0">EXP_SITEMAP_NO</option>
+                </settings>
+            </element>		
+        </tabs>
+    </params>	
+</metaOptions>

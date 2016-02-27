@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>WID_MAPS_NAME</name>
+    <description>WID_MAPS_DES</description>
+    <copyright>WID_MAPS_COPYRIGHT</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>WID_MAPS_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>01.08.2015</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+    <params>
+		
+        <accordion title="WID_MAPS_PARAMS_TABS" id="other">
+            
+            <element type="ui\text\TextInput" title="WID_MAPS_PARAMS_COUNTRY" name="country">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_MAPS_PARAMS_REGION" name="region">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_MAPS_PARAMS_CITY" name="city">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_MAPS_PARAMS_STREET" name="street">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_MAPS_PARAMS_HOUSE" name="house">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+           
+           <element type="ui\checkbox\Toggle" title="WID_MAPS_PARAMS_ENABLEPOPUP" name="popup" default="0">
+                <settings>
+                    <option value="0">НЕТ</option>
+                    <option value="1">ДА</option>
+                </settings>
+            </element>
+            
+           <element type="ui\text\TextArea" title="WID_MAPS_PARAMS_TEXTPOPUP" name="textpopup">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\InputSpinner" title="WID_MAPS_PARAMS_ZOOM" name="zoom" default="14">
+                <settings>
+                    <min>1</min>
+                    <max>50</max>
+                    <step>1</step>
+                </settings>
+            </element>
+            
+            <element type="ui\checkbox\Toggle" title="WID_MAPS_PARAMS_SCROLLWHEEL" name="scrollwheel" default="1">
+                <settings>
+                    <option value="0">НЕТ</option>
+                    <option value="1">ДА</option>
+                </settings>
+            </element>
+            
+            <element type="ui\checkbox\Toggle" title="panControl" name="panControl" default="1">
+                <settings>
+                    <option value="0">НЕТ</option>
+                    <option value="1">ДА</option>
+                </settings>
+            </element>
+            
+            <element type="ui\checkbox\Toggle" title="zoomControl" name="zoomControl" default="1">
+                <settings>
+                    <option value="0">НЕТ</option>
+                    <option value="1">ДА</option>
+                </settings>
+            </element>
+            
+            <element type="ui\checkbox\Toggle" title="mapTypeControl" name="mapTypeControl" default="1">
+                <settings>
+                    <option value="0">НЕТ</option>
+                    <option value="1">ДА</option>
+                </settings>
+            </element>
+            
+            <element type="ui\checkbox\Toggle" title="scaleControl" name="scaleControl" default="1">
+                <settings>
+                    <option value="0">НЕТ</option>
+                    <option value="1">ДА</option>
+                </settings>
+            </element>
+            
+            <element type="ui\checkbox\Toggle" title="streetViewControl" name="streetViewControl" default="1">
+                <settings>
+                    <option value="0">НЕТ</option>
+                    <option value="1">ДА</option>
+                </settings>
+            </element>
+            
+            <element type="ui\checkbox\Toggle" title="overviewMapControl" name="overviewMapControl" default="1">
+                <settings>
+                    <option value="0">НЕТ</option>
+                    <option value="1">ДА</option>
+                </settings>
+            </element>
+            <element type="ui\text\TextInput" title="WID_MAPS_PARAMS_PARAMS_CSSCLASS" name="css_class">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_MAPS_PARAMS_PARAMS_WIDHT" name="width" default="100%">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_MAPS_PARAMS_PARAMS_HEIGTH" name="height" default="300px">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_MAPS_PARAMS_PARAMS_CSSID" name="css_id">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+        </accordion>
+			
+    </params>
+	
+</metaOptions>

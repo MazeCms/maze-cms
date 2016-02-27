@@ -1,0 +1,138 @@
+.wrap-avatar{
+    margin:0 auto;
+    text-align:center;
+    width:50px;
+    height:50px;
+}
+.wrap-avatar{
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+    line-height: 20px;
+    padding: 4px;
+    transition: all 0.2s ease-in-out 0s;
+    background-color:#FFF;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:8px;
+}
+#user-grid td[data-grid-fild=name] .maze-grid-content-innert{
+    white-space: nowrap;
+}
+.wrap-name-user .ui-menu{
+    text-align:left;
+}
+.wrap-name-user{
+    padding:5px 0;
+}
+.user-roles-siporat{
+    margin:2px 0;	
+}
+.user-master-settings-left, .user-master-settings-right{
+    width:49%;
+    height:100%;
+    float:left;
+}
+.user-master-settings-left{
+    border-right:1px solid #D0D0D0;
+
+}
+.user-master-settings-right{
+    padding-left:10px;
+}
+.edit-avatar{
+    width:158px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 4px;
+    background-color:#FFF;
+    overflow:hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+    text-align:center;
+    vertical-align:middle;
+}
+.avatar-block{
+    width:168px;
+    margin:0 auto;
+}
+.avatar-block button{
+    margin:4px 0;
+    width:100%;
+}
+.avatar-block .label{
+    padding:8px 4px;
+    position:absolute;
+    margin-top:20px;
+    margin-left:-10px;
+}
+.title-block-table{
+    font-size:18px;
+    padding:4px;
+    margin:10px 20px;
+    display:block;
+    border-bottom: 1px solid #DDDDDD;
+    font-weight:normal;
+    letter-spacing: 5px;
+}
+.head-mail{
+    background-color:#EEEEEE;
+    border: 1px solid #CCCCCC;
+    text-shadow: 0 1px 0 #FFFFFF;
+    margin-bottom:5px;
+    padding:4px;	
+}
+.private-group{	
+}
+
+.private-group label{
+    display:inline-block;
+}
+.desc-app{
+    font-size:12px;
+    font-style:italic;
+    font-weight:normal;
+}
+.role-des{
+    margin:10px;
+    padding:10px;
+}
+.role-des > h3{
+    font-size:18px;
+    display:inline-block;
+}
+.role-des span{
+    font-style:italic;
+    font-weight:normal;
+}
+.private-group .alert{
+    font-size:14px;
+}
+
+.browser-ico{
+    background-image:url("/library/image/custom/browser-50-50px.png");
+    background-repeat:no-repeat;
+    width:50px;
+    height:50px;
+    margin:0 auto;
+}
+.firefox{
+    background-position:0 0;
+}
+.chrome{
+    background-position:0 -100px;
+}
+.opera{
+    background-position:0 -50px;
+}
+.yandex{
+    background-position:0 -150px;
+}
+.safari{
+    background-position:0 -200px;
+}
+.ie6, .ie7, .ie8, .ie9{
+    background-position:0 -250px;
+}
+.private-folder-check td{
+    padding-left:10px;
+}

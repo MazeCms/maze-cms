@@ -1,0 +1,45 @@
+.fixedbox-overlay{
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:1000;	
+	overflow: hidden;
+	background-image:url("overlay.png") ;
+
+}
+.fixedbox-layer-wrap{
+	top:0;
+	left:0;
+	width:100%;
+	position: fixed;
+	overflow-x: hidden;
+    overflow-y: auto;
+	z-index:1000;
+}
+.fixedbox-layer-body{
+
+}
+.fixedbox-layer-content{	
+	padding: 10px 8px 10px;
+	margin:0 auto;
+}
+.fixedbox-layer-content-white{
+	min-height:100px;
+	background-color:#FFF;
+	border-radius:2px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.fixedbox-layer-close{
+	height:32px;
+	width:32px;
+	top:20px;
+	margin-left:20px;
+	position: fixed;
+	cursor:pointer;
+	background-image:url("icon-remove-w.png");
+	opacity: 0.3;
+	background-position:center;
+	background-repeat: no-repeat;
+}

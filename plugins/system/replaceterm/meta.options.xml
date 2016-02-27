@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>PLG_SYSTEM_REPLACETERM_NAME</name>
+    <description>PLG_SYSTEM_REPLACETERM_DESCRIPTION</description>
+    <copyright>PLG_SYSTEM_REPLACETERM_COPY</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <group>system</group>
+    <author>PLG_SYSTEM_REPLACETERM_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>26.03.2015</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+    <params>		
+        <tabs title="PLG_SYSTEM_REPLACETERM_LABEL_TABSONE" id="other">
+            <element type="ui\term\Dictionary" title="PLG_SYSTEM_REPLACETERM_LABEL_DICT" name="dict">
+                <options>
+                    <prompt>....</prompt>
+                </options>
+            </element>
+            <element type="plg\system\replaceterm\ui\AllFields" title="PLG_SYSTEM_REPLACETERM_LABEL_FIELD" name="fields">
+                <options>
+                    <multiple>multiple</multiple>
+                </options>
+            </element>
+            <element type="ui\text\TextInput" title="PLG_SYSTEM_REPLACETERM_LABEL_DEFAULTNAME" name="defaultname">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+             <element type="ui\text\TextInput" title="PLG_SYSTEM_REPLACETERM_LABEL_NOTSUB" name="notsub" default="www">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+             <element type="ui\checkbox\Toggle" title="PLG_SYSTEM_REPLACETERM_LABEL_REDIRECTNO" name="redirect" default="1">
+                <settings>
+                    <option value="0">PLG_SYSTEM_DEBUGADMIN_NO</option>
+                    <option value="1">PLG_SYSTEM_DEBUGADMIN_YES</option>
+                </settings>
+            </element>
+            <element type="ui\checkbox\Toggle" title="PLG_SYSTEM_REPLACETERM_LABEL_REDIRECTHOME" name="redirecthome" default="0">
+                <settings>
+                    <option value="0">PLG_SYSTEM_DEBUGADMIN_NO</option>
+                    <option value="1">PLG_SYSTEM_DEBUGADMIN_YES</option>
+                </settings>
+            </element>
+            <element type="ui\checkbox\Toggle" title="PLG_SYSTEM_REPLACETERM_LABEL_REPTITLE" name="reptitle" default="1">
+                <settings>
+                    <option value="0">PLG_SYSTEM_DEBUGADMIN_NO</option>
+                    <option value="1">PLG_SYSTEM_DEBUGADMIN_YES</option>
+                </settings>
+            </element>
+           <element type="ui\checkbox\Toggle" title="PLG_SYSTEM_REPLACETERM_LABEL_MEAT" name="canonical" default="1">
+                <settings>
+                    <option value="0">PLG_SYSTEM_DEBUGADMIN_NO</option>
+                    <option value="1">PLG_SYSTEM_DEBUGADMIN_YES</option>
+                </settings>
+            </element>
+        </tabs>
+    </params>
+</metaOptions>

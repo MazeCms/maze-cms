@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>EXP_ELFINDER_TITLE</name>
+    <description>EXP_ELFINDER_DES_APP</description>
+    <copyright>copyright</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>EXP_ELFINDER_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>18.04.2013</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+    <menu access="elfinder:EDIT_PROFILE" img="/library/image/icon/16/computer/white/icon-finder.png" path="/admin/elfinder" title="EXP_ELFINDER_TITLE"></menu>
+  
+	
+</metaOptions>

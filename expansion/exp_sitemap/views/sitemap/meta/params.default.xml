@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <urlparams>
+        <element type="admin\expansion\exp_sitemap\ui\SiteMapList" title="Выберете  карту сайта" name="sitemap_id">
+            <condition>
+                <enable_html>1</enable_html>
+            </condition>
+        </element>
+    </urlparams>
+</metaOptions>

@@ -1,0 +1,181 @@
+html, body{
+    width:100%;	
+    height:100%;
+}
+.instal-bg {
+    background:url("../img/instal-line-bg.png") no-repeat center top #646c7a;
+    background:url("../img/instal-line-bg.png") no-repeat center top, -moz-radial-gradient(center 45deg, circle cover, #CCC, #777);
+    background:url("../img/instal-line-bg.png") no-repeat center top, -webkit-gradient(radial, 50% 50%, 0, 50% 50%,1000, from(#CCC), to(#777));
+    background:url("../img/instal-line-bg.png") no-repeat center top, -o-radial-gradient(center 45deg, circle cover, #CCC, #777);
+    background:url("../img/instal-line-bg.png") no-repeat center top, radial-gradient(center 45deg, circle cover, #CCC, #777);
+    background-color: #646c7a;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 0;
+}
+#contents-page{
+    padding:25px 0;
+    position: relative;
+    z-index: 1;
+}
+#contents-page .table-install{
+    background-color: #f2f6f9;
+    box-shadow: 0 16px 23px rgba(0,0,0,.42);
+    border-radius: 4px;
+    min-height: 900px;
+}
+
+#contents-page .col-sm-3, 
+#contents-page .col-sm-9{
+    min-height: 100%;
+}
+#footer-page{
+    position: relative;
+    z-index: 1;
+    color: #585F6B;
+    font-weight: bold;
+    height: 90px;
+}
+#footer-page a{
+    color: #585F6B;
+}
+#footer-page .col-l{
+    text-align: left;
+}
+#footer-page .col-r{
+    text-align: right;
+}
+.table-install{
+    width: 100%;
+}
+.left-col{
+    padding: 4px 10px 4px 4px;
+    width: 300px;
+    position: relative;
+}
+.right-col{
+    padding: 10px;    
+}
+.wrapp-block{
+    min-height: 300px;
+}
+.header-install{
+    text-align: center;
+}
+
+.btn-action-step{
+    position: relative;
+    font-size: 18px;
+    color: #333;
+    border: 1px solid transparent;
+    text-shadow: 0 1px 0 #fff;
+    background-image: -webkit-linear-gradient(top, #fff 0%, #e0e0e0 100%);
+    background-image:      -o-linear-gradient(top, #fff 0%, #e0e0e0 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e0e0e0));
+    background-image:         linear-gradient(to bottom, #fff 0%, #e0e0e0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+    background-repeat: repeat-x;
+    border-color: #dbdbdb;
+    border-color: #ccc;
+    margin-bottom: 2px;
+    display: block;
+    width: 100%;
+    padding: 14px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+}
+.btn-action-step:hover{
+    text-decoration: none;
+}
+.btn-action-step.inactive{
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    background-image: none;
+}
+.btn-action-step.active{
+    background-image: none;
+    background-color: #265a88;
+    border-color: #245580;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+.btn-action-step.active:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top:0;
+    right: 0;
+    margin-right: -15px;
+    border-top: 27px solid transparent;
+    border-left: 15px solid #265a88;
+    border-bottom: 27px solid transparent;
+}
+.title-install{
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: #656D77;
+    background: -moz-linear-gradient(top, #767F8C, #656D77);
+    background: -o-linear-gradient(top, #767F8C, #656D77);
+    background: -webkit-gradient(linear, left top, left bottom, from(#767F8C), to(#656D77));
+    text-shadow: 0 1px 1px #767F8C, 0 -1px 1px #656D77;
+    color: #dde7e9;
+    padding: 10px 0;
+}
+#logo-cms{
+    display: inline-block;
+    vertical-align: middle;
+}
+.table-check{
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #656D77;
+}
+.table-check th{
+    background-color: #656D77;
+    background: -moz-linear-gradient(top, #767F8C, #656D77);
+    background: -o-linear-gradient(top, #767F8C, #656D77);
+    background: -webkit-gradient(linear, left top, left bottom, from(#767F8C), to(#656D77));
+    text-shadow: 0 1px 1px #767F8C, 0 -1px 1px #656D77;
+    color: #dde7e9;
+    text-align: center;
+    border-left: 1px solid #656D77;
+}
+.table-check th,
+.table-check td{
+    padding: 8px;
+    vertical-align: middle;
+}
+.table-check tr:nth-child(2n) td{
+    background-color: #efefef;
+}
+.table-check td{
+    border-top: 1px solid #ccc;
+}
+.table-check tr.danger td{
+    background-color: #f2dede;
+}
+.table-check tr.success td{
+    background-color: #dff0d8;
+}
+#next-install{
+    float: right;
+}
+#form-install .progress{
+    height: 30px;
+}
+#form-install .progress-bar {
+    font-size:20px;
+    line-height: 28px;
+}

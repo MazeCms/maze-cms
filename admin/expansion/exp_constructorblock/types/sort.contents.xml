@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<expansion>
+  <table>{{%contents}}</table>
+  <fields>
+      <field name="contents_id" filter="defaults">ID материала</field>
+      <field name="enabled" filter="defaults">Активность</field>
+      <field name="id_lang" filter="defaults">Язык</field>
+      <field name="time_active" filter="defaults">Дата начала публикации</field>
+      <field name="time_inactive" filter="defaults">Дата окончания публикации</field>
+      <field name="home" filter="defaults">Материалы на главной</field>
+      <field name="date_create" filter="defaults">Дата создания</field>
+      <field name="sort" filter="defaults">Порядок сортировки материала</field>
+       <field name="rand" filter="random">Сортировка в случайном порядке</field>
+  </fields>
+</expansion>

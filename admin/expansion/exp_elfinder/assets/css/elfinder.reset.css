@@ -1,0 +1,22 @@
+#elfinder-elem textarea,
+#elfinder-elem  input{
+ 	 border: 1px solid #AAAAAA;
+    font-size: 0.8em;
+    height: 22px;
+    line-height: 22px;
+    outline: 0 solid;
+    padding: 0 20px;
+    width: 160px;
+	margin-bottom:0;
+}
+
+#elfinder-elem .elfinder-resize-control input[type="text"],
+.dialogelfinder .elfinder-resize-control input[type="text"]{
+    border: 1px solid #AAAAAA;
+    text-align: right;
+	border-radius:0;
+	 width: 20px;
+}
+#elfinder-elem  elfinder-cwd-filename input{
+	width:none;
+}

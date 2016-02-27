@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    
+    <params>
+        
+        <element type="ui\date\Datetimepicker" title="Начальная дата" name="start">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        
+        <element type="ui\date\Datetimepicker" title="Окончательная дата" name="end">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        
+    </params>
+    
+  
+    	
+</metaOptions>

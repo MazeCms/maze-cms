@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>GAD_DISKSPACE_NAME</name>
+    <description>GAD_DISKSPACE_DES</description>
+    <copyright>no copy, no paste</copyright>
+    <license>General Public License</license>
+    <group>system</group>
+    <version>1.0</version>
+    <author>Николай</author>
+    <email>info@maze-studio.ru</email>
+    <created>08.12.2013</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+    <params>
+        <element type="ui\text\TextInput" title="GAD_DISKSPACE_SETTINGS_DIR_LABEL" description="GAD_DISKSPACE_SETTINGS_DIR_DES" name="path" default="@root">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        <element type="ui\checkbox\Toggle" title="GAD_DISKSPACE_SETTINGS_SHOWPATH_LABEL" name="showpath" default="1">
+            <settings>
+                 <option value="1">GAD_DISKSPACE_YES</option>
+                 <option value="0">GAD_DISKSPACE_NO</option>
+            </settings>
+        </element>
+        <element type="ui\text\TextInput" title="GAD_DISKSPACE_COLORFREE" name="colorfree" default="#3BE000">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        <element type="ui\text\TextInput" title="GAD_DISKSPACE_COLORBUSY" name="colorbusy" default="#FF5744">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+    </params>  
+</metaOptions>

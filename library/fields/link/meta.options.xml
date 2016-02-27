@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>LIB_FIELDS_LINK_NAME</name>
+    <description></description>
+    <locked>0</locked>
+    <group>all</group>
+    <params>
+        <element type="ui\checkbox\Toggle" title="LIB_FIELDS_LINK_SETTINGS_REQUIRED_LABEL" name="required">
+            <settings>
+                <option value="0">LIB_USERINTERFACE_FIELD_NO</option>
+                <option value="1">LIB_USERINTERFACE_FIELD_YES</option>
+            </settings>
+        </element>
+    </params>
+	
+</metaOptions>

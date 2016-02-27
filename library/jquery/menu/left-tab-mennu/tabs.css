@@ -1,0 +1,76 @@
+
+.tabsholder{
+	margin:4px;
+	height:100%;
+}
+.center {
+width:400px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.centerText {
+text-align:center;
+}
+
+/* ------------------------------ liens */
+/*.tabsholder a { color:#baee00; text-decoration:none; }
+.tabsholder a:link { color:#baee00; }
+.tabsholder a:visited { color:#baee00; }
+.tabsholder a:hover { color:#baee00; text-decoration:underline; }
+.tabsholder a:active { color:#baee00; }*/
+.tabsholder .center {
+width:60%;
+margin:20px auto 0 auto;
+}
+
+.marginbot {
+/*margin-bottom:15px;*/
+height:100%;
+}
+
+ul.list li {
+list-style-type:none;
+margin-left:20px;
+}
+
+ul.tabs {
+width:100%;
+overflow:hidden;
+
+}
+
+ul.tabs li {
+list-style-type:none;
+display:block;
+float:left;
+color:#fff;
+font-weight:300;
+padding:8px;
+margin-right:2px;
+position:relative;
+cursor:pointer;
+}
+
+ul.tabs li:hover {
+background-color:#EAE8E8;
+color:#000
+}
+
+ul.tabs li.current {
+border-bottom:2px solid #EAE8E8;
+background-color:#EAE8E8;
+padding:8px;
+color:#000
+}
+
+.tabscontent {
+border-top:2px solid #EAE8E8;
+padding:8px 4px 4px 4px;
+display:none;
+height:100%;
+text-align:justify;
+
+/*overflow-x: hidden;*/
+background-color:#EAE8E8;
+}

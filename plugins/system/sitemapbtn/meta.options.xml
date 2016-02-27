@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>PLG_SYSTEM_SITEMAPBTN_NAME</name>
+    <description>PLG_SYSTEM_SITEMAPBTN_DESCRIPTION</description>
+    <copyright>PLG_SYSTEM_SITEMAPBTN_COPY</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <group>system</group>
+    <author>PLG_SYSTEM_SITEMAPBTN_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>26.03.2015</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+   
+</metaOptions>

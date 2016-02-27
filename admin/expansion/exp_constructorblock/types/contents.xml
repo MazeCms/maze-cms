@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<expansion>
+  <table>{{%contents}}</table>
+  <primarykey>contents_id</primarykey>
+  <fields>
+      <field name="contents_id" filter="rangenum">ID материала</field>
+      <field name="enabled" filter="boolean">Активность</field>
+      <field name="id_lang" filter="lang">Язык</field>
+      <field name="time_active" filter="datetime">Дата начала публикации</field>
+      <field name="time_inactive" filter="datetime">Дата окончания публикации</field>
+      <field name="home" filter="boolean">Материалы на главной</field>
+      <field name="date_create" filter="datetime">Дата создания</field>
+      <field name="sort" filter="rangenum">Порядок сортировки материала</field>
+      <field name="php" filter="phpcode">PHP код</field>
+  </fields>
+</expansion>

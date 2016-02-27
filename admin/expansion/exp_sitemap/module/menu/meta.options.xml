@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    
+    <params>
+        
+        <element type="ui\checkbox\Toggle" title="Влючить главную страницу" name="home">
+            <settings>
+                <option value="1">ДА</option>
+                <option value="0">НЕТ</option>
+            </settings>
+        </element>
+        
+        <element type="ui\checkbox\Toggle" title="Влючить внешние ссылки" name="url">
+            <settings>
+                <option value="1">ДА</option>
+                <option value="0">НЕТ</option>
+            </settings>
+        </element>
+        
+        <element type="ui\menu\ItemsSelect" title="Разрешить меню" name="menu">
+            <options>
+                <multiple>multiple</multiple>
+            </options>
+        </element>
+        
+    </params>
+  
+    	
+</metaOptions>

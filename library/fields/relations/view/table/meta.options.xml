@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>Выводит в виде таблицы</name>
+    <view>table</view>
+    <description></description>
+    <params>
+        <element type="ui\checkbox\Toggle" title="Режим отоброжения" name="modeview">
+            <settings>
+                <option value="0">Анонс</option>
+                <option value="1">Полный текст</option>
+            </settings>
+        </element>
+         <element type="ui\text\TextInput" title="CSS Class таблицы" name="cssclass">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+    </params>	
+</metaOptions>

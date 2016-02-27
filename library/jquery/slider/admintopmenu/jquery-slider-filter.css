@@ -1,0 +1,206 @@
+.slider-filter{
+	position:relative;
+}
+.navigation{
+	display:block;
+	height:30px;
+	padding-left:30px;	
+}
+.navigation li{
+	list-style:none;	
+}
+.navigation a{
+	float:left ;
+	height:20px;
+	padding: 5px 10px;
+	color:#BCBCBC;
+	text-decoration:none;
+	 font-size: 16px;
+	  color: #FFFFFF;
+	text-shadow: 0 -1px 0 rgba(34, 72, 99, 0.8);
+	
+}
+.dispaly-view{
+	height:100px;
+	overflow:hidden;
+	margin:0 30px;
+	position:relative;
+	background-color:#737A87;
+}
+.slider-wrap{
+	list-style:none;
+	position:absolute;
+}
+
+.slider-wrap li{
+	list-style:none;
+	float:left;	
+}
+.cell-wrap{
+	list-style:none;
+	display:block;
+	height:100px;
+		
+}
+.active-app{
+	 background-color: #535963;
+    opacity: 0.8;
+}
+.cell-wrap li{
+	border-radius:2px;
+	padding:10px;
+	cursor:pointer;
+	text-align:center;
+}
+.cell-wrap li:hover{
+	background-color:rgba(83, 89, 99, 0.25);	
+}
+.cell-wrap li{
+	float:left;
+	display:block;
+	width:80px;
+	height:80px;
+	list-style:none;	
+}
+.grop-slider{
+	float:left;
+	list-style:none;
+	display:block;
+}
+.slider-filter .arrow{
+	height:100px;
+	width:30px;
+	position: absolute;
+	z-index:1;
+	background:#737A87;
+}
+.arrow-left{
+	left:0;
+	box-shadow: 8px 0 10px -5px rgba(0, 0, 0, 0.25);	
+}
+.arrow-left a{
+	background-image:url(img/icon-chevron-left.png);
+	background-repeat:no-repeat;
+	display:block;
+	height:32px;
+	width:32px;
+	margin-top:30px;
+}
+.arrow-right{
+	left:100%;
+	margin-left:-30px;
+	margin-top: -100px;
+	box-shadow: -8px 0 10px -5px rgba(0, 0, 0, 0.25);
+}
+.arrow-right a{
+	background-image:url(img/icon-chevron-right.png);
+	background-repeat:no-repeat;
+	display:block;
+	height:32px;
+	width:32px;
+	margin-top:30px;
+}
+.slider-filter{
+	/*width:900px;
+	margin:0 auto;*/
+	min-width:700px;
+	
+}
+.navigation .selected{
+	background-color:#737A87;
+	border-radius:2px 2px 0 0 ;
+	color: #F1F1F1 !important;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05) !important;
+}
+.blue-gradient{
+	background: #ffbd27; /* Old browsers */
+	background: -moz-linear-gradient(center top , #3B95CD 0%, #32678E 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3B95CD), color-stop(100%,#32678E)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3B95CD 0%, #32678E 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #3B95CD 0%, #32678E 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #3B95CD 0%, #32678E 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3B95CD', endColorstr='#32678E',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #3B95CD 0%, #32678E 100%); /* W3C */
+}
+.img-block{
+	margin-top:10px;
+}
+.title-block{
+	height:12px;
+	font-size:12px;
+	padding:2px 0;
+	  color: #FFFFFF;
+	  font-weight:bold;
+	text-shadow: 0 -1px 0 rgba(34, 72, 99, 0.8);
+}
+.arrow-block{
+	background-image:url(img/icon-chevron-down.png);
+	background-repeat:no-repeat;
+	height:16px;
+	background-position:center;
+	opacity:0.5;
+}
+.arrow-block:hover{
+	border-radius:2px;
+	background-color:rgba(83, 89, 99, 1);	
+}
+.arrow a{
+	opacity:0.8;
+}
+.disable{
+	opacity:0.1 !important;
+}
+.scroll-bar{
+	height:8px;
+	background-color:rgba(83, 89, 99, 0.5);
+	border-radius:10px;
+	position:relative;
+	top:5px;
+	margin:0 30px;
+	padding:2px 0;
+}
+.scroll-bogie{
+	background-color:rgba(83, 89, 99, 1);
+	height:8px;
+	width:100px;
+	border-radius:8px;
+	position:relative;
+	cursor: move;
+}
+.toggle-panel{
+	height:16px;
+	width:16px;	
+	position:relative;
+	margin-top:-20px;
+	top:-5px;
+	left:100%;
+	margin-left:-25px;
+	border-radius:2px;
+	padding:2px;
+	opacity:0.8;
+	cursor:pointer;
+	background-color:rgba(51, 110, 151, 0.8);	
+}
+.toggle-slider{
+	position:relative;
+	overflow:hidden;
+	padding-bottom:10px;
+}
+.toggle-panel-down{
+	background-image:url(img/icon-chevron-down.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.toggle-panel-up{
+	background-image: url(img/icon-chevron-up.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.title-icon{
+	float: left;
+    margin-right: 4px;
+    margin-top: 2px;
+}
+.exp-menu-link{
+	text-decoration:none;
+}

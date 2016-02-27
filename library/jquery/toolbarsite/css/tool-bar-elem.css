@@ -1,0 +1,206 @@
+body{
+    margin:0;
+    padding:0;
+}
+.content-elem-wrapp{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.wrapper-settings-block{
+    display:block;
+    position:absolute;
+    margin:0;
+    padding:0;
+    top:0;
+    left:0;
+    border:2px dashed #777F8C;
+    z-index: 0;
+}
+.wrapper-settings-block:before,
+.wrapper-settings-block:after,
+.toolbar-settings-button:before,
+.toolbar-settings-button:after,
+.toolbar-settings-block:before,
+.toolbar-settings-block:after,
+.content-elem-wrapp:before,
+.content-elem-wrapp:after{
+    content: " ";
+    display: table;
+}
+.wrapper-settings-block:after,
+.toolbar-settings-button:after,
+.toolbar-settings-block:after,
+.content-elem-wrapp:after{
+    clear: both;
+}
+.toolbar-settings-block{
+    position:absolute;
+    margin:0;
+    padding:0;
+    top:0;
+    left:0;
+    background-image:url('../images/top-panel-sprite.png');
+    background-repeat: repeat;
+    background-position: 0 -49px;
+    clear:both;
+    z-index:100;
+}
+.toolbar-settings-button{
+    list-style-type:none;
+    display:block;
+    padding:8px 6px;
+    margin:0 0 0 10px;
+}
+.toolbar-settings-block{
+    box-sizing: inherit;
+}
+.toolbar-settings-button,
+.tool-settings-holder{
+    float:left;
+}
+.tool-settings-holder{
+    display:block;
+    width:8px;
+    height:50px;
+    background-image:url('../images/top-panel-sprite.png');
+    background-repeat: repeat;
+    background-position:-381px -1630px;
+    cursor: move;
+    position: absolute;
+}
+
+.toolbar-settings-button > li{
+    display:block;
+    float:left;
+    position:relative;
+}
+
+.toolbar-settings-button > li > a{
+    display:block;
+    float:left;
+    color: #DDE7E9;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding:8px 4px;
+    text-decoration:none;
+    box-sizing: unset;
+}
+.button-settings-icon{
+    display:inline-block;
+    vertical-align:middle;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:16px;
+    height:16px;
+}
+.button-settings-text{
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:4px;
+}
+.tool-settings-arr{
+    width:8px;
+    height:16px;
+}
+.toolbar-settings-siporator{
+    width:2px;
+    height:18px;
+    background-image:url('../images/top-panel-sprite.png');
+    background-repeat:no-repeat;
+    background-position:-77px -1301px;
+}
+.tool-settings-btn-hover,
+.tool-settings-arr-hover,
+.tool-settings-btn-active,
+.tool-settings-arr-active,
+.tool-settings-all-hover,
+.tool-settings-all-active{
+    background-image:url('../images/top-panel-sprite.png');
+    background-repeat:no-repeat;
+}
+.settings-icon-arr{
+    width:9px;
+    height:9px;
+    display:inline-block;
+    background-image:url('../images/top-panel-sprite.png');
+    background-repeat:no-repeat;
+    background-position:-351px -1750px;
+}
+.tool-settings-btn-hover{
+    background-position:0 -2231px;
+}
+.tool-settings-btn-hover .tool-settings-arr,
+.tool-settings-btn-active .tool-settings-arr,
+.tool-settings-arr-hover .tool-settings-arr,
+.tool-settings-arr-active .tool-settings-arr,
+.tool-settings-all-hover .tool-settings-arr,
+.tool-settings-all-active .tool-settings-arr{
+    background-image:url('../images/top-panel-sprite.png');
+    background-repeat:repeat;
+}
+.tool-settings-btn-hover .tool-settings-arr{
+    background-position:-384px -2231px;
+}
+.tool-settings-btn-active{
+    background-position:0 -2315px;
+}
+.tool-settings-btn-active .tool-settings-arr{
+    background-position:-384px -2315px;
+}
+.tool-settings-arr-hover{
+    background-position:0 -2190px;
+}
+.tool-settings-arr-hover .tool-settings-arr{
+    background-position:-384px -2190px;
+}
+.tool-settings-arr-active{
+    background-position:0 -2273px;
+}
+.tool-settings-arr-active .tool-settings-arr{
+    background-position:-384px -2273px;
+}
+.tool-settings-all-hover{
+    background-position:0 -2093px;
+}
+.tool-settings-all-hover .tool-settings-arr{
+    background-position:-384px -2093px;
+}
+.tool-settings-all-active{
+    background-position:0 -2137px;
+}
+.tool-settings-all-active .tool-settings-arr{
+    background-position:-384px -2137px;
+}
+.settings-icon-remove{
+    background-image:url('../images/icon-close.png');
+    background-repeat:no-repeat;
+    background-position:center;
+}
+/*
+* Подсказки
+*/
+.ui-tooltip.dark-tooltip-bar {
+    padding: 8px;
+    position: absolute;
+    z-index: 9999;
+    max-width: 300px;
+    background: linear-gradient(to bottom, rgba(227, 233, 234, 0.95), rgba(198, 210, 213, 0.95));
+    border-radius: 3px !important;
+    border:1px solid #A2A6AD;
+    box-shadow: 4px 12px 10px rgba(0, 0, 0, 0.25) !important;
+    color: #272B31 !important;
+    font: 12px "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    margin: 0 !important;
+    padding: 9px 10px 10px !important;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.25);   
+}
+.dark-tooltip-bar .title-tooltip-bar{
+    font-size:16px;
+    margin-bottom:10px;
+}
+
+* html .ui-tooltip.dark-tooltip-bar {
+    background-image: none;
+}

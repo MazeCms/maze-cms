@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>PLG_CONTENT_SHORTCODE_NAME</name>
+    <description>PLG_CONTENT_SHORTCODE_DESCRIPTION</description>
+    <copyright>PLG_CONTENT_SHORTCODE_COPYRIGHT</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <group>system</group>
+    <author>PLG_CONTENT_SHORTCODE_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>12.03.2014</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+</metaOptions>

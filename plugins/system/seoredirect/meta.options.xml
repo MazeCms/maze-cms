@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>PLG_SYSTEM_SEOREDIRECT_NAME</name>
+    <description>PLG_SYSTEM_SEOREDIRECT_DESCRIPTION</description>
+    <copyright>PLG_SYSTEM_SEOREDIRECT_COPY</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <group>system</group>
+    <author>PLG_SYSTEM_SEOREDIRECT_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>26.03.2015</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+    <params>		
+        <tabs title="PLG_SYSTEM_SEOREDIRECT_LABEL_TABSONE" id="other">
+            <element type="ui\text\TextInput" title="PLG_SYSTEM_SEOREDIRECT_LABEL_SUFIX" name="suffix" default="php, html">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            <element type="ui\checkbox\Toggle" title="PLG_SYSTEM_SEOREDIRECT_LABEL_WWW" name="www" default="1">
+                <settings>
+                    <option value="0">PLG_SYSTEM_SEOREDIRECT_NO</option>
+                    <option value="1">PLG_SYSTEM_SEOREDIRECT_YES</option>
+                </settings>
+            </element>
+            <element type="ui\checkbox\Toggle" title="PLG_SYSTEM_SEOREDIRECT_LABEL_SLACHES" name="slaches" default="1">
+                <settings>
+                    <option value="0">PLG_SYSTEM_SEOREDIRECT_NO</option>
+                    <option value="1">PLG_SYSTEM_SEOREDIRECT_YES</option>
+                </settings>
+            </element>
+             <element type="ui\checkbox\Toggle" title="PLG_SYSTEM_SEOREDIRECT_LABEL_NOINDEX" name="noindex" default="1">
+                <settings>
+                    <option value="0">PLG_SYSTEM_SEOREDIRECT_NO</option>
+                    <option value="1">PLG_SYSTEM_SEOREDIRECT_YES</option>
+                </settings>
+            </element>
+           <element type="ui\checkbox\Toggle" title="PLG_SYSTEM_SEOREDIRECT_LABEL_MEAT" name="canonical" default="1">
+                <settings>
+                    <option value="0">PLG_SYSTEM_SEOREDIRECT_NO</option>
+                    <option value="1">PLG_SYSTEM_SEOREDIRECT_YES</option>
+                </settings>
+            </element>
+            <element type="ui\text\TextInput" title="PLG_SYSTEM_SEOREDIRECT_LABEL_GETPARAM" name="pageparam" default="page">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+        </tabs>
+    </params>
+</metaOptions>

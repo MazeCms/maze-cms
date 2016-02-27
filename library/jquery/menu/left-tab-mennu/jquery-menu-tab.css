@@ -1,0 +1,118 @@
+.menu-tab-lab{
+	position:relative;
+}
+.menu-tab-nav{
+	list-style:none;
+	width:90px;
+	background-image:url('./img/bg-menu.png');
+	float:left;
+	height:100%;
+	/*margin:16px 0;*/
+	overflow:hidden;
+}
+.menu-tab-nav li{
+	width:80px;
+	height:80px;
+	display:block;
+	padding:5px;
+	text-align:center;
+}
+.active-app{
+	 background-color: #535963;
+    opacity: 0.8;
+}
+.menu-tab-activ{
+	 background-color: #595F6A;
+}
+.menu-tab-activ .menu-tab-icon{
+	opacity: 1;
+}
+.menu-tab-nav li:hover{
+	background-color:rgba(83, 89, 99, 0.25);
+}
+.menu-tab-nav li a{
+	padding-top:10px;
+	text-decoration:none;
+	display:block;
+}
+.menu-tab-icon{
+	/*opacity: 0.5;*/
+}
+.menu-tab-title {
+  	 color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    height: 12px;
+    padding: 2px;
+    text-shadow: 0 -1px 0 rgba(34, 72, 99, 0.8);
+	
+}
+.menu-tab-body{
+	 background-color: #595F6A;
+	border-left:none;
+	height:100%;
+	width:400px;
+	float:left;
+	
+}
+.menu-tab-content{
+	height:100%;
+	overflow:hidden;
+}
+.scroll-nav{
+	position:relative;
+	margin:10px 0;
+}
+.menu-tab-arrow-bottom, .menu-tab-arrow-top{
+	height:16px;
+	width:90px;
+	cursor:pointer;
+	position:absolute;
+	z-index:100;	
+}
+.menu-tab-arrow-bottom{
+	top:100%;
+	margin-top:-16px;
+	box-shadow: 0 -8px 10px -5px rgba(0, 0, 0, 0.25);
+	background-image:url(img/icon-chevron-down.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.menu-tab-arrow-top{
+	background-image:url(img/icon-chevron-up.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	box-shadow: 0 8px 10px -5px rgba(0, 0, 0, 0.25);	
+}
+.arr-disable{
+	background-image:none;
+	box-shadow:none;
+}
+.toggel-panel-tab{
+	position:absolute;
+	cursor:pointer;
+	height:16px;
+	width:16px;
+	background-image: url(img/icon-remove.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	left:100%;
+	top:10px;
+	z-index:100;
+	margin-left:-30px;
+}
+.toggel-panel-tab-expand{
+	position:absolute;
+	height:16px;
+	width:16px;
+	background-image: url(img/icon-chevron-right16.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:#737A87;
+	left:100%;
+	top:10px;
+	margin-left:-30px;
+	padding:4px;
+	border-radius:0 2px 2px 0;
+	padding-left:0;
+}

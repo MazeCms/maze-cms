@@ -1,0 +1,658 @@
+/**
+* Фильтр табы
+*/
+.filter-wrapp{
+    margin-bottom: 10px;
+    color: #656D77;
+    position: relative;
+}
+.filter-wrapp > form,
+.filter-wrapp > .filter-body{
+    border: 1px solid #656D77;
+    border-top: none;
+    padding: 10px;
+    background-color: #fff;
+}
+.filter-wrapp > form.filter-load{
+    opacity: 0.7;
+    background-image: url('/library/jquery/overlay/preloader/4.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.filter-form-tabs-link{
+    border-bottom: 1px solid #656D77;
+}
+.filter-form-tabs-link{
+    list-style-type: none;
+    display:block;
+    margin-bottom: 0;
+}
+.filter-form-tabs-link li{
+    display: inline-block; 
+    margin-left: 4px;
+    background-color: #656D77;
+    border-radius: 2px 2px  0 0;
+    border: 1px solid #656D77;
+    border-bottom: none;
+    position: relative;
+    bottom: -1px;
+    background: -moz-linear-gradient(top, #767F8C, #656D77);
+    background: -o-linear-gradient(top, #767F8C, #656D77);
+    background: -webkit-gradient(linear, left top, left bottom, from(#767F8C), to(#656D77));
+    box-shadow:0 0 1px rgba(0,0,0,0.5);
+}
+.filter-form-tabs-link li.active{
+    background: #fff;
+    box-shadow:none;
+
+}
+.filter-form-tabs-link li.active input{
+    margin: 6px;
+    width: 150px;
+    border: 1px solid #aaa;
+}
+.filter-form-tabs-link li.active a{
+    color: #656D77;
+    text-shadow:none;
+}
+.filter-form-tabs-link li a{
+    display: block;
+    padding: 8px 10px;
+    color: #dde7e9;
+    text-shadow: 0 1px 1px #767F8C, 0 -1px 1px #656D77;
+    font-weight: bold;
+}
+
+.filter-form-tabs-link li:first-child{
+    margin-left: 0;
+}
+
+.filter-wrapp .filter-box{
+    max-width: 650px;
+}
+.filter-top-bar{
+    text-align: right;
+
+}
+.filter-wrapp > .filter-form-toggle{
+    height: 8px;
+    width: 100px;
+    position: absolute;
+    background-color: #656D77;
+    border-radius: 8px;
+    left: 50%;
+    top:100%;
+    color: #fff;
+    text-align: center;
+    margin-top: -4px;
+    margin-left: -50px;
+    line-height: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/**
+* Форма
+*/
+.wrap-form{
+    background-color: #fff; 
+    padding: 10px;
+}
+.wrap-form:before, .wrap-form:after,
+.overflow-bloc:before, .overflow-block:after{
+    content: " ";
+    display: table;
+}
+.wrap-form:after,
+.overflow-block:after{
+    clear: both;
+}
+.form-group .chzn-container{
+    display: block;
+}
+
+/**
+* Табы
+*/
+.admin-tabs-default .ui-widget-header{
+    background:none;
+    border:none;
+}
+.admin-tabs-default.ui-tabs{
+    background:none;
+    border:none;
+    font-size:100%;
+    line-height:inherit;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.admin-tabs-default .ui-tabs-nav .ui-corner-all{
+    border-radius: 0;
+}
+.admin-tabs-default.ui-tabs,
+.admin-tabs-default.ui-tabs .ui-tabs-nav{
+    margin: 0;
+    padding: 0;
+}
+.admin-tabs-default.ui-tabs .ui-tabs-nav{
+    border-bottom: 1px solid #656D77;
+}
+.admin-tabs-default.ui-tabs .ui-tabs-nav{
+    list-style-type: none;
+    display:block;
+    margin-bottom: 0;
+}
+.admin-tabs-default.ui-tabs .ui-tabs-nav li{
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 4px;
+    background-color: #656D77;
+    border-radius: 2px 2px  0 0;
+    border: 1px solid #656D77;
+    border-bottom: none;
+    position: relative;
+    bottom: -1px;
+    background: -moz-linear-gradient(top, #767F8C, #656D77);
+    background: -o-linear-gradient(top, #767F8C, #656D77);
+    background: -webkit-gradient(linear, left top, left bottom, from(#767F8C), to(#656D77));
+    box-shadow:0 0 1px rgba(0,0,0,0.5);
+}
+.admin-tabs-default.ui-tabs .ui-tabs-nav li:first-child{
+    margin-left: 0;
+}
+.admin-tabs-default.ui-tabs .ui-tabs-nav li a{
+    display: block;
+    padding: 8px 10px;
+    color: #dde7e9;
+    text-shadow: 0 1px 1px #767F8C, 0 -1px 1px #656D77;
+    font-weight: bold;
+}
+
+.admin-tabs-default.ui-tabs li.ui-tabs-active{
+    background: #fff;
+    box-shadow:none;
+
+}
+.admin-tabs-default.ui-tabs li.ui-tabs-active a{
+    color: #656D77;
+    text-shadow:none;
+}
+.admin-tabs-default.ui-tabs .ui-tabs-panel{
+    position: relative;
+    border: 1px solid #656D77;
+    border-top: none;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 0;
+    font-size:100%;
+}
+
+.admin-tabs-default.ui-tabs .ui-tabs-panel:before, 
+.admin-tabs-default.ui-tabs .ui-tabs-panel:after{
+    content: " ";
+    display: table;
+}
+.admin-tabs-default.ui-tabs .ui-tabs-panel:after{
+    clear: both;
+}
+/**
+* Аккардион
+*/
+.admin-accordion-default.ui-accordion .ui-accordion-header{
+    background: -moz-linear-gradient(top, #767F8C, #656D77);
+    background: -o-linear-gradient(top, #767F8C, #656D77);
+    background: -webkit-gradient(linear, left top, left bottom, from(#767F8C), to(#656D77));
+    box-shadow:0 0 1px rgba(0,0,0,0.5); 
+    color: #dde7e9;
+    text-shadow: 0 1px 1px #767F8C, 0 -1px 1px #656D77;
+}
+.admin-accordion-default.ui-accordion .ui-accordion-header-active{
+    background: #fff;
+    box-shadow:none;
+    color: #656D77;
+    text-shadow:none;
+
+}
+.admin-accordion-default.ui-accordion .ui-accordion-header,
+.admin-accordion-default.ui-accordion .ui-accordion-content{
+    border-color: #656D77;
+    font-size:100%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/**
+* Диалог
+*/
+.maze-dialog .load-dialog{
+    background-image:url('/library/jquery/overlay/preloader/4.gif');
+    background-position:center;
+    background-repeat:no-repeat;
+    opacity: 0.6;
+}
+/************************************ ПОЛОСА СОСТОЯНИЯ **********************************************/
+
+.slider-label{
+    width:80px;
+    height:30px;
+    position:absolute;
+    top:0;
+    left:-50%;
+    margin-top: -40px;
+    margin-left:-22px;
+    background-color:rgba(83, 89, 99, 0.9);
+    box-shadow: 0 0 15px  rgba(0, 0, 0, 0.6);
+    border-radius:2px;
+    z-index:100;
+}
+.slider-label > span{
+    display:block;
+    color: #FFF;
+    line-height:1.2em;
+    font-size:12px;
+    text-align:center;
+    margin-top: 6px;
+    padding:2px;
+}
+.slider-label > i{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left:50%;
+    top:100%;
+    margin-left:-10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid rgba(83, 89, 99, 0.9);
+}
+/**************************************** Прелоадер селектора **********************************************************/
+.preload-select-milti{
+    background-image:url("/library/jquery/overlay/preloader/4.gif");
+    background-position:center;
+    background-repeat:no-repeat;
+    width:30px;
+    height:30px;
+    position:absolute;
+    top:0;
+}
+
+.ui-widget .ui-widget-content input, 
+.ui-widget .ui-widget-content select, 
+.ui-widget .ui-widget-content textarea, 
+.ui-widget .ui-widget-content button{
+    font-size:12px;
+}
+/* ****************************Вертикальные табы JQUERY UI ******************************  */
+.ui-tabs-vertical {
+    width:100%;
+}
+.ui-tabs-vertical .ui-tabs-nav {
+    padding: .2em .1em .2em .2em; 
+    float: left; 
+    max-width: 20%; 
+}
+.ui-tabs-vertical .ui-tabs-nav li { 
+    clear: left; 
+    width: 100%; 
+    border-bottom-width: 1px !important; 
+    border-right-width: 0 !important; 
+    margin: 0 -1px .2em 0;  
+    border-radius: 4px 0 0 4px;
+}
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { 
+    padding-bottom: 1px; 
+    padding-right: .1em; 
+    border-right-width: 1px; 
+    border-right-width: 1px;
+    border-bottom:1px solid #AAAAAA;
+}
+.ui-tabs-vertical .ui-tabs-panel { 
+    padding: 1em; 
+    float: left; 
+    width: 75%;
+}
+/*толтип */
+.ui-tooltip.form-tooltip{
+    padding: 8px;
+    position: absolute;
+    z-index: 9999;
+    max-width: 300px;
+    background: linear-gradient(to bottom, rgba(227, 233, 234, 0.95), rgba(198, 210, 213, 0.95));
+    border-radius: 3px !important;
+    border:1px solid #A2A6AD;
+    box-shadow: 4px 12px 10px rgba(0, 0, 0, 0.25) !important;
+    color: #272B31 !important;
+    font: 12px "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    margin: 0 !important;
+    padding: 9px 10px 10px !important;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.25);   
+}
+
+
+/**
+* 
+*/
+.ui-buttonset .ui-button{
+    font-size: 12px;
+}
+.form-group .ui-spinner, 
+.form-group .ui-spinner > .ui-spinner-input{
+    width: 100%;
+    padding: 2px;
+}
+.ui-buttonset .ui-button.ui-state-active{
+    background-image:none;
+    background-color:#FFE4AF;
+    border-color:#FFBF4C;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) inset;
+}
+
+.chzn-container-multi .chzn-choices .search-field input{
+    height:inherit !important; 
+}
+.CodeMirror{
+    border: 1px solid #eee;
+    height: auto !important;
+    min-height: 200px;
+}
+.CodeMirror .CodeMirror-scroll {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+/* ##### Funny Boxes ##### */
+
+.funny-box:hover {
+    cursor: pointer;
+}
+
+.funny-box:hover > .funny-box-icon {
+    background-color: #3996cc;
+    color: #fff;
+}
+
+.funny-box > .funny-box-icon {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 75px;
+    height: 75px;
+    line-height: 90px;
+    border: 1px solid #3996cc;
+    border-radius: 50%;
+    color: #3996cc;
+}
+
+.funny-box > .funny-box-icon > i {
+    font-size: 35px;
+}
+
+.funny-box > .funny-box-text > h4 {
+    position: relative;
+    padding-bottom: 25px;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.funny-box > .funny-box-text > h4:after {
+    margin-left: -30px;
+    left: 50%;
+    background-color: #3996cc;
+    width: 60px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    display: inline-block;
+    max-width: 100%;
+    bottom: -1px;
+}
+
+.funny-box > .funny-box-text > p {
+    font-size: 18px;
+}
+
+@media (min-width: 767px) {
+    .funny-box > .funny-box-text > p {
+        font-size: 15px;
+    }
+
+}
+.funny-box.not-right-column {
+    padding-bottom: 40px;
+}
+
+@media (min-width: 767px) {
+    .funny-box.not-right-column {
+        padding-bottom: 0px;
+    }
+}
+
+@media (min-width: 1023px) {
+    .funny-box.not-right-column:before {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        height: 90%;
+        width: 1px;
+        right: -1px;
+        top: 5%;
+        background: -moz-linear-gradient(top, rgba(57, 150, 204, 0) 0%, rgba(57, 150, 204, 0.9) 15%, rgba(57, 150, 204, 0.9) 85%, rgba(57, 150, 204, 0) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(57, 150, 204, 0)), color-stop(15%, rgba(57, 150, 204, 0.9)), color-stop(85%, #dddddd), color-stop(100%, rgba(57, 150, 204, 0)));
+        background: -webkit-linear-gradient(top, rgba(57, 150, 204, 0) 0%, rgba(57, 150, 204, 0.9) 15%, rgba(57, 150, 204, 0.9) 85%, rgba(57, 150, 204, 0) 100%);
+        background: -o-linear-gradient(top, rgba(57, 150, 204, 0) 0%, rgba(57, 150, 204, 0.9) 15%, rgba(57, 150, 204, 0.9) 85%, rgba(57, 150, 204, 0) 100%);
+        background: -ms-linear-gradient(top, rgba(57, 150, 204, 0) 0%, rgba(57, 150, 204, 0.9) 15%, rgba(57, 150, 204, 0.9) 85%, rgba(57, 150, 204, 0) 100%);
+        background: linear-gradient(to bottom, rgba(57, 150, 204, 0) 0%, rgba(57, 150, 204, 0.9) 15%, rgba(57, 150, 204, 0.9) 85%, rgba(57, 150, 204, 0) 100%);
+    }
+}
+
+
+/* ##### Funny Boxes Float Shadow Effect ##### */
+
+.funny-box.float-shadow:hover > .funny-box-icon {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.funny-box.float-shadow:hover > .funny-box-icon:before {
+    opacity: 1;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+}
+
+.funny-box.float-shadow > .funny-box-icon {
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.funny-box.float-shadow > .funny-box-icon:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+}
+/* ##### Funny Boxes ##### */
+
+.funny-box:hover {
+    cursor: pointer;
+}
+
+.funny-box:hover > .funny-box-icon {
+    background-color: #3996cc;
+    color: #fff;
+}
+
+.funny-box > .funny-box-icon {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 75px;
+    height: 75px;
+    line-height: 90px;
+    border: 1px solid #3996cc;
+    border-radius: 50%;
+    color: #3996cc;
+}
+
+.funny-box > .funny-box-icon > i {
+    font-size: 35px;
+}
+
+.funny-box > .funny-box-text > h4 {
+    position: relative;
+    padding-bottom: 25px;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.funny-box > .funny-box-text > h4:after {
+    margin-left: -30px;
+    left: 50%;
+    background-color: #3996cc;
+    width: 60px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    display: inline-block;
+    max-width: 100%;
+    bottom: -1px;
+}
+
+.funny-box > .funny-box-text > p {
+    font-size: 18px;
+}
+
+@media (min-width: 767px) {
+    .funny-box > .funny-box-text > p {
+        font-size: 15px;
+    }
+
+}
+.funny-box.not-right-column {
+    padding-bottom: 40px;
+}
+
+@media (min-width: 767px) {
+    .funny-box.not-right-column {
+        padding-bottom: 0px;
+    }
+}
+
+@media (min-width: 1023px) {
+    .funny-box.not-right-column:before {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        height: 90%;
+        width: 1px;
+        right: -1px;
+        top: 5%;
+        background: -moz-linear-gradient(top, rgba(57, 150, 204, 0) 0%, rgba(57, 150, 204, 0.9) 15%, rgba(57, 150, 204, 0.9) 85%, rgba(57, 150, 204, 0) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(57, 150, 204, 0)), color-stop(15%, rgba(57, 150, 204, 0.9)), color-stop(85%, #dddddd), color-stop(100%, rgba(57, 150, 204, 0)));
+        background: -webkit-linear-gradient(top, rgba(57, 150, 204, 0) 0%, rgba(57, 150, 204, 0.9) 15%, rgba(57, 150, 204, 0.9) 85%, rgba(57, 150, 204, 0) 100%);
+        background: -o-linear-gradient(top, rgba(57, 150, 204, 0) 0%, rgba(57, 150, 204, 0.9) 15%, rgba(57, 150, 204, 0.9) 85%, rgba(57, 150, 204, 0) 100%);
+        background: -ms-linear-gradient(top, rgba(57, 150, 204, 0) 0%, rgba(57, 150, 204, 0.9) 15%, rgba(57, 150, 204, 0.9) 85%, rgba(57, 150, 204, 0) 100%);
+        background: linear-gradient(to bottom, rgba(57, 150, 204, 0) 0%, rgba(57, 150, 204, 0.9) 15%, rgba(57, 150, 204, 0.9) 85%, rgba(57, 150, 204, 0) 100%);
+    }
+}
+
+
+/* ##### Funny Boxes Float Shadow Effect ##### */
+
+.funny-box.float-shadow:hover > .funny-box-icon {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.funny-box.float-shadow:hover > .funny-box-icon:before {
+    opacity: 1;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+}
+
+.funny-box.float-shadow > .funny-box-icon {
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.funny-box.float-shadow > .funny-box-icon:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+}
+.table .form-group{
+    margin-bottom: 0;
+}
+.table tr.ui-sortable-placeholder{
+    background-color: #fcf8e3;
+}
+a.btn-danger{
+    color: #fff;    
+}
+.align-middle,
+.table > tbody > tr > td.align-middle{
+    vertical-align: middle;
+}
+
+.menu-help{
+    display: block;
+    font-size: 10px;
+    font-style: italic;
+    width: 150px;
+    margin-top: 6px;
+}
+.maze-dialog .admin-tabs-default.ui-tabs .ui-tabs-panel{
+    border: none;
+}
+.marker-widget{
+    border: 2px dashed #FFBC44;
+    padding: 2px;
+    position: relative;    
+}
+.marker-widget-title{
+    background-color: #ffe4af;
+    color: #D18400;
+    padding: 10px;
+    font-size: 12px;
+}
+.maze-list-trumb-radio .thumbnail{
+    text-align: center;
+    padding: 10px;
+}
+.maze-list-trumb-radio .caption{
+    margin-bottom: 0;
+}
+.checkbox .inline-check{
+    display: inline-block;
+    vertical-align: middle;
+}

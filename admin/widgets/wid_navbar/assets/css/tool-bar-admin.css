@@ -1,0 +1,138 @@
+body{
+    margin:0;
+    padding:0;
+}
+body a:hover{
+    text-decoration:none;
+}
+.tool-bar-admin{
+    margin:0;
+    padding:0;
+    min-width:700px;
+    overflow:hidden;
+    position:relative;
+}
+.tool-bar-admin,
+.tool-bar-admin a{
+    color:#dde7e9;
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.tool-bar-admin a:hover{
+    color:#dde7e9;
+}
+.tool-bar-admin{
+    height:49px;
+    width:100%;
+    background-image:url('../images/admin-panel-sprite.png');
+    background-position:0 0;
+    clear: both;
+    overflow:hidden;
+    position:relative;
+}
+
+#logo-cms{
+    height: 35px;
+    width: 60px;
+    position: relative;
+    top:-10px;
+}
+.tbs-top-left, 
+.tbs-top-center{
+    float:left;
+}
+.tbs-top-left, 
+.tbs-top-center,
+.tbs-top-right{
+    padding-top:10px;
+}
+.tbs-top-right{
+    float:right;
+    padding-right:20px;
+}
+.tbs-top-left{
+    padding-left: 20px;
+}
+.btn-top-bar{
+    display:block;
+    float:left;
+    padding:9px 10px;	
+    line-height: 1em;
+    position:relative;
+    cursor:pointer;
+    margin-left:10px;
+    text-decoration:none;
+}
+.icon-top-bar{
+    display:inline-block;
+    vertical-align:middle;
+    width:16px;
+    height:16px;
+    margin-top: -2px;
+    background-image:url('../images/admin-panel-sprite.png');	
+    background-repeat:no-repeat;	
+}
+
+.btn-top-bar.active,
+.btn-top-bar:hover{
+    background-image:url('../images/admin-panel-sprite.png');
+}
+.btn-top-bar.active{
+    background-position:0 -207px;
+}
+.btn-top-bar:hover{
+    background-position: 0 -249px;
+}
+.btn-top-bar.active:after,
+.btn-top-bar:hover:after{
+    content:" ";
+    background-image:url('../images/admin-panel-sprite.png');
+    height: 30px;
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 2px;	
+}
+.btn-top-bar.active:after{
+    background-position:-397px -207px;
+}
+.btn-top-bar:hover:after{
+    background-position:-397px -249px;
+}
+.btn-top-bar.tabs-bar{
+    padding-bottom:14px;
+    font-size:16px;
+    background-image:url('../images/admin-panel-sprite.png');	
+    background-position: 0 -107px;
+}
+.btn-top-bar.tabs-bar:after{
+    content:" ";
+    background-image:url('../images/admin-panel-sprite.png');	
+    background-position: -398px -107px;
+    height: 39px;
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 2px;	
+}
+.btn-top-bar.tabs-bar.active{
+    background-position: 0 -58px;
+    color:#281919;
+    text-shadow: 1px 1px 2px rgba(148, 154, 156, 0.5);
+}
+.btn-top-bar.tabs-bar.active:after{
+    background-position:-398px -58px;
+}
+.bar-icon-user{
+    background-position:-74px -347px;
+}
+.bar-icon-menu{
+    background-position:-230px -325px;
+}
+.bar-icon-bug{
+    background-position:-176px -345px;
+}
+.bar-icon-settings{
+    background-position:-205px -344px;
+}

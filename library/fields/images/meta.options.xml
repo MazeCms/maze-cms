@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>LIB_FIELDS_IMAGES_NAME</name>
+    <description></description>
+    <locked>0</locked>
+    <group>all</group>
+    <params>
+        <element type="ui\checkbox\Toggle" title="LIB_FIELDS_IMAGES_REQUIRED" name="required">
+            <settings>
+                <option value="0">LIB_USERINTERFACE_FIELD_NO</option>
+                <option value="1">LIB_USERINTERFACE_FIELD_YES</option>
+            </settings>
+        </element>
+        
+        <element type="ui\images\AddImage" title="LIB_FIELDS_IMAGES_PATHDEFAULT" name="pathDefault">
+            <settings>
+                <max_img>1</max_img>
+                <format>jpg</format>
+                <format>png</format>
+                <format>jpeg</format>
+                <format>gif</format>
+            </settings>
+        </element>
+        
+        <element type="ui\text\TextInput" title="LIB_FIELDS_IMAGES_TYPES" name="types">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        
+        <element type="ui\text\InputSpinner" title="LIB_FIELDS_IMAGES_MINWIDTH" name="minWidth">
+            <settings>
+                <min>1</min>
+                <max>10000</max>
+            </settings>          
+        </element>
+        
+        <element type="ui\text\InputSpinner" title="LIB_FIELDS_IMAGES_MAXWIDTH" name="maxWidth">
+            <settings>
+                <min>1</min>
+                <max>10000</max>
+            </settings>
+        </element>
+        
+        <element type="ui\text\InputSpinner" title="LIB_FIELDS_IMAGES_MINHEIGTH" name="minHeight">
+            <settings>
+                <min>1</min>
+                <max>10000</max>
+            </settings>
+        </element>
+        
+        <element type="ui\text\InputSpinner" title="LIB_FIELDS_IMAGES_MAXHEIGTH" name="maxHeight">
+            <settings>
+                <min>1</min>
+                <max>10000</max>
+            </settings>
+        </element>
+    </params>
+	
+</metaOptions>

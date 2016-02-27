@@ -1,0 +1,591 @@
+.maze-grid{
+    font-family:arial,tahoma,helvetica,sans-serif;
+    position:relative;
+}
+.maze-grid-header{
+    background-image:url('./images/hd-bg.png');
+    background-position:center;
+    background-repeat:repeat-x;	
+    min-height:33px;
+}
+.hmenu-asc{
+    background-image:url('./images/hmenu-asc.gif');
+}
+.hmenu-desc{
+    background-image:url('./images/hmenu-desc.gif');
+}
+.maze-grid-wrapp{
+    border:1px solid #808080;
+    position:relative;
+    overflow-x: auto;
+}
+.maze-grid-header table,
+.maze-grid-content table,
+.maze-grid-footer table{
+    table-layout: fixed;
+    border-collapse:separate;
+}
+.maze-grid-header td.maze-grid-header-cell-first{
+    border-left: 0 none;
+}
+.maze-grid-header td.maze-grid-header-cell-last{
+    border-right: 0 none;
+}
+.maze-grid-header td,
+.maze-grid-content td{
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+.maze-grid-header td{
+    font-size: 12px;
+    color: #F0F0F0;
+    text-align:left;
+    text-shadow: 0 -1px 0 #363636;
+    border-left: 1px solid #969696;
+    border-right: 1px solid #464646;
+    vertical-align: middle;
+    padding-left:0 !important;
+    margin-left:0 !important;
+}
+.maze-grid-header tr{
+    padding-left:0 !important;
+    margin-left:0 !important;
+}
+.maze-grid-header-innert{
+    font-weight: bold;
+    padding: 12px 18px 12px 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position:relative;
+    cursor:pointer;
+    margin-left:0 !important;
+}
+.maze-grid-content-innert{
+    padding: 12px 18px 12px 5px;
+}
+.maze-grid-group-innert{
+    padding: 12px 18px 12px 5px;
+}
+.maze-grid-group-row .maze-grid-group-innert{
+    background-color: #F5F5F6;
+    color:#82A73D;
+    border-top: 1px solid #82A73D;
+}
+.maze-grid-group-toggle{
+    display:inline-block;
+    height:16px;
+    width:16px;
+    vertical-align:middle;
+    background-image:url('./images/group-expand.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    margin-right:8px;
+}
+.maze-grid-group-toggle.maze-grid-group-open{
+    background-image:url('./images/group-collapse.png');
+}
+.maze-grid-footer-innert{
+    padding:8px;
+    font-size:12px;
+}
+.maze-grid-header-arr{
+    display:block;
+    position:absolute;
+    width:14px;
+    height:100%;
+    top:0;
+    left:100%;
+    margin-left:-14px;	
+    background-repeat:no-repeat;
+}
+.maze-grid-header-hover .maze-grid-header-arr{
+    background-image:url('./images/hd-btn.gif');
+    background-position:0 center ;
+}
+.maze-grid-content tr:nth-child(even){
+    background-color:#EFEFEF;	
+}
+.maze-grid-content tr:nth-child(odd){
+    background-color:#FFF;	
+}
+.maze-grid-header-hover, 
+.maze-grid-header-active{
+    background-image:url('./images/hd-bg-over.png');
+}
+.maze-grid-header-hover-arr .maze-grid-header-arr{
+    background-image:url('./images/hd-btn.gif');
+    background-position:-14px center ;
+}
+.maze-grid-sort-asc .maze-grid-header-innert,
+.maze-grid-sort-desc .maze-grid-header-innert{
+    background-position:center -4px;
+    background-repeat: no-repeat;
+}
+.maze-grid-sort-asc .maze-grid-header-innert{
+    background-image:url('./images/sort-asc.gif');
+}
+.maze-grid-sort-desc .maze-grid-header-innert{
+    background-image:url('./images/sort-desc.gif');
+}
+.maze-grid-content{
+    position:relative;
+}
+.maze-grid-content,
+.maze-grid-header,
+.maze-grid-footer{
+    width:100%;
+}
+.maze-grid-footer-right{
+    text-align:right;
+    vertical-align: middle;
+}
+.maze-grid-footer-right select{
+    width:60px;
+}
+.maze-grid-btn{
+    display:inline-block;
+    height:16px;
+    width:16px;
+    padding:2px;
+    background-position:center;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    border:1px solid transparent;
+    border-radius:4px;
+    vertical-align:middle;
+}
+.maze-grid-btn:hover{
+    border-color:rgba(0,0,0,0.5);
+    box-shadow: 0 0 2px rgba(0,0,0,0.5) inset;
+}
+.maze-grid-btn:active{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3) inset;
+}
+.maze-grid-btn.disable-page:hover{
+    border-color:transparent;
+    box-shadow: 0 0 0  transparent;
+}
+.maze-grid-footer-center{
+    text-align:center;
+}
+.maze-grid-page-first{
+    background-image:url('./images/page-first.png');
+}
+.maze-grid-page-previous{
+    background-image:url('./images/page-prev.png');
+}
+.maze-grid-page-next{
+    background-image:url('./images/page-next.png');
+}
+.maze-grid-page-last{
+    background-image:url('./images/page-last.png');
+}
+.maze-grid-btn.disable-page{
+    cursor:default;
+}
+.maze-grid-page-first.disable-page{
+    background-image:url('./images/page-first-disabled.png');	
+}
+.maze-grid-page-previous.disable-page{
+    background-image:url('./images/page-prev-disabled.png');	
+}
+.maze-grid-page-next.disable-page{
+    background-image:url('./images/page-next-disabled.png');	
+}
+.maze-grid-page-last.disable-page{
+    background-image:url('./images/page-last-disabled.png');	
+}
+.maze-grid-page-number{
+    height:16px;
+    width:40px;
+    padding:4px;
+    border:1px solid #BABABA;
+    vertical-align:middle;
+    text-align: center;
+    border-radius:4px;
+    box-sizing: content-box;
+}
+.maze-grid-footer-list-page select{
+   box-sizing: content-box;
+   border:1px solid #BABABA;
+   vertical-align:middle;
+   border-radius:4px;
+   padding:4px;
+}
+.maze-grid-page-size{
+    vertical-align:middle;
+    display:inline-block;
+}
+.maze-grid-page-number:focus{
+    border:1px solid #5897CE;
+    box-shadow: 0 0 4px rgba(88,151,206,1);
+}
+.maze-grid-btn-update{
+    background-image:url('./images/refresh.png');	
+}
+.maze-grid-footer-info-page{
+    margin-left:4px;
+}
+.maze-grid-resize-col-helper{
+    position:absolute;
+    background-color: #808080;
+    top:0;
+    left:0;
+    width:1px;
+    height:100%;
+}
+.maze-grid-resize-col-handle{
+    position:absolute;
+    height:100%;
+    width:2px;
+    top:0;
+    left:100%;
+    margin-left:-2px;
+    cursor:col-resize;
+}
+.maze-grid td{
+    overflow:hidden;
+    vertical-align:middle;
+}
+.maze-grid .mCSB_scrollTools.mCSB_scrollTools_horizontal{
+    margin: 0 4px;
+}
+.maze-grid-helper-empty-col{
+    position:absolute;
+    border:1px dashed  #FFFFFF;
+}
+.maze-grid-helper-empty-td{
+    border:1px dashed  #FFFFFF;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.maze-grid-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgba(255, 255, 255, 0.5);
+    display:none;
+}
+.maze-grid-preload{
+    background-color: #F5F5F6;
+    border: 1px solid rgba(100, 103, 106, 0.176);
+    border-radius: 2px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    position:absolute;
+    padding:8px;
+    display:none;
+    z-index:100;
+}
+.maze-grid-preload-icon,
+.maze-grid-preload-text{
+    display:inline-block;
+    vertical-align:middle;
+    font-size:16px;
+}
+.maze-grid-preload-icon{
+    background-image:url('./images/4.gif');
+    background-position:center;
+    background-repeat:no-repeat;
+    width:24px;
+    height:24px;
+    margin-right:8px;
+}
+
+.maze-grid-checkbox{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background-image:url('./images/checkbox.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    vertical-align:middle;
+}
+span.maze-grid-checked{
+    background-image:url('./images/checkbox-active.png');
+}
+.maze-grid-content tr.maze-grid-row-active{
+    background-color:#FFE4AF;
+}
+.maze-grid-tree-indenter{
+    display:inline-block;
+    width:16px;
+    min-height: 16px;
+    box-sizing: content-box;
+}
+.maze-grid-tree-folder{
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 0.2em 0 0.2em 1.5em;
+    background-image: url("./images/blue-folder-horizontal.png");
+}
+.maze-grid-tree-arr{
+    display:inline-block;
+    width:16px;
+    height:16px;
+    background-repeat: no-repeat;
+    background-position:center;
+    vertical-align:middle;
+}
+.maze-grid-tree-collapsed  .maze-grid-tree-arr{
+    background-image: url("./images/collapsed.png");
+}
+.maze-grid-tree-expanded .maze-grid-tree-arr{
+    background-image: url("./images/expanded.png");
+}
+.maze-grid-tree-load{
+    background-image: url("./images/5.GIF");
+    background-position:center;
+    background-repeat:no-repeat;	
+}
+.maze-grid-movesort-placeholder{
+    background-color:#FFE4AF !important;
+}
+.maze-grid-movesort-disable{
+    opacity:0.5;
+    background-color:#CCC;
+}
+
+.maze-grid-movesort-helper{
+    width:100px;
+    top:0;
+    left:0;
+    position:absolute;
+    background-color: #F5F5F6;
+    border: 1px solid rgba(100, 103, 106, 0.176);
+    border-radius: 2px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    padding:8px;
+    padding-left:24px;
+    background-repeat:no-repeat;
+    background-position:4px ; 
+    background-image: url("./images/blue-folder-horizontal.png");
+}
+.maze-grid-movesort-placeholder-tree{
+    top:0;
+    left:0;
+    position:absolute;
+    height:2px;
+    background-color:#888888;
+}
+.maze-grid-movesort-placeholder-tree > span{
+    background-image: url("./images/page-next.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    left: 0;
+    margin-left: -6px;
+    margin-top: -9px;
+    position: absolute;
+    vertical-align: middle;
+    width: 20px;
+}
+.maze-grid-content-innert-tree{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.maze-grid .context-menu-maze{
+    font-family: "Times New Roman", Times, serif;
+    font-size:14px;
+}
+.ui-tooltip.maze-grid-tooltip{
+    padding: 8px;
+    position: absolute;
+    z-index: 9999;
+    max-width: 300px;
+    background: linear-gradient(to bottom, rgba(227, 233, 234, 0.95), rgba(198, 210, 213, 0.95));
+    border-radius: 3px !important;
+    border:1px solid #A2A6AD;
+    box-shadow: 4px 12px 10px rgba(0, 0, 0, 0.25) !important;
+    color: #272B31 !important;
+    font: 12px "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    margin: 0 !important;
+    padding: 9px 10px 10px !important;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.25);   
+}
+.ui-tooltip.maze-grid-tooltip  h1{
+    display:block;
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:8px;
+    margin-top: 0;
+}
+.maze-grid-tooltip > .arrow{
+    height:11px;
+    width:20px;
+    background-repeat:no-repeat;
+    background-image:url('./images/arrow-tooltip.png');
+    position:absolute;
+}
+.maze-grid-tooltip > .arrow.bottom.center{
+    background-position:0 -13px;
+    top:100%;
+}
+.maze-grid-tooltip > .arrow.bottom.right{
+    background-position:0 -13px;
+    top:100%;
+}
+.maze-grid-tooltip > .arrow.bottom.left
+{
+    background-position:0 -13px;
+    top:100%;
+}
+.maze-grid-tooltip > .arrow.top.center{
+    background-position:0 0;
+    top:0;
+    margin-top:-11px;
+}
+.maze-grid-tooltip >  .arrow.top.right{
+    background-position:0 0;
+    top:0;
+    margin-top:-11px;
+}
+.maze-grid-tooltip > .arrow.top.left{
+    background-position:0 0;
+    top:0;
+    margin-top:-11px;
+}
+
+.maze-grid-content-btn{
+    display:inline-block;
+    height:16px;
+    width:16px;
+    padding:4px;
+    background-position:center;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    border:1px solid transparent;
+    border-radius:4px;
+    vertical-align:middle;
+    background-repeat:no-repeat;
+    background-position:center;
+    box-sizing:content-box;
+}
+.maze-grid-content-btn:hover{
+    border-color:rgba(0,0,0,0.5);
+    box-shadow: 0 0 1px rgba(0,0,0,0.5) inset;
+}
+.maze-grid-content-btn:active{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3) inset;
+}
+.maze-grid-edits-inputtext{
+    padding:4px;
+}
+.menu-icon-edits{
+    background-image:url('./images/pencil.png');
+}
+.menu-icon-folder-horizontal{
+    background-image:url('./images/blue-folder-horizontal.png');
+}
+.menu-icon-wrench{
+    background-image:url('./images/wrench.png');
+}
+.menu-icon-refresh{
+    background-image:url('./images/refresh.png');
+}
+.menu-icon-copy{
+    background-image:url('./images/document-copy.png');
+}
+.menu-icon-trash{
+    background-image:url('./images/trash.png');
+}
+.menu-icon-lock{
+    background-image:url('./images/lock.png');
+}
+.menu-icon-unlock{
+    background-image:url('./images/lock-unlock.png');
+}
+.menu-icon-home-minus{
+    background-image:url('./images/home--minus.png');
+}
+.menu-icon-home-plus{
+    background-image:url('./images/home--plus.png');
+}
+.menu-icon-eye{
+    background-image:url('./images/eye.png');
+}
+.menu-icon-eye-close{
+    background-image:url('./images/eye-close.png');
+}
+.menu-icon-star{
+    background-image:url('./images/star.png');
+}
+.menu-icon-star-empty{
+    background-image:url('./images/star-empty.png');
+}
+.menu-icon-compress{
+    background-image:url('./images/compress.png');
+}
+.menu-icon-mail-send{
+    background-image:url('./images/mail-send.png');
+}
+.ui-tooltip.error-input{
+    background-color: #F2DEDE !important;
+    border-color: #EED3D7;
+    color: #B94A48;
+    border-radius: 4px;
+    padding: 10px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-image:none;
+}
+.items-menu-context{
+    padding:8px;
+}
+
+.sort-icon-handle{
+    display:inline-block;
+    height:16px;
+    width:16px;
+    background-image:url('./images/sort.png');
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.menu-icon-handle{
+    display:inline-block;
+    height:16px;
+    width:16px;
+    background-image:url('./images/ui-menu-blue.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.maze-grid-content-context > .arrow{
+    height:11px;
+    width:20px;
+    background-repeat:no-repeat;
+    background-image:url('./images/arrow-menu-default.png');
+    position:absolute;
+}
+
+.maze-grid-content-context > .arrow.bottom.center{
+    background-position:0 -13px;
+    top:100%;
+}
+.maze-grid-content-context > .arrow.bottom.right{
+    background-position:0 -13px;
+    top:100%;
+}
+.maze-grid-content-context > .arrow.bottom.left
+{
+    background-position:0 -13px;
+    top:100%;
+}
+.maze-grid-content-context > .arrow.top.center{
+    background-position:0 0;
+    top:0;
+    margin-top:-11px;
+}
+.maze-grid-content-context >  .arrow.top.right{
+    background-position:0 0;
+    top:0;
+    margin-top:-11px;
+}
+.maze-grid-content-context > .arrow.top.left{
+    background-position:0 0;
+    top:0;
+    margin-top:-11px;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>LIB_FIELDS_NUMBER_NAME</name>
+    <description></description>
+    <locked>0</locked>
+    <group>all</group>
+    <params>
+        <element type="ui\checkbox\Toggle" title="LIB_FIELDS_NUMBER_SETTINGS_REQUIRED_LABEL" name="required">
+            <settings>
+                <option value="0">LIB_USERINTERFACE_FIELD_NO</option>
+                <option value="1">LIB_USERINTERFACE_FIELD_YES</option>
+            </settings>
+        </element>
+        <element type="ui\text\TextInput" title="LIB_FIELDS_NUMBER_SETTINGS_MIN_LABEL" name="min">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        <element type="ui\text\TextInput" title="LIB_FIELDS_NUMBER_SETTINGS_MAX_LABEL" name="max">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        <element type="ui\text\InputSpinner" title="LIB_FIELDS_NUMBER_SETTINGS_ROUND_LABEL" name="round">
+            <settings>
+                <min>0</min>
+                <max>5</max>
+            </settings>
+        </element>
+    </params>
+	
+</metaOptions>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>WID_MENU_NAME</name>
+    <description>WID_MENU_DES</description>
+    <copyright>WID_MENU_COPYRIGHT</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>WID_MENU_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>08.12.2013</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+    <params>
+		
+        <accordion title="WID_MENU_PARAMS_TABS_MENU" id="other">
+            <element type="ui\tmp\WidgetTmp" title="WID_MENU_PARAMS_PARAMS_LAYOUT" name="layout">
+                <front>1</front>
+                <widgetName>menu</widgetName>
+                <options>
+                    <prompt>....</prompt>
+                </options>
+            </element>
+			
+            <element type="ui\menu\ItemsSelect" title="WID_MENU_PARAMS_MENUGROUP" name="id_group">
+                <options>
+                    <prompt>....</prompt>
+                </options>
+            </element>
+            
+            <element type="ui\text\InputSpinner" title="WID_MENU_PARAMS_LEVELITEMS" name="level" default="0">
+                <settings>
+                    <min>0</min>
+                    <max>50</max>
+                    <step>1</step>
+                </settings>
+            </element>
+            
+            <element type="ui\menu\ItemsTree" title="WID_MENU_PARAMS_LEVELITEMSSTART" name="parent_id"></element>
+			
+            <element type="ui\checkbox\Toggle" title="WID_MENU_PARAMS_SUBITEMS" name="subitem" default="1">
+                <settings>
+                    <option value="0">НЕТ</option>
+                    <option value="1">ДА</option>
+                </settings>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_MENU_PARAMS_ACTIVEPARENT" name="active_parent" default="active-parent">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_MENU_PARAMS_ACTIVETARGET" name="active_target" default="active-target">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_MENU_PARAMS_PARAMS_CSSCLASS" name="css_class">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_MENU_PARAMS_PARAMS_CSSID" name="css_id">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+        </accordion>
+			
+    </params>
+	
+</metaOptions>

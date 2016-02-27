@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <title>EXP_CONTENTS_MEATVIEW_TYPE_TITLE</title>
+    <description></description>
+    <layoutset>
+        <layout>
+            <title>EXP_CONTENTS_MEATVIEW_TYPE_LAYOUT_TITLE</title>
+            <description>EXP_CONTENTS_MEATVIEW_TYPE_LAYOUT_TITLE</description>
+            <layout>default</layout>
+            <controller>type</controller>
+        </layout>        
+    </layoutset>
+</metaOptions>

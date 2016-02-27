@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>Заголовок</name>
+    <description></description>
+    <locked>1</locked>
+    <group>all</group>
+    <params>
+        <element type="ui\text\TextInput" title="Длина поля" name="length">
+            <options>
+                <class>form-control</class>
+                <style>width:100px;</style>
+            </options>
+        </element>
+    </params>
+	
+</metaOptions>

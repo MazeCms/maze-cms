@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    
+    <params>
+        
+        <element type="ui\term\AllDictTermTree" title="Термины словаря" name="term_id">
+            <options>
+                <multiple>multiple</multiple>
+            </options>
+        </element>
+        
+    </params>
+   
+</metaOptions>

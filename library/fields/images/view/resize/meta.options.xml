@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>LIB_FIELDS_IMAGES_VIEW_RESIZE_NAME</name>
+    <view>resize</view>
+    <description></description>
+    
+    <params>
+        <element type="ui\text\TextInput" title="LIB_FIELDS_IMAGES_VIEW_RESIZE_WIDTH" name="width">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        <element type="ui\text\TextInput" title="LIB_FIELDS_IMAGES_VIEW_RESIZE_HEIGHT" name="height">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+    </params>	
+</metaOptions>

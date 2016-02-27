@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>PLG_CAPTCHA_CAPTCHAVER_NAME</name>
+    <description>PLG_CAPTCHA_CAPTCHAVER_DESCRIPTION</description>
+    <copyright>PLG_CAPTCHA_CAPTCHAVER_COPYRIGHT</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <group>captcha</group>
+    <author>PLG_CAPTCHA_CAPTCHAVER_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>20.03.2014</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+    <params>		
+        <tabs title="PLG_CAPTCHA_CAPTCHAVER_PARAMS" id="other">
+			
+            <element type="InputText" title="PLG_CAPTCHA_CAPTCHAVER_LENGTH" name="lengthcode" default="5">
+                <settings>
+                    <style>width:100px;</style>
+                </settings>
+            </element>
+			
+            <element type="InputText" title="PLG_CAPTCHA_CAPTCHAVER_WIDTH" name="width" default="160">
+                <settings>
+                    <style>width:100px;</style>
+                    <append>px</append>
+                </settings>
+            </element>
+			
+            <element type="InputText" title="PLG_CAPTCHA_CAPTCHAVER_HEIGHT" name="height" default="80">
+                <settings>
+                    <style>width:100px;</style>
+                    <append>px</append>
+                </settings>
+            </element>
+			
+            <element type="Radiobtn" title="PLG_CAPTCHA_CAPTCHAVER_HEIGHT" name="symbols" default="number">
+                <settings>
+                    <options>
+                        <option value="letters">PLG_CAPTCHA_CAPTCHAVER_LETTERS</option>
+                        <option value="number">PLG_CAPTCHA_CAPTCHAVER_NUMBER</option>
+                    </options>
+                </settings>
+            </element>
+			
+            <element type="Radiobtn" title="PLG_CAPTCHA_CAPTCHAVER_WHITE_NOISE" name="white_noise" default="1">
+                <settings>
+                    <options>
+                        <option value="0">PLG_CAPTCHA_CAPTCHAVER_NO</option>
+                        <option value="1">PLG_CAPTCHA_CAPTCHAVER_YES</option>
+                    </options>
+                </settings>
+            </element>
+			
+            <element type="Radiobtn" title="PLG_CAPTCHA_CAPTCHAVER_BLACK_NOISE" name="black_noise" default="1">
+                <settings>
+                    <options>
+                        <option value="0">PLG_CAPTCHA_CAPTCHAVER_NO</option>
+                        <option value="1">PLG_CAPTCHA_CAPTCHAVER_YES</option>
+                    </options>
+                </settings>
+            </element>
+			
+            <element type="Radiobtn" title="PLG_CAPTCHA_CAPTCHAVER_BACKGROUND" name="background" default="1">
+                <settings>
+                    <options>
+                        <option value="0">PLG_CAPTCHA_CAPTCHAVER_NO</option>
+                        <option value="1">PLG_CAPTCHA_CAPTCHAVER_YES</option>
+                    </options>
+                </settings>
+            </element>
+			
+        </tabs>
+    </params>
+</metaOptions>

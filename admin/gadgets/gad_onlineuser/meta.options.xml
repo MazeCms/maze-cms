@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>GAD_ONLINEUSER_NAME</name>
+    <description>GAD_ONLINEUSER_DES</description>
+    <copyright>no copy, no paste</copyright>
+    <license>General Public License</license>
+    <group>system</group>
+    <version>1.0</version>
+    <author>Николай</author>
+    <email>info@maze-studio.ru</email>
+    <created>08.12.2013</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+    <params>
+        <element type="ui\text\TextInput" title="GAD_ONLINEUSER_SETTINGS_SIZE_LABEL"  name="size" default="8">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        <element type="ui\checkbox\Toggle" title="GAD_ONLINEUSER_BROWSER_LABEL" name="showbrowser" default="1">
+            <settings>
+                 <option value="1">GAD_ONLINEUSER_SHOW</option>
+                 <option value="0">GAD_ONLINEUSER_HIDE</option>
+            </settings>
+        </element>
+        <element type="ui\checkbox\Toggle" title="GAD_ONLINEUSER_TIME_LABEL" name="showtime" default="1">
+            <settings>
+                 <option value="1">GAD_ONLINEUSER_SHOW</option>
+                 <option value="0">GAD_ONLINEUSER_HIDE</option>
+            </settings>
+        </element>
+        <element type="ui\checkbox\Toggle" title="GAD_ONLINEUSER_OS_LABEL" name="showos" default="1">
+            <settings>
+                 <option value="1">GAD_ONLINEUSER_SHOW</option>
+                 <option value="0">GAD_ONLINEUSER_HIDE</option>
+            </settings>
+        </element>
+        <element type="ui\checkbox\Toggle" title="ip" name="showip" default="1">
+            <settings>
+                 <option value="1">GAD_ONLINEUSER_SHOW</option>
+                 <option value="0">GAD_ONLINEUSER_HIDE</option>
+            </settings>
+        </element>
+        <element type="ui\checkbox\Toggle" title="GAD_ONLINEUSER_ALLUSER_LABEL" name="showalluser" default="1">
+            <settings>
+                 <option value="1">GAD_ONLINEUSER_SHOW</option>
+                 <option value="0">GAD_ONLINEUSER_HIDE</option>
+            </settings>
+        </element>
+    </params>  
+</metaOptions>

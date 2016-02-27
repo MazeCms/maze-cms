@@ -1,0 +1,2230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime>
+    <type>
+        <value>application/andrew-inset</value>
+        <title>ez</title>
+    </type>
+
+    <type>
+        <value>application/chemtool</value>
+        <title>cht</title>
+    </type>
+
+    <type>
+        <value>application/dicom</value>
+        <title>dcm</title>
+    </type>
+
+    <type>
+        <value>application/docbook+xml</value>
+        <title>docbook</title>
+    </type>
+
+    <type>
+        <value>application/ecmascript</value>
+        <title>ecma</title>
+    </type>
+
+    <type>
+        <value>application/flash-video</value>
+        <title>flv</title>
+    </type>
+
+    <type>
+        <value>application/illustrator</value>
+        <title>ai</title>
+    </type>
+
+    <type>
+        <value>application/javascript</value>
+        <title>js</title>
+    </type>
+
+    <type>
+        <value>application/mac-binhex4</value>
+        <title>0</title>
+    </type>
+
+    <type>
+        <value>application/mathematica</value>
+        <title>nb</title>
+    </type>
+
+    <type>
+        <value>application/msword</value>
+        <title>doc</title>
+    </type>
+
+    <type>
+        <value>application/octet-stream</value>
+        <title>bin</title>
+    </type>
+
+    <type>
+        <value>application/oda</value>
+        <title>oda</title>
+    </type>
+
+    <type>
+        <value>application/ogg</value>
+        <title>ogg</title>
+    </type>
+
+    <type>
+        <value>application/pdf</value>
+        <title>pdf</title>
+    </type>
+
+    <type>
+        <value>application/pgp</value>
+        <title>pgp</title>
+    </type>
+
+    <type>
+        <value>application/pgp-encrypted</value>
+        <title>pgp gpg</title>
+    </type>
+
+    <type>
+        <value>application/pgp-keys</value>
+        <title>skr pkr</title>
+    </type>
+
+    <type>
+        <value>application/pgp-signature</value>
+        <title>sig</title>
+    </type>
+
+
+    <type>
+        <value>application/pkcs7-signature</value>
+        <title>p7s</title>
+    </type>
+
+    <type>
+        <value>application/postscript</value>
+        <title>ps</title>
+    </type>
+
+    <type>
+        <value>application/rtf</value>
+        <title>rtf</title>
+    </type>
+
+    <type>
+        <value>application/sdp</value>
+        <title>sdp</title>
+    </type>
+
+    <type>
+        <value>application/smil</value>
+        <title>smil smi sml</title>
+    </type>
+
+    <type>
+        <value>application/stuffit</value>
+        <title>sit</title>
+    </type>
+
+    <type>
+        <value>application/vnd.corel-draw</value>
+        <title>cdr</title>
+    </type>
+
+    <type>
+        <value>application/vnd.hp-hpgl</value>
+        <title>hpgl</title>
+    </type>
+
+    <type>
+        <value>application/vnd.hp-pcl</value>
+        <title>pcl</title>
+    </type>
+
+    <type>
+        <value>application/vnd.lotus-1-2-3</value>
+        <title>123 wk1 wk3 wk4 wks</title>
+    </type>
+
+    <type>
+        <value>application/vnd.mozilla.xul+xml</value>
+        <title>xul</title>
+    </type>
+
+    <type>
+        <value>application/vnd.ms-excel</value>
+        <title>xls xlc xll xlm xlw xla xlt xld</title>
+    </type>
+
+    <type>
+        <value>application/vnd.ms-powerpoint</value>
+        <title>ppz ppt pps pot</title>
+    </type>
+
+    <type>
+        <value>application/vnd.oasis.opendocument.chart</value>
+        <title>odc</title>
+    </type>
+
+    <type>
+        <value>application/vnd.oasis.opendocument.database</value>
+        <title>odb</title>
+    </type>
+
+    <type>
+        <value>application/vnd.oasis.opendocument.formula</value>
+        <title>odf</title>
+    </type>
+
+    <type>
+        <value>application/vnd.oasis.opendocument.graphics</value>
+        <title>odg</title>
+    </type>
+
+    <type>
+        <value>application/vnd.oasis.opendocument.graphics-template</value>
+        <title>otg</title>
+    </type>
+
+    <type>
+        <value>application/vnd.oasis.opendocument.image</value>
+        <title>odi</title>
+    </type>
+
+    <type>
+        <value>application/vnd.oasis.opendocument.presentation</value>
+        <title>odp</title>
+    </type>
+
+    <type>
+        <value>application/vnd.oasis.opendocument.presentation-template</value>
+        <title>otp</title>
+    </type>
+
+    <type>
+        <value>application/vnd.oasis.opendocument.spreadsheet</value>
+        <title>ods</title>
+    </type>
+
+    <type>
+        <value>application/vnd.oasis.opendocument.spreadsheet-template</value>
+        <title>ots</title>
+    </type>
+
+    <type>
+        <value>application/vnd.oasis.opendocument.text</value>
+        <title>odt</title>
+    </type>
+
+    <type>
+        <value>application/vnd.oasis.opendocument.text-master</value>
+        <title>odm</title>
+    </type>
+
+    <type>
+        <value>application/vnd.oasis.opendocument.text-template</value>
+        <title>ott</title>
+    </type>
+
+    <type>
+        <value>application/vnd.oasis.opendocument.text-web</value>
+        <title>oth</title>
+    </type>
+
+    <type>
+        <value>application/vnd.palm</value>
+        <title>pdb</title>
+    </type>
+
+    <type>
+        <value>application/vnd.rn-realmedi</value>
+        <title>a</title>
+    </type>
+
+    <type>
+        <value>application/vnd.rn-realmedia</value>
+        <title>rm</title>
+    </type>
+
+    <type>
+        <value>application/vnd.rn-realmedia-secure</value>
+        <title>rms</title>
+    </type>
+
+    <type>
+        <value>application/vnd.rn-realmedia-vbr</value>
+        <title>rmvb</title>
+    </type>
+
+    <type>
+        <value>application/vnd.stardivision.calc</value>
+        <title>sdc</title>
+    </type>
+
+    <type>
+        <value>application/vnd.stardivision.chart</value>
+        <title>sds</title>
+    </type>
+
+    <type>
+        <value>application/vnd.stardivision.draw</value>
+        <title>sda</title>
+    </type>
+
+    <type>
+        <value>application/vnd.stardivision.impress</value>
+        <title>sdd sdp</title>
+    </type>
+
+    <type>
+        <value>application/vnd.stardivision.mail</value>
+        <title>smd</title>
+    </type>
+
+    <type>
+        <value>application/vnd.stardivision.math</value>
+        <title>smf</title>
+    </type>
+
+    <type>
+        <value>application/vnd.stardivision.writer</value>
+        <title>sdw vor sgl</title>
+    </type>
+
+    <type>
+        <value>application/vnd.sun.xml.calc</value>
+        <title>sxc</title>
+    </type>
+
+    <type>
+        <value>application/vnd.sun.xml.calc.template</value>
+        <title>stc</title>
+    </type>
+
+    <type>
+        <value>application/vnd.sun.xml.draw</value>
+        <title>sxd</title>
+    </type>
+
+    <type>
+        <value>application/vnd.sun.xml.draw.template</value>
+        <title>std</title>
+    </type>
+
+    <type>
+        <value>application/vnd.sun.xml.impress</value>
+        <title>sxi</title>
+    </type>
+
+    <type>
+        <value>application/vnd.sun.xml.impress.template</value>
+        <title>sti</title>
+    </type>
+
+    <type>
+        <value>application/vnd.sun.xml.math</value>
+        <title>sxm</title>
+    </type>
+
+    <type>
+        <value>application/vnd.sun.xml.writer</value>
+        <title>sxw</title>
+    </type>
+
+    <type>
+        <value>application/vnd.sun.xml.writer.global</value>
+        <title>sxg</title>
+    </type>
+
+    <type>
+        <value>application/vnd.sun.xml.writer.template</value>
+        <title>stw</title>
+    </type>
+
+    <type>
+        <value>application/vnd.wordperfect</value>
+        <title>wpd</title>
+    </type>
+
+    <type>
+        <value>application/x-abiword</value>
+        <title>abw abw.CRASHED abw.gz zabw</title>
+    </type>
+
+    <type>
+        <value>application/x-amipro</value>
+        <title>sam</title>
+    </type>
+
+    <type>
+        <value>application/x-anjuta-project</value>
+        <title>prj</title>
+    </type>
+
+    <type>
+        <value>application/x-applix-spreadsheet</value>
+        <title>as</title>
+    </type>
+
+    <type>
+        <value>application/x-applix-word</value>
+        <title>aw</title>
+    </type>
+
+    <type>
+        <value>application/x-arj</value>
+        <title>arj</title>
+    </type>
+
+    <type>
+        <value>application/x-asax</value>
+        <title>asax</title>
+    </type>
+
+    <type>
+        <value>application/x-ascx</value>
+        <title>ascx</title>
+    </type>
+
+    <type>
+        <value>application/x-ashx</value>
+        <title>ashx</title>
+    </type>
+
+    <type>
+        <value>application/x-asix</value>
+        <title>asix</title>
+    </type>
+
+    <type>
+        <value>application/x-asmx</value>
+        <title>asmx</title>
+    </type>
+
+    <type>
+        <value>application/x-asp</value>
+        <title>asp</title>
+    </type>
+
+    <type>
+        <value>application/x-axd</value>
+        <title>axd</title>
+    </type>
+
+    <type>
+        <value>application/x-bcpio</value>
+        <title>bcpio</title>
+    </type>
+
+    <type>
+        <value>application/x-bittorrent</value>
+        <title>torrent</title>
+    </type>
+
+    <type>
+        <value>application/x-blender</value>
+        <title>blender blend BLEND</title>
+    </type>
+
+    <type>
+        <value>application/x-bzip</value>
+        <title>bz bz2</title>
+    </type>
+
+    <type>
+        <value>application/x-bzip</value>
+        <title>bz2 bz</title>
+    </type>
+
+    <type>
+        <value>application/x-bzip-compressed-tar</value>
+        <title>tar.bz tar.bz2</title>
+    </type>
+
+    <type>
+        <value>application/x-bzip-compressed-tar</value>
+        <title>tar.bz tar.bz2 tbz tbz2</title>
+    </type>
+
+    <type>
+        <value>application/x-cd-image</value>
+        <title>iso</title>
+    </type>
+
+    <type>
+        <value>application/x-cgi</value>
+        <title>cgi</title>
+    </type>
+
+    <type>
+        <value>application/x-chess-pgn</value>
+        <title>pgn</title>
+    </type>
+
+    <type>
+        <value>application/x-chm</value>
+        <title>chm</title>
+    </type>
+
+    <type>
+        <value>application/x-cmbx</value>
+        <title>cmbx</title>
+    </type>
+
+    <type>
+        <value>application/x-compressed-tar</value>
+        <title>tar.gz tar.Z tgz taz</title>
+    </type>
+
+    <type>
+        <value>application/x-compressed-tar</value>
+        <title>tar.gz tgz</title>
+    </type>
+
+    <type>
+        <value>application/x-config</value>
+        <title>config</title>
+    </type>
+
+    <type>
+        <value>application/x-cpio</value>
+        <title>cpio</title>
+    </type>
+
+    <type>
+        <value>application/x-cpio-compressed</value>
+        <title>cpio.gz</title>
+    </type>
+
+    <type>
+        <value>application/x-csh</value>
+        <title>csh</title>
+    </type>
+
+    <type>
+        <value>application/x-cue</value>
+        <title>cue</title>
+    </type>
+
+    <type>
+        <value>application/x-dbase</value>
+        <title>dbf</title>
+    </type>
+
+    <type>
+        <value>application/x-dc-rom</value>
+        <title>dc</title>
+    </type>
+
+    <type>
+        <value>application/x-deb</value>
+        <title>deb</title>
+    </type>
+
+    <type>
+        <value>application/x-designer</value>
+        <title>ui</title>
+    </type>
+
+    <type>
+        <value>application/x-desktop</value>
+        <title>desktop kdelnk</title>
+    </type>
+
+    <type>
+        <value>application/x-devhelp</value>
+        <title>devhelp</title>
+    </type>
+
+    <type>
+        <value>application/x-dia-diagram</value>
+        <title>dia</title>
+    </type>
+
+    <type>
+        <value>application/x-disco</value>
+        <title>disco</title>
+    </type>
+
+    <type>
+        <value>application/x-dvi</value>
+        <title>dvi</title>
+    </type>
+
+    <type>
+        <value>application/x-e-theme</value>
+        <title>etheme</title>
+    </type>
+
+    <type>
+        <value>application/x-egon</value>
+        <title>egon</title>
+    </type>
+
+    <type>
+        <value>application/x-executable</value>
+        <title>exe</title>
+    </type>
+
+    <type>
+        <value>application/x-font-afm</value>
+        <title>afm</title>
+    </type>
+
+    <type>
+        <value>application/x-font-bdf</value>
+        <title>bdf</title>
+    </type>
+
+    <type>
+        <value>application/x-font-dos</value>
+        <title>font-dos</title>
+    </type>
+
+    <type>
+        <value>application/x-font-framemaker</value>
+        <title>framemaker</title>
+    </type>
+
+	
+    <type>
+        <value>application/x-font-linux-psf</value>
+        <title>psf</title>
+    </type>
+
+    <type>
+        <value>application/x-font-otf</value>
+        <title>otf</title>
+    </type>
+
+    <type>
+        <value>application/x-font-pcf</value>
+        <title>pcf</title>
+    </type>
+
+    <type>
+        <value>application/x-font-pcf</value>
+        <title>pcf.gz</title>
+    </type>
+
+    <type>
+        <value>application/x-font-speedo</value>
+        <title>spd</title>
+    </type>
+
+
+    <type>
+        <value>application/x-font-tex</value>
+        <title>tex</title>
+    </type>
+
+    <type>
+        <value>application/x-font-tex-tfm</value>
+        <title>tfm</title>
+    </type>
+
+    <type>
+        <value>application/x-font-ttf</value>
+        <title>ttc TTC</title>
+    </type>
+
+    <type>
+        <value>application/x-font-ttf</value>
+        <title>ttf</title>
+    </type>
+
+    <type>
+        <value>application/x-font-type1</value>
+        <title>pfa pfb gsf pcf.Z</title>
+    </type>
+
+    <type>
+        <value>application/x-frontline</value>
+        <title>aop</title>
+    </type>
+
+    <type>
+        <value>application/x-gameboy-rom</value>
+        <title>gb</title>
+    </type>
+
+
+    <type>
+        <value>application/x-gdesklets-display</value>
+        <title>display</title>
+    </type>
+
+    <type>
+        <value>application/x-genesis-rom</value>
+        <title>gen md</title>
+    </type>
+
+    <type>
+        <value>application/x-gettext-translation</value>
+        <title>gmo</title>
+    </type>
+
+    <type>
+        <value>application/x-glabels</value>
+        <title>glabels</title>
+    </type>
+
+    <type>
+        <value>application/x-glade</value>
+        <title>glade</title>
+    </type>
+
+    <type>
+        <value>application/x-gmc-lin</value>
+        <title>k</title>
+    </type>
+
+    <type>
+        <value>application/x-gnome-db-connection</value>
+        <title>connection</title>
+    </type>
+
+    <type>
+        <value>application/x-gnome-db-database</value>
+        <title>database</title>
+    </type>
+
+    <type>
+        <value>application/x-gnome-stones</value>
+        <title>caves</title>
+    </type>
+
+    <type>
+        <value>application/x-gnucash</value>
+        <title>gnucash gnc xac</title>
+    </type>
+
+    <type>
+        <value>application/x-gnumeric</value>
+        <title>gnumeric</title>
+    </type>
+
+    <type>
+        <value>application/x-graphite</value>
+        <title>gra</title>
+    </type>
+
+    <type>
+        <value>application/x-gtar</value>
+        <title>gtar</title>
+    </type>
+
+    <type>
+        <value>application/x-gzip</value>
+        <title>gz</title>
+    </type>
+
+    <type>
+        <value>application/x-gzpostscript</value>
+        <title>ps.gz</title>
+    </type>
+
+    <type>
+        <value>application/x-hdf</value>
+        <title>hdf</title>
+    </type>
+
+    <type>
+        <value>application/x-ica</value>
+        <title>ica</title>
+    </type>
+
+    <type>
+        <value>application/x-jamin</value>
+        <title>jam</title>
+    </type>
+
+    <type>
+        <value>application/x-jar</value>
+        <title>jar</title>
+    </type>
+
+    <type>
+        <value>application/x-java</value>
+        <title>class</title>
+    </type>
+
+    <type>
+        <value>application/x-java-archive</value>
+        <title>jar ear war</title>
+    </type>
+
+
+    <type>
+        <value>application/x-jbuilder-project</value>
+        <title>jpr jpx</title>
+    </type>
+
+    <type>
+        <value>application/x-karbon</value>
+        <title>karbon</title>
+    </type>
+
+    <type>
+        <value>application/x-kchart</value>
+        <title>chrt</title>
+    </type>
+
+    <type>
+        <value>application/x-kformula</value>
+        <title>kfo</title>
+    </type>
+
+    <type>
+        <value>application/x-killustrator</value>
+        <title>kil</title>
+    </type>
+
+    <type>
+        <value>application/x-kivio</value>
+        <title>flw</title>
+    </type>
+
+    <type>
+        <value>application/x-kontour</value>
+        <title>kon</title>
+    </type>
+
+    <type>
+        <value>application/x-kpovmodeler</value>
+        <title>kpm</title>
+    </type>
+
+    <type>
+        <value>application/x-kpresenter</value>
+        <title>kpr kpt</title>
+    </type>
+
+    <type>
+        <value>application/x-krita</value>
+        <title>kra</title>
+    </type>
+
+    <type>
+        <value>application/x-kspread</value>
+        <title>ksp</title>
+    </type>
+
+    <type>
+        <value>application/x-kugar</value>
+        <title>kud</title>
+    </type>
+
+    <type>
+        <value>application/x-kword</value>
+        <title>kwd kwt</title>
+    </type>
+
+    <type>
+        <value>application/x-lha</value>
+        <title>lha lzh</title>
+    </type>
+
+    <type>
+        <value>application/x-lha</value>
+        <title>lzh</title>
+    </type>
+
+    <type>
+        <value>application/x-lhz</value>
+        <title>lhz</title>
+    </type>
+
+    <type>
+        <value>application/x-linguist</value>
+        <title>ts</title>
+    </type>
+
+    <type>
+        <value>application/x-lyx</value>
+        <title>lyx</title>
+    </type>
+
+    <type>
+        <value>application/x-lzop</value>
+        <title>lzo</title>
+    </type>
+
+    <type>
+        <value>application/x-lzop-compressed-tar</value>
+        <title>tar.lzo tzo</title>
+    </type>
+
+    <type>
+        <value>application/x-machine-config</value>
+        <title>config</title>
+    </type>
+
+    <type>
+        <value>application/x-magicpoint</value>
+        <title>mgp</title>
+    </type>
+
+    <type>
+        <value>application/x-master-page</value>
+        <title>master</title>
+    </type>
+
+    <type>
+        <value>application/x-matroska</value>
+        <title>mkv</title>
+    </type>
+
+    <type>
+        <value>application/x-mdp</value>
+        <title>mdp</title>
+    </type>
+
+    <type>
+        <value>application/x-mds</value>
+        <title>mds</title>
+    </type>
+
+    <type>
+        <value>application/x-mdsx</value>
+        <title>mdsx</title>
+    </type>
+
+    <type>
+        <value>application/x-mergeant</value>
+        <title>mergeant</title>
+    </type>
+
+    <type>
+        <value>application/x-mif</value>
+        <title>mif</title>
+    </type>
+
+    <type>
+        <value>application/x-mps</value>
+        <title>mps</title>
+    </type>
+
+    <type>
+        <value>application/x-ms-dos-executable</value>
+        <title>exe</title>
+    </type>
+
+    <type>
+        <value>application/x-mswrite</value>
+        <title>wri</title>
+    </type>
+
+    <type>
+        <value>application/x-msx-rom</value>
+        <title>msx</title>
+    </type>
+
+    <type>
+        <value>application/x-n64-rom</value>
+        <title>n64</title>
+    </type>
+
+    <type>
+        <value>application/x-nes-rom</value>
+        <title>nes</title>
+    </type>
+
+    <type>
+        <value>application/x-netcdf</value>
+        <title>cdf nc</title>
+    </type>
+
+    <type>
+        <value>application/x-netscape-bookmarks</value>
+        <title>bookmarks</title>
+    </type>
+
+
+    <type>
+        <value>application/x-ole-storage</value>
+        <title>storage</title>
+    </type>
+
+    <type>
+        <value>application/x-oleo</value>
+        <title>oleo</title>
+    </type>
+
+    <type>
+        <value>application/x-palm-database</value>
+        <title>database</title>
+    </type>
+
+    <type>
+        <value>application/x-palm-database</value>
+        <title>pdb prc</title>
+    </type>
+
+    <type>
+        <value>application/x-par2</value>
+        <title>PAR2 par2</title>
+    </type>
+
+    <type>
+        <value>application/x-pef-executable</value>
+        <title>executable</title>
+    </type>
+
+    <type>
+        <value>application/x-perl</value>
+        <title>pl pm al perl</title>
+    </type>
+
+    <type>
+        <value>application/x-php</value>
+        <title>php php3 php4</title>
+    </type>
+
+    <type>
+        <value>application/x-pkcs12</value>
+        <title>p12 pfx</title>
+    </type>
+
+    <type>
+        <value>application/x-planner</value>
+        <title>planner mrproject</title>
+    </type>
+
+    <type>
+        <value>application/x-planperfect</value>
+        <title>pln</title>
+    </type>
+
+    <type>
+        <value>application/x-prjx</value>
+        <title>prjx</title>
+    </type>
+
+    <type>
+        <value>application/x-profile</value>
+        <title>profile</title>
+    </type>
+
+    <type>
+        <value>application/x-ptoptimizer-script</value>
+        <title>pto</title>
+    </type>
+
+    <type>
+        <value>application/x-pw</value>
+        <title>pw</title>
+    </type>
+
+    <type>
+        <value>application/x-python-bytecode</value>
+        <title>pyc pyo</title>
+    </type>
+
+    <type>
+        <value>application/x-quattro-pro</value>
+        <title>wb1 wb2 wb3</title>
+    </type>
+
+    <type>
+        <value>application/x-quattropro</value>
+        <title>wb1 wb2 wb3</title>
+    </type>
+
+    <type>
+        <value>application/x-qw</value>
+        <title>qif</title>
+    </type>
+
+    <type>
+        <value>application/x-rar</value>
+        <title>rar</title>
+    </type>
+
+    <type>
+        <value>application/x-rar-compressed</value>
+        <title>rar</title>
+    </type>
+
+    <type>
+        <value>application/x-rdp</value>
+        <title>rdp</title>
+    </type>
+
+    <type>
+        <value>application/x-reject</value>
+        <title>rej</title>
+    </type>
+
+    <type>
+        <value>application/x-remoting</value>
+        <title>rem</title>
+    </type>
+
+    <type>
+        <value>application/x-resources</value>
+        <title>resources</title>
+    </type>
+
+    <type>
+        <value>application/x-resourcesx</value>
+        <title>resx</title>
+    </type>
+
+    <type>
+        <value>application/x-rpm</value>
+        <title>rpm</title>
+    </type>
+
+    <type>
+        <value>application/x-ruby</value>
+        <title>ruby</title>
+    </type>
+
+    <type>
+        <value>application/x-sc</value>
+        <title>sc</title>
+    </type>
+
+    <type>
+        <value>application/x-scribus</value>
+        <title>sla sla.gz scd scd.gz</title>
+    </type>
+
+    <type>
+        <value>application/x-shar</value>
+        <title>shar</title>
+    </type>
+
+    <type>
+        <value>application/x-shared-library-la</value>
+        <title>la</title>
+    </type>
+
+    <type>
+        <value>application/x-sharedlib</value>
+        <title>so</title>
+    </type>
+
+    <type>
+        <value>application/x-shellscript</value>
+        <title>sh</title>
+    </type>
+
+    <type>
+        <value>application/x-shockwave-flash</value>
+        <title>swf</title>
+    </type>
+
+    <type>
+        <value>application/x-siag</value>
+        <title>siag</title>
+    </type>
+
+    <type>
+        <value>application/x-slp</value>
+        <title>slp</title>
+    </type>
+
+    <type>
+        <value>application/x-smil</value>
+        <title>kino</title>
+    </type>
+
+    <type>
+        <value>application/x-smil</value>
+        <title>smi smil</title>
+    </type>
+
+    <type>
+        <value>application/x-sms-rom</value>
+        <title>sms gg</title>
+    </type>
+
+    <type>
+        <value>application/x-soap-remoting</value>
+        <title>soap</title>
+    </type>
+
+    <type>
+        <value>application/x-streamingmedia</value>
+        <title>ssm</title>
+    </type>
+
+    <type>
+        <value>application/x-stuffit</value>
+        <title>stuffit</title>
+    </type>
+
+    <type>
+        <value>application/x-stuffit</value>
+        <title>bin sit</title>
+    </type>
+
+    <type>
+        <value>application/x-sv4cpio</value>
+        <title>sv4cpio</title>
+    </type>
+
+    <type>
+        <value>application/x-sv4crc</value>
+        <title>sv4crc</title>
+    </type>
+
+    <type>
+        <value>application/x-tar</value>
+        <title>tar</title>
+    </type>
+
+    <type>
+        <value>application/x-tarz</value>
+        <title>tar.Z</title>
+    </type>
+
+    <type>
+        <value>application/x-tex-gf</value>
+        <title>gf</title>
+    </type>
+
+    <type>
+        <value>application/x-tgif</value>
+        <title>obj</title>
+    </type>
+
+    <type>
+        <value>application/x-theme</value>
+        <title>theme</title>
+    </type>
+
+    <type>
+        <value>application/x-toc</value>
+        <title>toc</title>
+    </type>
+
+    <type>
+        <value>application/x-toutdoux</value>
+        <title>toutdoux</title>
+    </type>
+
+    <type>
+        <value>application/x-trash</value>
+        <title>bak old sik</title>
+    </type>
+
+    <type>
+        <value>application/x-troff</value>
+        <title>tr roff t</title>
+    </type>
+
+    <type>
+        <value>application/x-troff-man</value>
+        <title>man</title>
+    </type>
+
+    <type>
+        <value>application/x-troff-man-compressed</value>
+        <title>compressed</title>
+    </type>
+
+    <type>
+        <value>application/x-tzo</value>
+        <title>tar.lzo tzo</title>
+    </type>
+
+    <type>
+        <value>application/x-ustar</value>
+        <title>ustar</title>
+    </type>
+
+    <type>
+        <value>application/x-wais-source</value>
+        <title>src</title>
+    </type>
+
+    <type>
+        <value>application/x-web-config</value>
+        <title>web-config</title>
+    </type>
+
+    <type>
+        <value>application/x-wpg</value>
+        <title>wpg</title>
+    </type>
+
+    <type>
+        <value>application/x-wsdl</value>
+        <title>wsdl</title>
+    </type>
+
+    <type>
+        <value>application/x-x509-ca-cert</value>
+        <title>der cer crt cert pem</title>
+    </type>
+
+    <type>
+        <value>application/x-xbel</value>
+        <title>xbel</title>
+    </type>
+
+    <type>
+        <value>application/x-zerosize</value>
+        <title>zerosize</title>
+    </type>
+
+    <type>
+        <value>application/x-zoo</value>
+        <title>zoo</title>
+    </type>
+
+    <type>
+        <value>application/xhtml+xml</value>
+        <title>xhtml</title>
+    </type>
+
+    <type>
+        <value>application/zip</value>
+        <title>zip</title>
+    </type>
+
+    <type>
+        <value>audio/ac3</value>
+        <title>ac3</title>
+    </type>
+
+    <type>
+        <value>audio/basic</value>
+        <title>au snd</title>
+    </type>
+
+    <type>
+        <value>audio/midi</value>
+        <title>mid midi</title>
+    </type>
+
+    <type>
+        <value>audio/mpeg</value>
+        <title>mp3</title>
+    </type>
+
+    <type>
+        <value>audio/prs.sid</value>
+        <title>sid psid</title>
+    </type>
+
+    <type>
+        <value>audio/vnd.rn-realaudio</value>
+        <title>ra</title>
+    </type>
+
+    <type>
+        <value>audio/x-aac</value>
+        <title>aac</title>
+    </type>
+
+    <type>
+        <value>audio/x-adpcm</value>
+        <title>adpcm</title>
+    </type>
+
+    <type>
+        <value>audio/x-aifc</value>
+        <title>aifc</title>
+    </type>
+
+    <type>
+        <value>audio/x-aiff</value>
+        <title>aif aiff</title>
+    </type>
+
+    <type>
+        <value>audio/x-aiff</value>
+        <title>aiff aif aifc</title>
+    </type>
+
+
+    <type>
+        <value>audio/x-flac</value>
+        <title>flac</title>
+    </type>
+
+    <type>
+        <value>audio/x-m4a</value>
+        <title>m4a</title>
+    </type>
+
+    <type>
+        <value>audio/x-mod</value>
+        <title>mod ult uni XM m15 mtm 669</title>
+    </type>
+
+    <type>
+        <value>audio/x-mp3-playlist</value>
+        <title>mp3-playlist</title>
+    </type>
+
+    <type>
+        <value>audio/x-mpeg</value>
+        <title>mpeg</title>
+    </type>
+
+    <type>
+        <value>audio/x-mpegurl</value>
+        <title>m3u</title>
+    </type>
+
+    <type>
+        <value>audio/x-ms-asx</value>
+        <title>asx</title>
+    </type>
+
+    <type>
+        <value>audio/x-pn-realaudio</value>
+        <title>ra ram rm</title>
+    </type>
+
+    <type>
+        <value>audio/x-pn-realaudio</value>
+        <title>ram rmm</title>
+    </type>
+
+    <type>
+        <value>audio/x-riff</value>
+        <title>riff</title>
+    </type>
+
+    <type>
+        <value>audio/x-s3m</value>
+        <title>s3m</title>
+    </type>
+
+    <type>
+        <value>audio/x-scpls</value>
+        <title>pls</title>
+    </type>
+
+    <type>
+        <value>audio/x-scpls</value>
+        <title>pls xpl</title>
+    </type>
+
+    <type>
+        <value>audio/x-stm</value>
+        <title>stm</title>
+    </type>
+
+    <type>
+        <value>audio/x-voc</value>
+        <title>voc</title>
+    </type>
+
+    <type>
+        <value>audio/x-wav</value>
+        <title>wav</title>
+    </type>
+
+    <type>
+        <value>audio/x-xi</value>
+        <title>xi</title>
+    </type>
+
+    <type>
+        <value>audio/x-xm</value>
+        <title>xm</title>
+    </type>
+
+    <type>
+        <value>image/bmp</value>
+        <title>bmp</title>
+    </type>
+
+    <type>
+        <value>image/cgm</value>
+        <title>cgm</title>
+    </type>
+
+    <type>
+        <value>image/dpx</value>
+        <title>dpx</title>
+    </type>
+
+    <type>
+        <value>image/fax-g3</value>
+        <title>g3</title>
+    </type>
+
+    <type>
+        <value>image/g3fax</value>
+        <title>g3fax</title>
+    </type>
+
+    <type>
+        <value>image/gif</value>
+        <title>gif</title>
+    </type>
+
+    <type>
+        <value>image/ief</value>
+        <title>ief</title>
+    </type>
+
+    <type>
+        <value>image/jpeg</value>
+        <title>jpeg jpg jpe</title>
+    </type>
+
+    <type>
+        <value>image/jpeg2000</value>
+        <title>jp2</title>
+    </type>
+
+    <type>
+        <value>image/png</value>
+        <title>png</title>
+    </type>
+
+    <type>
+        <value>image/rle</value>
+        <title>rle</title>
+    </type>
+
+    <type>
+        <value>image/svg+xml</value>
+        <title>svg</title>
+    </type>
+
+    <type>
+        <value>image/tiff</value>
+        <title>tif tiff</title>
+    </type>
+
+    <type>
+        <value>image/vnd.djvu</value>
+        <title>djvu djv</title>
+    </type>
+
+    <type>
+        <value>image/vnd.dwg</value>
+        <title>dwg</title>
+    </type>
+
+    <type>
+        <value>image/vnd.dxf</value>
+        <title>dxf</title>
+    </type>
+
+    <type>
+        <value>image/x-3ds</value>
+        <title>3ds</title>
+    </type>
+
+    <type>
+        <value>image/x-applix-graphics</value>
+        <title>ag</title>
+    </type>
+
+    <type>
+        <value>image/x-cmu-raster</value>
+        <title>ras</title>
+    </type>
+
+    <type>
+        <value>image/x-compressed-xcf</value>
+        <title>xcf.gz xcf.bz2</title>
+    </type>
+
+    <type>
+        <value>image/x-dcraw</value>
+        <title>bay BAY bmq BMQ cr2 CR2 crw CRW cs1 CS1 dc2 DC2 dcr DCR fff FFF k25 K25 kdc KDC mos MOS mrw MRW nef NEF orf ORF pef PEF raf RAF rdc RDC srf SRF x3f X3F</title>
+    </type>
+
+    <type>
+        <value>image/x-dib</value>
+        <title>dib</title>
+    </type>
+
+    <type>
+        <value>image/x-eps</value>
+        <title>eps epsi epsf</title>
+    </type>
+
+    <type>
+        <value>image/x-fits</value>
+        <title>fits</title>
+    </type>
+
+    <type>
+        <value>image/x-fpx</value>
+        <title>fpx</title>
+    </type>
+
+    <type>
+        <value>image/x-icb</value>
+        <title>icb</title>
+    </type>
+
+    <type>
+        <value>image/x-ico</value>
+        <title>ico</title>
+    </type>
+
+    <type>
+        <value>image/x-iff</value>
+        <title>iff</title>
+    </type>
+
+    <type>
+        <value>image/x-ilbm</value>
+        <title>ilbm</title>
+    </type>
+
+    <type>
+        <value>image/x-jng</value>
+        <title>jng</title>
+    </type>
+
+    <type>
+        <value>image/x-lwo</value>
+        <title>lwo lwob</title>
+    </type>
+
+    <type>
+        <value>image/x-lws</value>
+        <title>lws</title>
+    </type>
+
+    <type>
+        <value>image/x-msod</value>
+        <title>msod</title>
+    </type>
+
+    <type>
+        <value>image/x-niff</value>
+        <title>niff</title>
+    </type>
+
+    <type>
+        <value>image/x-pcx</value>
+        <title>pcx</title>
+    </type>
+
+    <type>
+        <value>image/x-photo-cd</value>
+        <title>pcd</title>
+    </type>
+
+    <type>
+        <value>image/x-pict</value>
+        <title>pict pict1 pict2</title>
+    </type>
+
+    <type>
+        <value>image/x-portable-anymap</value>
+        <title>pnm</title>
+    </type>
+
+    <type>
+        <value>image/x-portable-bitmap</value>
+        <title>pbm</title>
+    </type>
+
+    <type>
+        <value>image/x-portable-graymap</value>
+        <title>pgm</title>
+    </type>
+
+    <type>
+        <value>image/x-portable-pixmap</value>
+        <title>ppm</title>
+    </type>
+
+    <type>
+        <value>image/x-psd</value>
+        <title>psd</title>
+    </type>
+
+    <type>
+        <value>image/x-rgb</value>
+        <title>rgb</title>
+    </type>
+
+    <type>
+        <value>image/x-sgi</value>
+        <title>sgi</title>
+    </type>
+
+    <type>
+        <value>image/x-sun-raster</value>
+        <title>sun</title>
+    </type>
+
+    <type>
+        <value>image/x-tga</value>
+        <title>tga</title>
+    </type>
+
+    <type>
+        <value>image/x-win-bitmap</value>
+        <title>cur</title>
+    </type>
+
+    <type>
+        <value>image/x-wmf</value>
+        <title>wmf</title>
+    </type>
+
+    <type>
+        <value>image/x-xbitmap</value>
+        <title>xbm</title>
+    </type>
+
+    <type>
+        <value>image/x-xcf</value>
+        <title>xcf</title>
+    </type>
+
+    <type>
+        <value>image/x-xfig</value>
+        <title>fig</title>
+    </type>
+
+    <type>
+        <value>image/x-xpixmap</value>
+        <title>xpm</title>
+    </type>
+
+    <type>
+        <value>image/x-xwindowdump</value>
+        <title>xwd</title>
+    </type>
+
+    <type>
+        <value>inode/blockdevice</value>
+        <title>blockdevice</title>
+    </type>
+
+    <type>
+        <value>inode/chardevice</value>
+        <title>chardevice</title>
+    </type>
+
+    <type>
+        <value>inode/directory</value>
+        <title>directory</title>
+    </type>
+
+    <type>
+        <value>inode/fifo</value>
+        <title>fifo</title>
+    </type>
+
+    <type>
+        <value>inode/mount-point</value>
+        <title>mount-point</title>
+    </type>
+
+    <type>
+        <value>inode/socket</value>
+        <title>socket</title>
+    </type>
+
+    <type>
+        <value>inode/symlink</value>
+        <title>symlink</title>
+    </type>
+
+    <type>
+        <value>message/delivery-status</value>
+        <title>status</title>
+    </type>
+
+    <type>
+        <value>message/disposition-notificatio</value>
+        <title>n</title>
+    </type>
+
+    <type>
+        <value>message/external-bod</value>
+        <title>y</title>
+    </type>
+
+    <type>
+        <value>message/new</value>
+        <title>s</title>
+    </type>
+
+    <type>
+        <value>message/partia</value>
+        <title>l</title>
+    </type>
+
+    <type>
+        <value>message/rfc82</value>
+        <title>2</title>
+    </type>
+
+    <type>
+        <value>message/x-gnu-rmai</value>
+        <title>l</title>
+    </type>
+
+    <type>
+        <value>model/vrml</value>
+        <title>wrl</title>
+    </type>
+
+    <type>
+        <value>text/calendar</value>
+        <title>vcs ics</title>
+    </type>
+
+    <type>
+        <value>text/css</value>
+        <title>css CSSL</title>
+    </type>
+
+    <type>
+        <value>text/directory</value>
+        <title>vcf vct gcrd</title>
+    </type>
+
+	
+    <type>
+        <value>text/html</value>
+        <title>html htm</title>
+    </type>
+
+
+    <type>
+        <value>text/mathml</value>
+        <title>mml</title>
+    </type>
+
+    <type>
+        <value>text/plain</value>
+        <title>txt asc</title>
+    </type>
+
+    <type>
+        <value>text/rdf</value>
+        <title>rdf</title>
+    </type>
+
+
+    <type>
+        <value>text/richtext</value>
+        <title>rtx</title>
+    </type>
+
+    <type>
+        <value>text/rss</value>
+        <title>rss</title>
+    </type>
+
+    <type>
+        <value>text/sgml</value>
+        <title>sgml sgm</title>
+    </type>
+
+    <type>
+        <value>text/spreadsheet</value>
+        <title>sylk slk</title>
+    </type>
+
+    <type>
+        <value>text/tab-separated-values</value>
+        <title>tsv</title>
+    </type>
+
+    <type>
+        <value>text/vnd.rn-realtext</value>
+        <title>rt</title>
+    </type>
+
+    <type>
+        <value>text/vnd.wap.wml</value>
+        <title>wml</title>
+    </type>
+
+    <type>
+        <value>text/x-adasrc</value>
+        <title>adb ads</title>
+    </type>
+
+
+    <type>
+        <value>text/x-bibtex</value>
+        <title>bib</title>
+    </type>
+
+    <type>
+        <value>text/x-boo</value>
+        <title>boo</title>
+    </type>
+
+    <type>
+        <value>text/x-c++hdr</value>
+        <title>hh</title>
+    </type>
+
+    <type>
+        <value>text/x-c++src</value>
+        <title>cpp cxx cc C c++</title>
+    </type>
+
+    <type>
+        <value>text/x-chdr</value>
+        <title>h h++ hp</title>
+    </type>
+
+    <type>
+        <value>text/x-comma-separated-values</value>
+        <title>csv</title>
+    </type>
+
+    <type>
+        <value>text/x-dcl</value>
+        <title>dcl</title>
+    </type>
+
+    <type>
+        <value>text/x-dsl</value>
+        <title>dsl</title>
+    </type>
+
+    <type>
+        <value>text/x-dtd</value>
+        <title>dtd</title>
+    </type>
+
+    <type>
+        <value>text/x-emacs-lisp</value>
+        <title>el</title>
+    </type>
+
+    <type>
+        <value>text/x-gettext-translation</value>
+        <title>po</title>
+    </type>
+
+    <type>
+        <value>text/x-gettext-translation-template</value>
+        <title>pot</title>
+    </type>
+
+
+    <type>
+        <value>text/x-haskell</value>
+        <title>hs</title>
+    </type>
+
+    <type>
+        <value>text/x-idl</value>
+        <title>idl</title>
+    </type>
+
+	
+
+    <type>
+        <value>text/x-java</value>
+        <title>java</title>
+    </type>
+
+    <type>
+        <value>text/x-js</value>
+        <title>js</title>
+    </type>
+
+    <type>
+        <value>text/x-literate-haskell</value>
+        <title>lhs</title>
+    </type>
+
+    <type>
+        <value>text/x-log</value>
+        <title>log</title>
+    </type>
+
+    <type>
+        <value>text/x-moc</value>
+        <title>moc</title>
+    </type>
+
+    <type>
+        <value>text/x-msil</value>
+        <title>il</title>
+    </type>
+
+    <type>
+        <value>text/x-pascal</value>
+        <title>p pas</title>
+    </type>
+
+    <type>
+        <value>text/x-patch</value>
+        <title>diff patch</title>
+    </type>
+
+    <type>
+        <value>text/x-python</value>
+        <title>py</title>
+    </type>
+
+
+    <type>
+        <value>text/x-rng</value>
+        <title>rng</title>
+    </type>
+
+    <type>
+        <value>text/x-scheme</value>
+        <title>scm</title>
+    </type>
+
+    <type>
+        <value>text/x-setext</value>
+        <title>etx</title>
+    </type>
+
+    <type>
+        <value>text/x-sql</value>
+        <title>sql</title>
+    </type>
+
+    <type>
+        <value>text/x-suse-ymp</value>
+        <title>ymp</title>
+    </type>
+
+    <type>
+        <value>text/x-suse-ymu</value>
+        <title>ymu</title>
+    </type>
+
+    <type>
+        <value>text/x-tcl</value>
+        <title>tcl tk</title>
+    </type>
+
+    <type>
+        <value>text/x-tex</value>
+        <title>tex ltx sty cls</title>
+    </type>
+
+    <type>
+        <value>text/x-texinfo</value>
+        <title>texi texinfo</title>
+    </type>
+
+    <type>
+        <value>text/x-texmacs</value>
+        <title>tm ts</title>
+    </type>
+
+    <type>
+        <value>text/x-troff-me</value>
+        <title>me</title>
+    </type>
+
+    <type>
+        <value>text/x-troff-mm</value>
+        <title>mm</title>
+    </type>
+
+    <type>
+        <value>text/x-troff-ms</value>
+        <title>ms</title>
+    </type>
+
+    <type>
+        <value>text/x-uil</value>
+        <title>uil</title>
+    </type>
+
+    <type>
+        <value>text/x-uri</value>
+        <title>uri url</title>
+    </type>
+
+    <type>
+        <value>text/x-vb</value>
+        <title>vb</title>
+    </type>
+
+    <type>
+        <value>text/x-xds</value>
+        <title>xds</title>
+    </type>
+
+    <type>
+        <value>text/x-xmi</value>
+        <title>xmi</title>
+    </type>
+
+    <type>
+        <value>text/x-xsl</value>
+        <title>xsl</title>
+    </type>
+
+    <type>
+        <value>text/x-xslfo</value>
+        <title>fo xslfo</title>
+    </type>
+
+    <type>
+        <value>text/x-xslt</value>
+        <title>xslt xsl</title>
+    </type>
+
+    <type>
+        <value>text/xml</value>
+        <title>xml</title>
+    </type>
+
+    <type>
+        <value>video/3gpp</value>
+        <title>3gp</title>
+    </type>
+
+    <type>
+        <value>video/dv</value>
+        <title>dv dif</title>
+    </type>
+
+
+    <type>
+        <value>video/mpeg</value>
+        <title>mpeg mpg mp2 mpe vob dat</title>
+    </type>
+
+    <type>
+        <value>video/quicktime</value>
+        <title>qt mov moov qtvr</title>
+    </type>
+
+    <type>
+        <value>video/vnd.rn-realvideo</value>
+        <title>rv</title>
+    </type>
+
+    <type>
+        <value>video/x-3gpp2</value>
+        <title>3g2</title>
+    </type>
+
+    <type>
+        <value>video/x-anim</value>
+        <title>anim[1-9j]</title>
+    </type>
+
+
+    <type>
+        <value>video/x-flic</value>
+        <title>fli flc</title>
+    </type>
+
+    <type>
+        <value>video/x-mng</value>
+        <title>mng</title>
+    </type>
+
+    <type>
+        <value>video/x-ms-asf</value>
+        <title>asf asx</title>
+    </type>
+
+    <type>
+        <value>video/x-ms-wmv</value>
+        <title>wmv</title>
+    </type>
+
+    <type>
+        <value>video/x-msvideo</value>
+        <title>avi</title>
+    </type>
+
+    <type>
+        <value>video/x-nsv</value>
+        <title>nsv NSV</title>
+    </type>
+
+    <type>
+        <value>video/x-sgi-movie</value>
+        <title>movie</title>
+    </type>
+
+    <type>
+        <value>application/x-java-jnlp-file</value>
+        <title>jnlp</title>
+    </type>
+
+    <type>
+        <value>application/vnd.openxmlformats-officedocument.wordprocessingml.document</value>
+        <title>docx</title>
+    </type>
+
+    <type>
+        <value>application/vnd.openxmlformats-officedocument.wordprocessingml.template</value>
+        <title>dotx</title>
+    </type>
+
+    <type>
+        <value>application/vnd.ms-word.document.macroEnabled.12</value>
+        <title>docm</title>
+    </type>
+
+    <type>
+        <value>application/vnd.ms-word.template.macroEnabled.12</value>
+        <title>dotm</title>
+    </type>
+
+    <type>
+        <value>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</value>
+        <title>xlsx</title>
+    </type>
+
+    <type>
+        <value>application/vnd.openxmlformats-officedocument.spreadsheetml.template</value>
+        <title>xltx</title>
+    </type>
+
+    <type>
+        <value>application/vnd.ms-excel.sheet.macroEnabled.12</value>
+        <title>xlsm</title>
+    </type>
+
+    <type>
+        <value>application/vnd.ms-excel.template.macroEnabled.12</value>
+        <title>xltm</title>
+    </type>
+
+    <type>
+        <value>application/vnd.ms-excel.addin.macroEnabled.12</value>
+        <title>xlam</title>
+    </type>
+
+    <type>
+        <value>application/vnd.ms-excel.sheet.binary.macroEnabled.12</value>
+        <title>xlsb</title>
+    </type>
+
+    <type>
+        <value>application/vnd.openxmlformats-officedocument.presentationml.presentation</value>
+        <title>pptx</title>
+    </type>
+
+    <type>
+        <value>application/vnd.openxmlformats-officedocument.presentationml.template</value>
+        <title>potx</title>
+    </type>
+
+    <type>
+        <value>application/vnd.openxmlformats-officedocument.presentationml.slideshow</value>
+        <title>ppsx</title>
+    </type>
+
+    <type>
+        <value>application/vnd.ms-powerpoint.addin.macroEnabled.12</value>
+        <title>ppam</title>
+    </type>
+
+</mime>

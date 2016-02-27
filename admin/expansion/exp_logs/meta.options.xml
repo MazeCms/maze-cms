@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+  <name>EXP_LOGS_NAME</name>
+  <description>EXP_LOGS_DES</description>
+  <copyright>EXP_LOGS_COPYRIGHT</copyright>
+  <license>General Public License</license>
+  <version>1.0</version>
+  <author>EXP_LOGS_AUTHOR</author>
+  <email>info@maze-studio.ru</email>
+  <created>03.12.2013</created>
+  <siteauthor>maze-studio.ru</siteauthor>
+	
+  <menu img="/library/image/icon/16/computer/white/icon-terminal.png" path="/admin/logs" title="EXP_LOGS_NAME">
+        <item path="/admin/logs/exp" title="EXP_LOGS_EXT_NAME" img="/library/image/icon/16/computer/white/icon-plug.png"></item>
+        <item path="/admin/logs/error" title="EXP_LOGS_ERROR_NAME" img="/library/image/icon/16/development/white/icon-fourohfour.png"></item>
+        <item path="/admin/logs/cache" title="EXP_LOGS_CACHE_NAME" img="/library/image/icon/16/computer/white/icon-zip.png"></item>
+        <item path="/admin/logs/db" title="EXP_LOGS_DB_NAME" img="/library/image/icon/16/hosting/white/icon-database.png"></item>
+        <item path="/admin/logs/request" title="EXP_LOGS_REQUEST_NAME" img="/library/image/icon/16/hosting/white/icon-servers.png"></item>
+  </menu>
+	
+</metaOptions>

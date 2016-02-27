@@ -1,0 +1,241 @@
+.button, .form-element{
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    outline:none;
+}
+/* #Page Styles
+================================================== */
+.notice {
+    width: 100%;
+    padding:10px; 
+    border-bottom: 1px solid transparent;
+    position: fixed;
+    top: 0;
+    font-size: 14px;
+    font-weight: bold;
+    -moz-box-shadow:0px 0px 3px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0px 0px 3px 1px rgba(0,0,0,0.3);
+    box-shadow:0px 0px 3px 1px rgba(0,0,0,0.3);
+}
+.notice.notice-danger{
+    background-color:#f2838f;
+    border-color: #ed5565;
+    color: #a94442;
+}
+.notice.notice-success{
+   background-color:#b9df90;
+   border-color:  #a0d468;
+   color: #3c763d;  
+}
+.notice p.warn {
+    text-align: center;
+    margin: 0 30px;
+}
+
+.notice a.close {
+    width: 9px;
+    height: 9px;
+    background: url(../images/close.png) no-repeat top left;
+    text-indent: -9999px;
+    display: block;
+    position: absolute;
+    left: 100%;
+    top:50%;
+    margin-left: -40px;
+    margin-top: -4px;
+}
+
+.notice a.close:hover {
+    background: url(../images/close-hover.png) no-repeat top left;		
+}
+.container-from-login.container{
+    position: absolute;
+    width:100%;
+}
+.form-bg {
+    width: 370px;
+    -moz-border-radius:9px;
+    -webkit-border-radius:9px;
+    border-radius:9px;
+    margin:0 auto;
+    background: url(../images/form-bg.png) top left;
+    padding: 8px; 
+}
+
+.form-bg form {
+    background: #fff url(../images/bg_form.jpg) repeat-x top left;		
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    -moz-box-shadow:0px 1px 3px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow:0px 1px 3px 2px rgba(0,0,0,0.1);
+    box-shadow:0px 1px 3px 2px rgba(0,0,0,0.1);
+}
+
+.form-bg form h2 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555555;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 0 1px 0 #fff;
+    filter: dropshadow(color=#fff, offx=0, offy=1);
+    line-height: 45px;
+    margin-bottom: 24px;
+}
+
+.form-element{
+    box-shadow: 0px 0px 0px 4px #f2f5f7;   
+    color: #aeaeae;
+    border: 1px solid #bec2c4;
+}
+
+.form-element:focus{
+    border:1px solid #7dc6dd;
+    background-color: #dfe9ec;
+}
+.has-error > .form-element{
+    border-color: #ed5565;
+    color: #a94442;
+}
+input[type="checkbox"].form-element {
+    vertical-align: middle;
+}
+
+
+/* Login button */
+.button{
+    padding: 6px 12px;	
+    display: inline-block;
+    font-family: 'Bree Serif', serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0px 1px 0 rgba(0,0,0,0.25);	
+    background: #56c2e1;
+    border: 1px solid #46b3d3;
+    border-radius: 5px;
+    cursor: pointer;	
+    box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+    -moz-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+    -webkit-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+}
+
+.button:hover {
+    background: #3f9db8;
+    border: 1px solid rgba(256,256,256,0.75);	
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.button:focus {
+    position: relative;
+    bottom: -1px;	
+    background: #56c2e1;	
+    box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+    -moz-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+    -webkit-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+}
+.button[disabled],
+.button[disabled]:hover,
+.button[disabled]:focus{
+    opacity: 0.5;
+    background: #56c2e1;
+    border: 1px solid #46b3d3;
+    box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+    -moz-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+    -webkit-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+    cursor: default;
+}
+.load-btn{
+    background-image: url('../images/103-24.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.button.full-width { 
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center; 
+}
+label {
+    display: inline;
+    margin-left: 24px;
+    vertical-align: middle;
+}
+
+label span {
+    color: 555555;
+    font-size: 12px;
+}
+
+p.forgot {
+    text-align: center;
+    margin-top: 10px;
+    margin-left:-190px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+
+p.forgot a {
+    color: #cbebf6;
+    text-decoration: none;
+    transition: color 0.5s linear;
+    -moz-transition: color 0.5s linear;
+    -webkit-transition: color 0.5s linear;
+    -o-transition: color 0.5s linear;
+}
+
+p.forgot a:hover {
+    color: #65c4e5;
+}
+
+
+
+/* #Media Queries
+================================================== */
+
+/* iPad Portrait/Browser */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Mobile/Browser */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape/Browser */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Anything smaller than standard 960 */
+@media only screen and (max-width: 959px) {}
+
+/* iPad Portrait Only */
+@media only screen and (min-width: 768px) and (max-width: 991px) and (max-device-width: 1000px) {}
+
+/* Mobile Only */
+@media only screen and (max-width: 767px) and (max-device-width: 1000px) {}
+
+/* Mobile Landscape Only */
+@media only screen and (min-width: 480px) and (max-width: 767px) and (max-device-width: 1000px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file 
+                Just create a "fonts" folder at the root, 
+                copy your FontName into code below and remove
+                comment brackets */
+
+/*	@font-face {
+            font-family: 'FontName';
+            src: url('../fonts/FontName.eot');
+            src: url('../fonts/FontName.eot?iefix') format('eot'),
+                 url('../fonts/FontName.woff') format('woff'),
+                 url('../fonts/FontName.ttf') format('truetype'),
+                 url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+            font-weight: normal;
+            font-style: normal; }
+*/

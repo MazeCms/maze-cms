@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>EXP_USER_NAME</name>
+    <description>EXP_USER_DES</description>
+    <copyright>EXP_USER_COPY</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>EXP_USER_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>18.04.2013</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+    <menu img="/library/image/icon/16/communication/white/icon-user.png" path="/admin/user" title="EXP_USER_TITLE">
+        <item img="/library/image/icon/16/communication/white/icon-user.png" path="/admin/user"  title="EXP_USER_TITLE">
+            <item access="user:VIEW_SESSIONS"  img="/library/image/icon/16/menu/white/icon-plus.png" path="/admin/user/?run=add" title="EXP_USER_MENU_CREATE_USER"></item>
+        </item>
+        <item access="user:VIEW_ROLE"  img="/library/image/icon/16/communication/white/icon-groups-friends.png" path="/admin/user/role" title="EXP_USER_ROLES"></item>
+        <item access="user:VIEW_SESSIONS"  img="/library/image/icon/16/computer/white/icon-connected.png" path="/admin/user/sessions" title="EXP_USER_SESSIONS_TITLE"></item>
+    </menu>
+    <params>	
+        <tabs title="EXP_USER_PARAMS_AUTHORIZATION_TAB" id="params">            
+            <element type="ui\checkbox\Toggle" title="EXP_USER_PARAMS_AUTHORIZATION_REG" name="regBloc" default="1">
+                <settings>
+                    <option value="0">EXP_USER_FILTER_NO</option>
+                    <option value="1">EXP_USER_FILTER_YES</option>
+                </settings>
+            </element>
+            <element type="ui\checkbox\Toggle" title="EXP_USER_PARAMS_AUTHORIZATION_EDITPASS" name="recBloc" default="1">
+                <settings>
+                    <option value="0">EXP_USER_FILTER_NO</option>
+                    <option value="1">EXP_USER_FILTER_YES</option>
+                </settings>
+            </element>	
+            <element type="ui\checkbox\Toggle" title="EXP_USER_PARAMS_REGISTRATION_BLOC" name="newRegBloc" default="1">
+                <settings>
+                    <option value="0">EXP_USER_FILTER_NO</option>
+                    <option value="1">EXP_USER_FILTER_YES</option>
+                </settings>
+            </element>	
+            <element type="ui\text\TextInput" title="EXP_USER_FORM_LABEL_TIMEOUT" name="recTimeOut" default="5">
+                <options>
+                    <class>form-control</class>
+                    <style>width:100px;</style>
+                </options>
+            </element>
+        </tabs>
+    </params>	
+</metaOptions>

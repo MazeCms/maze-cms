@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    
+    <params>
+        
+        <element type="ui\text\TextInput" title="Заголовок" name="title_value">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        
+        <element type="ui\checkbox\Toggle" title="Точное совпадение" name="like">
+            <settings>
+                <option value="0">НЕТ</option>
+                <option value="1">ДА</option>
+            </settings>
+        </element>
+        
+    </params>
+   
+</metaOptions>

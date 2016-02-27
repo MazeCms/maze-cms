@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    
+    <params>
+        
+        <element type="ui\text\TextInput" title="Диапазон чисел" name="number">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        
+    </params>
+   
+</metaOptions>

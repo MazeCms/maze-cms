@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>WID_HTMLCODE_NAME</name>
+    <description>WID_HTMLCODE_DES</description>
+    <copyright>WID_HTMLCODE_COPYRIGHT</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>WID_HTMLCODE_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>12.12.2013</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+    <params>
+		
+        <accordion title="WID_HTMLCODE_TABS_HTML" id="other">
+            <element type="ui\editor\Editor" title="WID_HTMLCODE_HTML_CODE" name="htmlcode">
+                <options>
+                    <id>html-code</id>
+                    <style>font-size:1.2em; width:100%;</style>
+                </options>
+            </element>
+        </accordion>
+			
+    </params>
+	
+</metaOptions>

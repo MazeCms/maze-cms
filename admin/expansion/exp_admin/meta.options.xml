@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+  <name>EXP_ADMIN_NAME</name>
+  <description>EXP_ADMIN_DES</description>
+  <copyright>copyright</copyright>
+  <license>General Public License</license>
+  <version>1.0</version>
+  <author>EXP_ADMIN_AUTHOR</author>
+  <email>info@maze-studio.ru</email>
+  <created>18.04.2013</created>
+  <siteauthor>maze-studio.ru</siteauthor>
+	
+  <menu img="/library/image/icon/16/hosting/white/icon-home.png" path="admin/admin" title="EXP_ADMIN_NAME"></menu>
+	
+	
+</metaOptions>

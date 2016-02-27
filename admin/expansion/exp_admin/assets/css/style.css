@@ -1,0 +1,36 @@
+
+.wrap-eidit-desktop .edit-desktop{
+    margin-top: 10px;
+    float: right;
+}
+.gadgets-list {
+    margin: -8px -14px -7px;
+}
+.desktop-gadgets{
+    width: 100%;
+}
+.desktop-gadgets td{
+    padding: 6px;
+}
+.desktop-gadgets-wrap{
+    clear: both;
+    float: none;
+}
+.empty-gadget{
+    border: 1px dashed #FFBC44;
+    background-color: #ffe4af;
+}
+.desktop-gadgets-wrap .panel-heading{
+   position: relative; 
+}
+.button-edit-gadget{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.button-edit-gadget a{
+    color:#656d77; 
+}
+.button-edit-gadget a:hover{
+    color: #767f8c;
+}

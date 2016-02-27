@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+  <name>EXP_INSTALLAPP_NAME_MENU_APP</name>
+  <description>EXP_INSTALLAPP_DES_APP</description>
+  <copyright>EXP_USER_COPY</copyright>
+  <license>General Public License</license>
+  <version>1.0</version>
+  <author>EXP_INSTALLAPP_AUTHOR</author>
+  <email>info@maze-studio.ru</email>
+  <created>08.07.2013</created>
+  <siteauthor>maze-studio.ru</siteauthor>
+	
+  <menu img="/library/image/icon/16/development/white/icon-software.png" path="/admin/installapp" title="EXP_INSTALLAPP_NAME_MENU_APP">
+    <item img="/library/image/icon/16/development/white/icon-software.png" path="/admin/installapp"  title="EXP_INSTALLAPP_UNINSTALL_TITLE"></item>
+    <item access="installapp:INSTALL_APP"  img="/library/image/icon/16/computer/white/icon-install.png" path="/admin/installapp/install" title="EXP_INSTALLAPP_INSTALL_TITLE"></item>
+  </menu>
+	
+</metaOptions>

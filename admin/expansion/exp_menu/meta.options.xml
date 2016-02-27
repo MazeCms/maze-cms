@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>EXP_MENU_NAME_APP</name>
+    <description>EXP_MENU_DES_APP</description>
+    <copyright>EXP_MENU_COPY_APP</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>EXP_MENU_AUTHOR_APP</author>
+    <email>info@maze-studio.ru</email>
+    <created>18.04.2013</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+    <menu img="/library/image/icon/16/location/white/icon-intersection.png" path="/admin/menu" title="EXP_MENU_TITLE_MENU">
+        <item img="/library/image/icon/16/computer/white/icon-foldertree.png" path="/admin/menu" title="EXP_MENU_TITLE_MENU"></item>
+        <item img="/library/image/icon/16/computer/white/icon-treediagram.png" path="/admin/menu/groupmenu" title="EXP_MENU_TITLE_ITEM">
+            <item access="menu:EDIT_ITEM" img="/library/image/icon/16/menu/white/icon-plus.png" path="/admin/menu/groupmenu/?run=add" title="EXP_MENU_ADD_ITEM"></item>
+        </item>
+    </menu>
+	
+</metaOptions>

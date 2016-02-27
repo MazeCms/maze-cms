@@ -1,0 +1,17 @@
+#constructorblock-form  .panel-body .list-group-item{
+    position: relative;
+}
+#constructorblock-form  .panel-body .edit-filter-btn{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+#constructorblock-form  .panel-body .edit-filter-btn .btn{
+    padding: 9px 12px;
+}
+#constructorblock-sort-field .panel-body .edit-filter-btn{
+    width: 150px;
+}
+#constructorblock-sort-field .panel-body  .form-control{
+    height: 40px;
+}

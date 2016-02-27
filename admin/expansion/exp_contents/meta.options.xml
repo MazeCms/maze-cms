@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>EXP_CONTENTS_NAME</name>
+    <description>EXP_CONTENTS_DESCPRIPTION</description>
+    <copyright>Copyright</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>EXP_CONTENTS_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>28.04.2015</created>
+    <siteauthor>maze-studio.ru</siteauthor>	
+    <menu img="/library/image/icon/16/computer/white/icon-document.png" path="/admin/contents" title="EXP_CONTENTS_NAME">
+        <item id="menu-contents-home" access="contents:EDIT_HOME_CONTENTS"  img="/library/image/icon/16/hosting/white/icon-home.png" path="/admin/contents/home" title="EXP_CONTENTS_CONT_BTNHOME"></item>
+        <item id="menu-contents-catalog" access="contents:EDIT_CONTENTS" img="/library/image/icon/16/computer/white/icon-foldertree.png" path="/admin/contents/catalog" title="EXP_CONTENTS_CATALOG"></item>
+        <item id="menu-contents-type"  access="contents:EDIT_TYPE_CONTENTS" img="/library/image/icon/16/computer/white/icon-folderalt.png" path="/admin/contents/type" title="EXP_CONTENTS_TYPE"></item>
+        <item id="menu-contents-field" access="contents:EDIT_FIELD_CONTENTS" img="/library/image/icon/16/computer/white/icon-th-list.png" path="/admin/contents/field" title="EXP_CONTENTS_FIELD"></item>
+        <item id="menu-contents-view" access="contents:EDIT_VIEW_CONTENTS" img="/library/image/icon/16/design/white/icon-design.png" title="EXP_CONTENTS_VIEWS">
+            <item id="menu-contents-view-catalog"  path="/admin/contents/view?run=catalog" title="EXP_CONTENTS_CATALOG"></item>
+            <item id="menu-contents-view-content"  path="/admin/contents/view" title="EXP_CONTENTS_NAME"></item>
+        </item>
+    </menu>	
+</metaOptions>

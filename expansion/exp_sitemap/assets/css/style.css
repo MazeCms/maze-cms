@@ -1,0 +1,10 @@
+.sitemap-tree li{
+    display: block;
+    padding: 4px 12px;
+}
+.sitemap-tree a{
+    display: block;    
+}
+.sitemap-tree li > ul {
+    margin-left: 20px;
+}

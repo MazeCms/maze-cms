@@ -1,0 +1,24 @@
+.CodeMirror {
+    border: 1px solid #eee;
+    height: auto !important;
+    min-height: 200px;
+}
+.CodeMirror .CodeMirror-scroll {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+#code-editor .close-tabs{
+    display: inline-block;
+    padding:8px;
+    color: #656d77;
+    cursor: pointer;
+}
+#code-editor .close-tabs:hover{
+    background-color:  #d9534f;
+    color: #fff;
+}
+
+#code-editor .ui-tabs-nav  a{
+    display: inline-block;
+}
+

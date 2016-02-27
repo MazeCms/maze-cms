@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>Выводит ввиде ссылки</name>
+    <description></description>	
+    <view>link</view>
+    <params>
+        <element type="ui\text\TextInput" title="URL адрес ссылки" description="Для создания динамических адресов используйте подстановочные шаблоны вида:{entry_id}, {field_exp_id}, {text_value}, {term.alias}" name="url">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+    </params>
+</metaOptions>

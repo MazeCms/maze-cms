@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>Текстовое область с редактором</name>
+    <description></description>
+    <copyright>copy</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>my</author>
+    <email>info@maze-studio.ru</email>
+    <created>18.04.2013</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+    <params>
+        
+        <element type="ui\checkbox\Toggle" title="LIB_FIELDS_BODY_ENABLE_EDITOR_PREV" name="enableprev">
+            <settings>
+                <option value="0">LIB_USERINTERFACE_FIELD_NO</option>
+                <option value="1">LIB_USERINTERFACE_FIELD_YES</option>
+            </settings>
+        </element>
+        
+        <element type="ui\checkbox\Toggle" title="LIB_FIELDS_BODY_ENABLE_EDITOR_FULL" name="enablefull">
+            <settings>
+                <option value="0">LIB_USERINTERFACE_FIELD_NO</option>
+                <option value="1">LIB_USERINTERFACE_FIELD_YES</option>
+            </settings>
+        </element>
+        
+    </params>
+	
+</metaOptions>

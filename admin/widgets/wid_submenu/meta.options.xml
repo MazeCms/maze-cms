@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+  <name>WID_SUBMENU_NAME</name>
+  <description>WID_SUBMENU_DES</description>
+  <copyright>copyright</copyright>
+  <license>General Public License</license>
+  <version>1.0</version>
+  <author>WID_SUBMENU_AUTHOR</author>
+  <email>info@maze-studio.ru</email>
+  <created>18.04.2013</created>
+  <siteauthor>maze-studio.ru</siteauthor>
+  <params>
+    <accordion title="WID_SUBMENU_SETTINGS_TABS_ONE" id="others">
+      <element type="Radiobtn" title="WID_SUBMENU_SETTINGS_COOKIE" name="cookie" default="1">
+        <settings>
+          <options>
+            <option value="0">WID_SUBMENU_SETTINGS_YES</option>
+            <option value="1">WID_SUBMENU_SETTINGS_NO</option>
+          </options>
+        </settings>
+      </element>
+    </accordion>
+  </params>
+</metaOptions>

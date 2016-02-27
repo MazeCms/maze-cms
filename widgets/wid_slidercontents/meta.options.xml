@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>WID_SLIDERCONTENTS_NAME</name>
+    <description>WID_SLIDERCONTENTS_DES</description>
+    <copyright>WID_SLIDERCONTENTS_COPYRIGHT</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>WID_SLIDERCONTENTS_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>01.08.2015</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+    <params>
+		
+        <accordion title="WID_SLIDERCONTENTS_PARAMS_TABS" id="other">
+	           
+            <element type="admin\expansion\exp_constructorblock\ui\ListBlock" title="WID_SLIDERCONTENTS_PARAMS_SELECT_BLOCK" name="block_id">
+                <options>
+                    <prompt>....</prompt>
+                </options>
+            </element>
+           
+            <element type="ui\text\TextInput" title="WID_SLIDERCONTENTS_PARAMS_PARAMS_CSSCLASS" name="css_class">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_SLIDERCONTENTS_PARAMS_PARAMS_CSSID" name="css_id">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+        </accordion>
+			
+    </params>
+	
+</metaOptions>

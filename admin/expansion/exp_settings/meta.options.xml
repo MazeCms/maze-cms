@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>EXP_SETTINGS_NAME</name>
+    <description>EXP_SETTINGS_DES</description>
+    <copyright>EXP_PLUGINS_COPY</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>EXP_SETTINGS_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>18.04.2013</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+    <menu img="/library/image/icon/16/hosting/white/icon-controlpanel.png" path="/admin/settings" title="EXP_SETTINGS_TITLE_MENU">
+        <item img="/library/image/icon/16/hosting/white/icon-controlpanel.png" path="/admin/settings" title="EXP_SETTINGS_SUBMENU_SYSTEM"></item>
+        <item access="settings:VIEW_EXP" img="/library/image/icon/16/menu/white/icon-settingsthree-gears.png" path="/admin/settings/expansion" title="EXP_SETTINGS_SUBMENU_EXPANSION"></item>
+    </menu>
+	
+</metaOptions>

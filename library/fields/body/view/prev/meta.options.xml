@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>LIB_FIELDS_BODY_VIEW_PREV_NAME</name>
+    <description></description>	
+    <view>prev</view>
+    <params>
+        <element type="ui\text\TextInput" title="LIB_FIELDS_BODY_VIEW_LENGTH_LABEL" name="length">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        <element type="ui\text\TextInput" title="LIB_FIELDS_BODY_VIEW_PREFIX_LABEL" name="prefix">
+            <options>
+                <class>form-control</class>
+            </options>
+        </element>
+        <element type="ui\checkbox\Toggle" title="LIB_FIELDS_BODY_FILTER_STRIPTAG" name="stripTag">
+            <settings>
+                <option value="0">LIB_USERINTERFACE_FIELD_NO</option>
+                <option value="1">LIB_USERINTERFACE_FIELD_YES</option>
+            </settings>
+        </element>
+    </params>
+</metaOptions>

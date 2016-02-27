@@ -1,0 +1,147 @@
+#elfinder-tool-bar{
+	background-color:#CCCCCC;
+	min-height:45px;
+	overflow:hidden;
+}
+
+.elfinder-tool-bar-hover{
+	border:2px dashed #3399FF;
+}
+.elfinder-panel-hover{
+	background-color:#F8FF32 !important;
+}
+.elfinder-tools{
+	display:inline-block;
+}
+.elfinder-tools-elem, .elfinder-panel{
+   display: block;
+	float:left;
+   	padding: 4px;
+	margin:2px;
+	background-color:#E6E6E6;
+	border-radius:4px;
+	border: 1px solid #AAAAAA;
+}
+.elfinder-panel-active{
+	display: block;
+	float:left;
+    min-height: 24px;
+    min-width: 30px;
+	padding:2px;
+	margin:4px;
+	overflow:hidden;
+	background-color:#E6E6E6;
+	border-radius:4px;
+	border: 1px solid #AAAAAA;
+}
+.elfinder-tools-elem-active{
+	display: block;
+	float:left;
+	padding:4px;
+}
+.elfinder-tools-elem-active i{
+	 background: url("../img/toolbar.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	float:left;
+    height: 16px;
+    width: 16px;
+}
+.elfinder-panel i{
+ 	display: block;
+	float:left;
+    height: 16px;
+    width: 30px;
+}
+.elfinder-tools-elem i{
+    background: url("../img/toolbar.png") no-repeat scroll 0 0 transparent;
+  	display: block;
+	float:left;
+    height: 16px;
+    width: 16px;
+}
+.elfinder-back i{
+	background-position: 0 -112px;
+}
+.elfinder-forward i{
+	background-position: 0 -128px;
+}
+.elfinder-reload i{
+	background-position: 0 -160px;
+}
+.elfinder-up i{
+	background-position: 0 -144px;
+}
+.elfinder-home i{
+	background-position: 0 0;
+}
+.elfinder-mkdir i{
+	background-position: 0 -192px;
+}
+.elfinder-mkfile i{
+	background-position: 0 -208px;
+}
+.elfinder-upload i{
+	background-position: 0 -368px;
+	
+}
+.elfinder-open i{
+	background-position: 0 -176px;
+	
+}
+.elfinder-download i{
+	background-position: 0 -384px;	
+}
+.elfinder-getfile i{
+	 background-position: 0 -288px;
+}
+.elfinder-info i{
+	background-position: 0 -400px;
+	
+}
+.elfinder-quicklook i{
+	background-position: 0 -352px;
+}
+.elfinder-copy i{
+	background-position: 0 -240px;
+}
+.elfinder-cut i{
+	background-position: 0 -256px;
+}
+.elfinder-paste i{
+	 background-position: 0 -272px;
+}
+.elfinder-rm i{
+	background-position: 0 -224px;
+}
+
+.elfinder-duplicate i{
+	background-position: 0 -304px;
+}
+.elfinder-renaem i{
+	background-position: 0 -320px;
+}
+.elfinder-edit i{
+	background-position: 0 -336px;
+}
+.elfinder-resize i{
+	background-position: 0 -512px;
+}
+.elfinder-extract i{
+	background-position: 0 -416px;
+}
+.elfinder-archive i{
+	background-position: 0 -432px;
+}
+.elfinder-search i{
+	background-image:none;
+	background-color:#FFF;	
+}
+.elfinder-view i{
+	background-position: 0 -464px;
+}
+.elfinder-sort i{
+	 background-position: 0 -577px;
+}
+.elfinder-help i{
+	background-position: 0 -480px;
+}

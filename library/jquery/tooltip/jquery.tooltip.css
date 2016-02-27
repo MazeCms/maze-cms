@@ -1,0 +1,89 @@
+.tooltip{
+	min-width:100px;
+	max-width:300px;
+	min-height:30px;
+	position:absolute;
+	top:0;
+	left:0;
+	behavior: url("/library/image/htc/ie-css3.htc");
+	background-color:#FFF;
+	box-shadow: 0 0 15px  rgba(0, 0, 0, 0.6);
+	/*box-shadow: 0 0 15px  #000000;	*/
+	border-radius:2px;
+	z-index:10000;
+}
+.tooltip-error{
+	background-color: #f2dede;
+}
+.tooltip-error .tooltip-body{
+	color: #b94a48;
+	line-height:1em;
+}
+.tooltip-error .triangle-left{
+	border-right: 10px solid #f2dede;
+}
+.tooltip-error .triangle-right{
+	 border-left: 10px solid  #f2dede;
+}
+
+.tooltip-transparent-black{
+	background-color:rgba(83, 89, 99, 0.9);
+}
+.tooltip-transparent-black .tooltip-body{
+	color: #FFF;
+	line-height:1.2em;
+	font-size:12px;
+}
+.tooltip-transparent-black .triangle-down{
+	 border-top: 10px solid rgba(83, 89, 99, 0.9);
+}
+.tooltip-transparent-black  .triangle-right{
+	 border-left: 10px solid rgba(83, 89, 99, 0.9);
+}
+.tooltip-body{
+	padding:10px;
+	font-size:11px;	
+	overflow:hidden;
+}
+.tooltip .arrow{	
+    width: 0;
+    height: 0;
+	position: absolute;
+}
+.triangle-up{
+	left:50%;
+	margin-top:-10px;
+	margin-left:-10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #FFF;
+}
+.triangle-down{
+	left:50%;
+	top:100%;
+	margin-left:-10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid  #FFF;
+}
+.triangle-left{
+	top:50%;
+	margin-top:-10px;
+	margin-left:-10px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #FFF;
+    border-bottom: 10px solid transparent;
+}
+.triangle-right{
+	z-index:10;
+	top:50%;
+	left:100%;
+	margin-top:-10px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #FFF;
+    border-bottom:10px solid transparent;
+}
+.tooltip-helper{
+	cursor:help;
+	display: inline-block;
+}

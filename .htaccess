@@ -1,0 +1,31 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^.htaccess$ - [F]
+DirectoryIndex index.php
+
+RewriteCond %{REQUEST_URI} !\.(ico|css|js|txt|png|jpg|gif|pdf|zip|rar|eot|woff|ttf|svg)$ [NC]
+
+RewriteCond %{REQUEST_URI}  ^/admin/?$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ admin/admin [L,R=301]
+
+RewriteCond %{REQUEST_URI}  ^/admin
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ admin/index.php [L]
+
+RewriteCond %{REQUEST_URI}  ^/install/?$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ install/install [L,R=301]
+
+RewriteCond %{REQUEST_URI}  ^/install/.+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ install/index.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_URI}  !(^/index\.php)
+RewriteRule ^(.*)$ index.php [L]
+
+php_flag magic_quotes_gpc Off
+

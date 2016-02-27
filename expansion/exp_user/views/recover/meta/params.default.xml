@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <params>
+        <accordion title="EXP_USER_PARAMS_AUTHORIZATION_TAB" id="params">
+            <element type="ui\checkbox\Toggle" title="EXP_USER_PARAMS_AUTHORIZATION_REG" name="regBloc" default="1">
+                <settings>
+                    <option value="0">EXP_USER_FILTER_NO</option>
+                    <option value="1">EXP_USER_FILTER_YES</option>
+                </settings>
+            </element>
+            <element type="ui\checkbox\Toggle" title="EXP_USER_PARAMS_AUTHORIZATION_EDITPASS" name="recBloc" default="1">
+                <settings>
+                    <option value="0">EXP_USER_FILTER_NO</option>
+                    <option value="1">EXP_USER_FILTER_YES</option>
+                </settings>
+            </element>
+        </accordion>	
+    </params>
+
+</metaOptions>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>EXP_WIDGET_TITLE_WID</name>
+    <description>EXP_WIDGET_DES_APP</description>
+    <copyright>copyright</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>EXP_WIDGET_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>08.07.2013</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+    <menu img="/library/image/icon/16/hosting/white/icon-webpage.png" path="admin/widget" title="EXP_WIDGET_TITLE_WID">
+        <item path="/admin/widget?front_back=1" title="EXP_WIDGET_WIDGETS_FILTER_FORNT_SITE"></item>
+        <item access="widget:EDIT_WIDGET_ADMIN" path="/admin/widget?front_back=0" title="EXP_WIDGET_WIDGETS_FILTER_FORNT_ADMIN"></item>
+    </menu>
+    <params>
+        <tabs title="EXP_WIDGET_OPTIONS_TITLE" id="params">
+            <element type="ui\text\TextArea" title="EXP_WIDGET_OPTIONS_SHORTCODE" description="EXP_WIDGET_OPTIONS_SHORTCODE_DES" name="shortcode">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+        </tabs>
+    </params>
+	
+</metaOptions>

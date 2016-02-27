@@ -1,0 +1,68 @@
+.preloader-content-dialog{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:200px;
+	padding:8px;
+	overflow: hidden;
+	border-radius: 4px;
+	border:1px solid rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+			box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	z-index:1010;
+}
+.preloader-content-dialog{
+	background: -moz-linear-gradient(center top , #FFFFFF 0%, #F2F2F2 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#F2F2F2)); 
+	background: -webkit-linear-gradient(top,  #FFFFFF 0%, #F2F2F2 100%);
+	background: -o-linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);
+	background: -ms-linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#F2F2F2',GradientType=0 );
+	background: linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);
+}
+.preloader-content-dialog > div{
+	margin-top:8px;
+}
+.preloader-content-title{
+	font-family:'MuseoSansCyrl',Arial,sans-serif;
+	color:#5F5F5F;
+	font-weight:normal;
+	font-size:14px;
+}
+.preloader-content-progress{
+	margin-top:16px;
+	vertical-align:middle;
+	height: 8px;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow:  inset 0 1px 2px rgba(0, 0, 0, 0.1); 
+	-o-box-shadow:  inset 0 1px 2px rgba(0, 0, 0, 0.1); 
+			box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.preloader-content-progress-bar{
+	float: left;
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff;
+	text-align: center;
+	background-color: #428bca;
+	background-image:url('progress.gif');
+	background-repeat:repeat-x;
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15); 
+	-o-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15); 
+		box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);    
+	-webkit-transition: width 0.6s ease;
+	-moz-transition:   width 0.6s ease;
+    -o-transition:   width 0.6s ease;		
+		transition: width 0.6s ease;
+}
+.preloader-content-overlay{
+	position:absolute;
+	background-color:rgba(255, 255, 255, 0.5);
+	z-index:1009;
+}

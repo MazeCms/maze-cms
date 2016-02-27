@@ -1,0 +1,91 @@
+.editor-select-table{
+	border: 1px solid #A5A5A5;
+    border-collapse: separate;
+    border-radius: 2px;
+    border-spacing: 0;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 12px;
+	width:460px;
+}
+.editor-select-table thead tr,
+.editor-select-table tfoot tr{
+	background: #C6C6C6;
+	background: -moz-linear-gradient(center top , #A4A6AA 0%, #737A87 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A4A6AA), color-stop(100%,#737A87)); 
+	background: -webkit-linear-gradient(top,  #A4A6AA 0%, #737A87 100%);
+	background: -o-linear-gradient(top, #A4A6AA 0%, #737A87 100%);
+	background: -ms-linear-gradient(top, #A4A6AA 0%, #737A87 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A4A6AA', endColorstr='#737A87',GradientType=0 );
+	background: linear-gradient(top, #A4A6AA 0%, #737A87 100%);
+	color: #FFF;
+}
+.editor-select-table tbody tr{
+	-webkit-transition:  background-color 0.5s ease 0s;
+    -moz-transition:  background-color 0.5s ease 0s;
+    -o-transition:  background-color 0.5s ease 0s;
+	transition: background-color 0.5s ease 0s;
+}
+.editor-select-table tbody .ed-selected{
+	background-color:#DFF0D8 !important;
+	font-weight:bold;
+}
+.editor-select-table tbody tr:nth-child(2n+2) {
+    background-color: #FCF8E3;
+}
+.editor-select-table tbody tr:hover{
+	 background-color:#D9EDF7;
+}
+.editor-select-table td,
+.editor-select-table th{
+	padding:6px!important;
+	vertical-align:middle;
+}
+.editor-st-cell-tool{
+	width:80px;
+	text-align:center;
+}
+.editor-st-edit,
+.editor-st-delete,
+.editor-st-save,
+.editor-st-add,
+.editor-st-move,
+.editor-st-checkbox,
+.editor-st-checkbox-select{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background-position:center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+.editor-st-checkbox{
+	background-image:url('minus.png');
+}
+.editor-st-checkbox-select{
+	background-image:url('tick.png');
+}
+.editor-st-edit{
+	background-image:url('pencil.png');
+}
+.editor-st-delete{
+	background-image:url('cross.png');
+}
+.editor-st-save{
+	background-image:url('disk-black.png');
+}
+.editor-st-move{
+	background-image:url('arrow-move.png');
+	margin-left:2px;
+}
+.editor-st-add{
+	background-image:url('plus.png');
+	float:right;
+}
+.editor-select-table input[type=text]
+{
+	height:16px;
+	width:100%;
+	border:none;
+	background-color:transparent;
+}
+

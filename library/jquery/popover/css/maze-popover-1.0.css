@@ -1,0 +1,416 @@
+.maze-popover{
+    min-height:100px;
+    min-width:100px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 14px;
+    position:absolute;
+    z-index:100;
+}
+.maze-popover-content{
+    overflow:auto;
+}
+.maze-popover-title{
+    padding:6px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+    overflow: hidden;
+    font-size: 1.2em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.maze-popover-buttonset{
+    border-top: 1px solid #ebebeb;
+    padding:4px;
+    text-align:right;
+}
+.maze-popover-buttonset > button{
+    margin-left:4px;
+}
+.maze-popover-buttonset > button:first-child{
+    margin-left:0;
+}
+.maze-popover-load{
+    background-image:url('../images/80.gif');
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.maze-popover-arrow{
+    position:absolute;
+    height:16px;
+    width:16px;
+    background-image:url('../images/arrow.png');
+    background-repeat:no-repeat;
+}
+.maze-popover-arrow.arrow-left{
+    background-position:-8px -16px;
+}
+.maze-popover-arrow.arrow-right{
+    background-position:8px -16px;
+}
+.maze-popover-arrow.arrow-top{
+    background-position:0 8px;
+}
+.maze-popover-arrow.arrow-bottom{
+    background-position:0 -24px;
+}
+/*
+* Кнопки
+*/
+
+.maze-btn {
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 1.1em;
+    font-weight: normal;
+    line-height: 1.2;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.maze-btn:focus {
+    outline: thin dotted #333;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.maze-btn:hover,
+.maze-btn:focus {
+    color: #333333;
+    text-decoration: none;
+}
+
+.maze-btn:active,
+.maze-btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.maze-btn.disabled,
+.maze-btn[disabled],
+fieldset[disabled] .maze-btn {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.maze-btn-default {
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+.maze-btn-default:hover,
+.maze-btn-default:focus,
+.maze-btn-default:active,
+.maze-btn-default.active,
+.open .dropdown-toggle.maze-btn-default {
+    color: #333333;
+    background-color: #ebebeb;
+    border-color: #adadad;
+}
+
+.maze-btn-default:active,
+.maze-btn-default.active,
+.open .dropdown-toggle.maze-btn-default {
+    background-image: none;
+}
+
+.maze-btn-default.disabled,
+.maze-btn-default[disabled],
+fieldset[disabled] .maze-btn-default,
+.maze-btn-default.disabled:hover,
+.maze-btn-default[disabled]:hover,
+fieldset[disabled] .maze-btn-default:hover,
+.maze-btn-default.disabled:focus,
+.maze-btn-default[disabled]:focus,
+fieldset[disabled] .maze-btn-default:focus,
+.maze-btn-default.disabled:active,
+.maze-btn-default[disabled]:active,
+fieldset[disabled] .maze-btn-default:active,
+.maze-btn-default.disabled.active,
+.maze-btn-default[disabled].active,
+fieldset[disabled] .maze-btn-default.active {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+.maze-btn-primary {
+    color: #ffffff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.maze-btn-primary:hover,
+.maze-btn-primary:focus,
+.maze-btn-primary:active,
+.maze-btn-primary.active,
+.open .dropdown-toggle.maze-btn-primary {
+    color: #ffffff;
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+
+.maze-btn-primary:active,
+.maze-btn-primary.active,
+.open .dropdown-toggle.maze-btn-primary {
+    background-image: none;
+}
+
+.maze-btn-primary.disabled,
+.maze-btn-primary[disabled],
+fieldset[disabled] .maze-btn-primary,
+.maze-btn-primary.disabled:hover,
+.maze-btn-primary[disabled]:hover,
+fieldset[disabled] .maze-btn-primary:hover,
+.maze-btn-primary.disabled:focus,
+.maze-btn-primary[disabled]:focus,
+fieldset[disabled] .maze-btn-primary:focus,
+.maze-btn-primary.disabled:active,
+.maze-btn-primary[disabled]:active,
+fieldset[disabled] .maze-btn-primary:active,
+.maze-btn-primary.disabled.active,
+.maze-btn-primary[disabled].active,
+fieldset[disabled] .maze-btn-primary.active {
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.maze-btn-warning {
+    color: #ffffff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.maze-btn-warning:hover,
+.maze-btn-warning:focus,
+.maze-btn-warning:active,
+.maze-btn-warning.active,
+.open .dropdown-toggle.maze-btn-warning {
+    color: #ffffff;
+    background-color: #ed9c28;
+    border-color: #d58512;
+}
+
+.maze-btn-warning:active,
+.maze-btn-warning.active,
+.open .dropdown-toggle.maze-btn-warning {
+    background-image: none;
+}
+
+.maze-btn-warning.disabled,
+.maze-btn-warning[disabled],
+fieldset[disabled] .maze-btn-warning,
+.maze-btn-warning.disabled:hover,
+.maze-btn-warning[disabled]:hover,
+fieldset[disabled] .maze-btn-warning:hover,
+.maze-btn-warning.disabled:focus,
+.maze-btn-warning[disabled]:focus,
+fieldset[disabled] .maze-btn-warning:focus,
+.maze-btn-warning.disabled:active,
+.maze-btn-warning[disabled]:active,
+fieldset[disabled] .maze-btn-warning:active,
+.maze-btn-warning.disabled.active,
+.maze-btn-warning[disabled].active,
+fieldset[disabled] .maze-btn-warning.active {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.maze-btn-danger {
+    color: #ffffff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.maze-btn-danger:hover,
+.maze-btn-danger:focus,
+.maze-btn-danger:active,
+.maze-btn-danger.active{
+    color: #ffffff;
+    background-color: #d2322d;
+    border-color: #ac2925;
+}
+
+.maze-btn-danger:active,
+.maze-btn-danger.active{
+    background-image: none;
+}
+
+.maze-btn-danger.disabled,
+.maze-btn-danger[disabled],
+.maze-btn-danger.disabled:hover,
+.maze-btn-danger[disabled]:hover,
+.maze-btn-danger.disabled:focus,
+.maze-btn-danger[disabled]:focus,
+.maze-btn-danger.disabled:active,
+.maze-btn-danger[disabled]:active,
+.maze-btn-danger.disabled.active,
+.maze-btn-danger[disabled].active{
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.maze-btn-success {
+    color: #ffffff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.maze-btn-success:hover,
+.maze-btn-success:focus,
+.maze-btn-success:active,
+.maze-btn-success.active{
+    color: #ffffff;
+    background-color: #47a447;
+    border-color: #398439;
+}
+
+.maze-btn-success:active,
+.maze-btn-success.active{
+    background-image: none;
+}
+
+.maze-btn-success.disabled,
+.maze-btn-success[disabled],
+.maze-btn-success.disabled:hover,
+.maze-btn-success[disabled]:hover,
+.maze-btn-success.disabled:focus,
+.maze-btn-success[disabled]:focus,
+.maze-btn-success.disabled:active,
+.maze-btn-success[disabled]:active,
+.maze-btn-success.disabled.active{
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.maze-btn-info {
+    color: #ffffff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.maze-btn-info:hover,
+.maze-btn-info:focus,
+.maze-btn-info:active,
+.maze-btn-info.active{
+    color: #ffffff;
+    background-color: #39b3d7;
+    border-color: #269abc;
+}
+
+.maze-btn-info:active,
+.maze-btn-info.active{
+    background-image: none;
+}
+
+.maze-btn-info.disabled,
+.maze-btn-info[disabled],
+.maze-btn-info.disabled:hover,
+.maze-btn-info.disabled:focus,
+.maze-btn-info[disabled]:focus,
+.maze-btn-info.disabled:active,
+.maze-btn-info[disabled]:active,
+.maze-btn-info.disabled.active,
+.maze-btn-info[disabled].active{
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.maze-btn-link {
+    font-weight: normal;
+    color: #428bca;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.maze-btn-link,
+.maze-btn-link:active,
+.maze-btn-link[disabled]{
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.maze-btn-link,
+.maze-btn-link:hover,
+.maze-btn-link:focus,
+.maze-btn-link:active {
+    border-color: transparent;
+}
+
+.maze-btn-link:hover,
+.maze-btn-link:focus {
+    color: #2a6496;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.maze-btn-link[disabled]:hover
+.maze-btn-link[disabled]:focus{
+    color: #999999;
+    text-decoration: none;
+}
+
+.maze-btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+
+.maze-btn-sm,
+.maze-btn-xs {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.maze-btn-xs {
+    padding: 1px 5px;
+}
+
+.maze-btn-block {
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.maze-btn-block + .maze-btn-block {
+    margin-top: 5px;
+}
+
+input[type="submit"].maze-btn-block,
+input[type="reset"].maze-btn-block,
+input[type="button"].maze-btn-block {
+    width: 100%;
+}
+.maze-btn-icon{
+    width:16px;
+    height:16px;
+    display: inline-block;
+    position:relative;
+    margin: -4px 4px 0 -4px;
+    vertical-align:middle;
+}

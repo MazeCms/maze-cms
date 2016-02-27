@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaOptions>
+    <name>WID_FORMSEND_NAME</name>
+    <description>WID_FORMSEND_DES</description>
+    <copyright>WID_FORMSEND_COPYRIGHT</copyright>
+    <license>General Public License</license>
+    <version>1.0</version>
+    <author>WID_FORMSEND_AUTHOR</author>
+    <email>info@maze-studio.ru</email>
+    <created>01.08.2015</created>
+    <siteauthor>maze-studio.ru</siteauthor>
+	
+    <params>
+		
+        <accordion title="WID_FORMSEND_PARAMS_TABS" id="other">
+            <element type="ui\tmp\WidgetTmp" title="WID_FORMSEND_PARAMS_TMP" name="layout">
+                <front>1</front>
+                <widgetName>formsend</widgetName>
+                <options>
+                    <prompt>....</prompt>
+                </options>
+            </element>
+            <element type="ui\text\TextInput" title="WID_FORMSEND_PARAMS_THEMA" name="thema">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_FORMSEND_PARAMS_EMAIL" name="email">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextArea" title="WID_FORMSEND_FORM_MESS" name="textsuccess">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+           
+            <element type="ui\text\TextInput" title="WID_FORMSEND_PARAMS_PARAMS_CSSCLASS" name="css_class">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+            <element type="ui\text\TextInput" title="WID_FORMSEND_PARAMS_PARAMS_CSSID" name="css_id">
+                <options>
+                    <class>form-control</class>
+                </options>
+            </element>
+            
+        </accordion>
+			
+    </params>
+	
+</metaOptions>
