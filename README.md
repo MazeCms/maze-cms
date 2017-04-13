@@ -12,7 +12,7 @@
 ##Процедура установки maze CMS [скачать](http://maze-studio.ru/skachat)
 
 [![Процедура установки maze CMS](http://maze-studio.ru/images/shared/blog/install-cms.png)](http://maze-studio.ru/blog-shteie/kak-ustanovit-maze-cms)
-[веб студия партнер](https://topseo.su/) <br />
+[создание сайта на MazeCMS TopSEO](https://topseo.su/) <br />
 [демо сайта](http://demo.maze-studio.ru/admin) <br />
 [демо админки](http://demo.maze-studio.ru/admin) <br />
 **логин:** demo<br/>
